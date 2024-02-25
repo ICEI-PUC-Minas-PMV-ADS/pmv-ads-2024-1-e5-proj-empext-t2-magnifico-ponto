@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Sistema de Controle de Vendas- Magnifico Ponto
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
-`DISCIPLINA`
+`Eixo 5- Projeto: Desenvolvimento de um Sistema Sociotécnico Inovador`
 
-`SEMESTRE`
+`5º Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Anna Karolina de Souza Freitas
+* Arthur Hudson Ferreira Machado
+* Elder Ferreira Ramos
+* Franciele Teixeira Félix
+* Guilherme Bonfim Lima
+* Matheus Fernandes Rosa
 
 ## Orientador
 
-* Nome completo do professor 1
+* Soraia Lúcia da Silva
 
 ## Instruções de utilização
 
