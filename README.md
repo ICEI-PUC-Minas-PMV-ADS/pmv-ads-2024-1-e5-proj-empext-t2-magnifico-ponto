@@ -1,4 +1,4 @@
-# Sistema de Controle de Vendas- Magnifico Ponto
+# Sistema de Controle de Vendas- Magnífico Ponto
 
 `Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
