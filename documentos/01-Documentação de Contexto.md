@@ -1,7 +1,7 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
-ola 
+A proliferação dos smartphones no Brasil, evidenciada pelo IBGE, tem remodelado a interação dos consumidores com o ambiente digital. O aumento expressivo, chegando a 80% da população em 2021, reflete mudanças nos padrões de comunicação e consumo. A tendência de realizar compras online, apontada pela consultoria Conversion, destaca que 74% dos usuários de smartphones preferem essa praticidade, impulsionando um crescimento de 41% no comércio eletrônico, conforme o relatório Webshoppers da Ebit/Nielsen. Nesse contexto, a presença de aplicativos próprios para lojas, beneficiando-se do tempo considerável que os usuários passam em aplicativos móveis diariamente, se torna crucial. Este fenômeno não só oferece uma experiência de compra personalizada, mas também fortalece o relacionamento entre empresas e consumidores, impulsionando as vendas e contribuindo para a economia digital do país. Especificamente para lojas de artesanato, um aplicativo dedicado não apenas destaca visualmente produtos únicos, mas também integra elementos como galerias de imagens e tutoriais DIY (Do It Yourself), promovendo um envolvimento emocional mais profundo, facilitando a navegação e incentivando a fidelização do cliente. Essa abordagem centrada no cliente, aliada à mobilidade proporcionada pelos smartphones, emerge como uma ferramenta valiosa para o crescimento e a consolidação das lojas de artesanato no cenário online brasileiro.
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
