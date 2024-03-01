@@ -46,10 +46,10 @@ Os requisitos funcionais e não funcionais principais a serem atendidos são apr
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Título |  Descrição do Requisito  |Prioridade |
+|-------|--------|-----------------|----|
+|RNF-001|Desempenho e Velocidade | O aplicativo deve garantir uma resposta rápida às interações do usuário, minimizando o tempo de carregamento de páginas e imagens.  | ALTA | 
+|RNF-002|Segurança |Implementação de protocolos de segurança robustos para proteger dados sensíveis dos usuários, como informações de pagamento e dados pessoais. |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
