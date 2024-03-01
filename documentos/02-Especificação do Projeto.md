@@ -24,7 +24,7 @@ Os requisitos funcionais e não funcionais principais a serem atendidos são apr
 ### Requisitos Funcionais
 
 |ID    | Título |  Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
+|------|--------|---------------------------------|----|
 |RF-001| Autenticação e Cadastro de Usuário| Implementar um sistema seguro de autenticação, permitindo que os usuários criem contas e acessem o aplicativo com facilidade.  | ALTA | 
 |RF-002| Catálogo de Produtos | Apresentar de forma organizada e intuitiva o catálogo de amigurumis. Além dos produtos relacionados, possibilitando a busca, filtragem e visualização detalhada de cada item.    | ALTA |
 |RF-003| Carrinho de Compras | Permitir que os usuários adicionem produtos ao carrinho, revisem seus itens escolhidos, ajustem quantidades e prossigam para a finalização da compra. | Alta |
