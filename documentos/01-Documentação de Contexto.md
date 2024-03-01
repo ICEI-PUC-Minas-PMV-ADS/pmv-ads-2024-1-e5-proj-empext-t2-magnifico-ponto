@@ -23,7 +23,11 @@ A preferência dos consumidores por transações móveis, como indicado pela pes
 
 ## Relação com a Extensão Universitária
 
-Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
+Os projetos de extensão estão intrinsecamente ligados à missão da Universidade. Com frequência, temas de pesquisa acadêmica geram controvérsias públicas e competem nas redes sociais, muitas vezes sem trazer benefícios claros para a sociedade. A ideia fundamental de que a universidade deve contribuir para o bem social não é nova. A Royal Society orientava seus membros a escolherem suas pesquisas "para a glória de Deus e para o benefício da raça humana".   
+
+O propósito intencional da PUC está alinhado com a própria razão de ser da universidade. Além disso, proporciona aos alunos um crescimento holístico que abrange aspectos pessoais, acadêmicos, profissionais e sociais.  
+
+A proposta de desenvolvimento do aplicativo para a Magnifico Ponto estabelece uma conexão direta com os princípios e valores da extensão universitária. O conhecimento adquirido e aplicado durante o curso resultará em benefícios sociais, proporcionando, em menor escala, maior independência financeira para a artesã e, em uma escala macro, contribuindo para a atividade econômica. Simultaneamente, contribui para a formação de profissionais mais capacitados que atuarão em diversos setores da sociedade. 
 
 ## Descrição do Parceiro
 
