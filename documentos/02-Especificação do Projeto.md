@@ -6,7 +6,7 @@ O projeto tem como objetivo desenvolver uma aplicação web personalizada para a
 
 Com o avanço do comércio eletrônico e a crescente digitalização dos negócios, é fundamental para empresas de todos os setores expandirem sua presença para o meio digital. Nesse contexto, a loja de artesanato "Magnífico Ponto" reconheceu a necessidade de ingressar no mundo online para alcançar um público mais amplo e oferecer uma experiência de compra conveniente e acessível aos seus clientes. Para atender a esse objetivo, a equipe de desenvolvimento optou por adotar tecnologias sólidas e confiáveis no mercado, visando criar um site de vendas robusto e eficiente. Logo abaixo, a fim de justificar a escolha das tecnologias selecionadas para o desenvolvimento do site "Magnífico Ponto", é detalhado tanto as ferramentas escolhidas para o backend quanto para o frontend, bem como as integrações com APIs externas. 
 
-Tecnologias para o Backend: 
+### Tecnologias para o Backend:
 
 <strong>ASP.NET MVC:</strong> A equipe optou pelo ASP.NET MVC devido à sua robustez e escalabilidade. Esta escolha se deve à arquitetura de software que separa claramente a lógica de negócios da interface do usuário, facilitando o desenvolvimento e a manutenção do código. Além disso, a ampla comunidade de desenvolvedores e o suporte da Microsoft garantem atualizações regulares e segurança.  
 
@@ -16,7 +16,28 @@ Tecnologias para o Backend:
 
 <strong>ASP.NET Identity:</strong> O ASP.NET Identity foi adotado para gerenciamento de identidade, autenticação e autorização de usuários. Ele oferece recursos robustos para lidar com o login, registro, recuperação de senha e gerenciamento de perfis de usuários de forma segura, além de ser altamente personalizável. 
 
-<strong>BCrypt:</strong> A escolha do BCrypt para criptografia de senhas foi motivada pela sua reputação de ser uma das técnicas mais seguras disponíveis atualmente. BCrypt é um algoritmo de hash de senha que adiciona um nível adicional de segurança, tornando as senhas dos usuários virtualmente impossíveis de serem decifradas por ataques de força bruta ou de dicionário. Isso é crucial para proteger as informações sensíveis dos usuários, como credenciais de login, garantindo que elas permaneçam seguras, mesmo em caso de violação de dados. 
+<strong>BCrypt:</strong> A escolha do BCrypt para criptografia de senhas foi motivada pela sua reputação de ser uma das técnicas mais seguras disponíveis atualmente. BCrypt é um algoritmo de hash de senha que adiciona um nível adicional de segurança, tornando as senhas dos usuários virtualmente impossíveis de serem decifradas por ataques de força bruta ou de dicionário. Isso é crucial para proteger as informações sensíveis dos usuários, como credenciais de login, garantindo que elas permaneçam seguras, mesmo em caso de violação de dados.
+
+
+### Tecnologias para o Frontend:
+
+<strong>HTML/CSS/Javascript:</strong> 
+
+Essas tecnologias, conhecidas como o trio fundamental do desenvolvimento web, desempenham papéis cruciais na construção de um site de vendas eficaz.  
+
+O HTML (HyperText Markup Language) oferece a estrutura básica e a semântica necessária para organizar e apresentar o conteúdo da página. Com sua ampla compatibilidade com navegadores, o HTML é a base sobre a qual toda a experiência do usuário é construída.  
+
+O CSS (Cascading Style Sheets) é responsável por estilizar o conteúdo HTML, tornando-o visualmente atraente e consistente em diferentes dispositivos e tamanhos de tela. Através do CSS, é possível controlar a aparência de elementos individuais, criar layouts responsivos e garantir uma experiência visualmente agradável para os usuários.  
+
+O Javascript, por sua vez, é a linguagem de programação que adiciona interatividade e dinamismo ao site. Com o Javascript, é possível criar animações, validar formulários, carregar conteúdo dinamicamente e interagir com o usuário em tempo real. Sua versatilidade e poder é essencial para proporcionar uma experiência de usuário rica e envolvente em um site de vendas.  
+
+<strong>BOOTSTRAP:</strong> 
+
+O Bootstrap foi escolhido por ser um framework web frontend amplamente adotado devido à sua facilidade de uso e à vasta gama de componentes pré-projetados que oferece. Alguns dos pontos fortes na utilização Bootstrap, é a economia de tempo e esforço na criação de layouts responsivos e visualmente atraentes. 
+
+Uma das principais vantagens do Bootstrap é sua grade responsiva, que permite que o layout se adapte automaticamente a diferentes tamanhos de tela, desde dispositivos móveis até desktops, facilitando o acesso ao site da loja Magnifico Ponto em diferentes tipos de dispositivos. Além disso, o Bootstrap oferece uma variedade de componentes, como botões, formulários, barras de navegação e modais, que podem ser facilmente personalizados e integrados ao design do site de vendas. 
+
+Outro ponto forte do Bootstrap é sua extensa documentação e comunidade de desenvolvedores ativa, que fornecem suporte e recursos adicionais para facilitar o desenvolvimento. Isso faz do Bootstrap uma escolha sólida para criar uma interface do usuário consistente e profissional, garantindo uma experiência positiva para os usuários do site de vendas Magnífico Ponto. 
 
 ## Project Model Canvas
 
