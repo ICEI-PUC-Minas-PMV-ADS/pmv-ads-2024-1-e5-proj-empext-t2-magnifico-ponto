@@ -13,7 +13,7 @@ o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a s
 ## Project Model Canvas
 
 
-![Project Model Canvas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/ce31f1ba01c99fac9c98351d5d5ee4b2f194db4e/documentos/img/ProjectModelCanvasA1.pdf)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/ce31f1ba01c99fac9c98351d5d5ee4b2f194db4e/documentos/img/ProjectModelCanvasA1.pdf)
 
 
 
