@@ -43,6 +43,6 @@ Todo o processo de desenvolvimento é pensado no público-alvo com o qual a Magn
 
 
 
-![Persona 01](documentos/img/persona_01.png)
-![Persona 02](documentos/img/persona_02.png)
-![Persona 03](documentos/img/persona_03.png)
+![Persona 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4be0c842df3959dd8539cff43ac982ae8cea8796/documentos/img/persona_01.png)
+![Persona 02](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4be0c842df3959dd8539cff43ac982ae8cea8796/documentos/img/persona_02.png)
+![Persona 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4be0c842df3959dd8539cff43ac982ae8cea8796/documentos/img/persona_03.png)
