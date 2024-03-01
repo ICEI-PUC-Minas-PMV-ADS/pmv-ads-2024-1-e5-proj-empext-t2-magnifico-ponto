@@ -71,11 +71,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 |04| A plataforma se compromete em não compartilhar históricos de pesquisa e dados sensíveis dos usuários. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
