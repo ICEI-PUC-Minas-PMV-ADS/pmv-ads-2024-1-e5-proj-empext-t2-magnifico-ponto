@@ -27,7 +27,20 @@ Os requisitos funcionais e não funcionais principais a serem atendidos são apr
 |------|--------|---------------------------------|----|
 |RF-001| Autenticação e Cadastro de Usuário| Implementar um sistema seguro de autenticação, permitindo que os usuários criem contas e acessem o aplicativo com facilidade.  | ALTA | 
 |RF-002| Catálogo de Produtos | Apresentar de forma organizada e intuitiva o catálogo de amigurumis. Além dos produtos relacionados, possibilitando a busca, filtragem e visualização detalhada de cada item.    | ALTA |
-|RF-003| Carrinho de Compras | Permitir que os usuários adicionem produtos ao carrinho, revisem seus itens escolhidos, ajustem quantidades e prossigam para a finalização da compra. | Alta |
+|RF-003| Carrinho de Compras | Permitir que os usuários adicionem produtos ao carrinho, revisem seus itens escolhidos, ajustem quantidades e prossigam para a finalização da compra. | ALTA |
+|RF-004| Finalização de Compra e Pagamento | Oferecer uma experiência simplificada para a conclusão da compra, integrando métodos de pagamento seguros e eficientes. | ALTA |
+|RF-005| Rastreamento de Pedidos | Fornecer aos clientes a capacidade de rastrear o status de seus pedidos, junto a API dos correios, mantendo-os informados sobre o processo de entrega. | MÉDIA |
+|RF-006| Perfil do Usuário | Permitir que os usuários personalizem seus perfis, incluindo informações de endereço de entrega, histórico de pedidos e preferências de comunicação. | MÉDIA |
+|RF-007| Promoções e Descontos | Integrar um sistema de promoções e descontos, incentivando a fidelização dos clientes e impulsionando as vendas. | Baixa |
+|RF-008| Integração com Redes Sociais | Facilitar o compartilhamento de produtos nas redes sociais, aumentando a visibilidade da loja e engajamento dos clientes. | BAIXA |
+|RF-009| Suporte ao Cliente | Disponibilizar um canal de suporte eficiente, ou seja, e-mail ou telefone, para esclarecimento de dúvidas e resolução de problemas. | ALTA | 
+|RF-010| Gestão de Estoque | Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. | ALTA | 
+|RF-011| Layout Responsivo | Garantir que o aplicativo seja adaptável a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis. | MÉDIA|
+|RF-012| Segurança da Informação | Implementar protocolos de segurança robustos para proteger dados sensíveis dos usuários, como informações de pagamento e dados pessoais. | ALTA | 
+|RF-013| Histórico de Compras | Permitir que os usuários acessem facilmente seu histórico de compras, incentivando a fidelização e simplificando futuras transações. | MÉDIA |
+|RF-014| Contador de tempo de confecção | Permitir que itens com estoque zerado sejam comprados, porém exibir o prazo para confecção e envio de acordo com as regras de negócio. | ALTA |
+|RF-015| Personalização dos amigurumis | Permitir que as cores e acessórios sejam personalizados, de acordo com o amigurumi. Pode ser feito por meio de seleção ou de envio de mensagem junto com o pedido. | ALTA | 
+
 
 
 
