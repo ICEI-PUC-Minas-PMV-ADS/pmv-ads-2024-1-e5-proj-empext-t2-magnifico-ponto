@@ -6,6 +6,18 @@ O projeto tem como objetivo desenvolver uma aplicação web personalizada para a
 
 Com o avanço do comércio eletrônico e a crescente digitalização dos negócios, é fundamental para empresas de todos os setores expandirem sua presença para o meio digital. Nesse contexto, a loja de artesanato "Magnífico Ponto" reconheceu a necessidade de ingressar no mundo online para alcançar um público mais amplo e oferecer uma experiência de compra conveniente e acessível aos seus clientes. Para atender a esse objetivo, a equipe de desenvolvimento optou por adotar tecnologias sólidas e confiáveis no mercado, visando criar um site de vendas robusto e eficiente. Logo abaixo, a fim de justificar a escolha das tecnologias selecionadas para o desenvolvimento do site "Magnífico Ponto", é detalhado tanto as ferramentas escolhidas para o backend quanto para o frontend, bem como as integrações com APIs externas. 
 
+Tecnologias para o Backend: 
+
+<strong>ASP.NET MVC:</strong> A equipe optou pelo ASP.NET MVC devido à sua robustez e escalabilidade. Esta escolha se deve à arquitetura de software que separa claramente a lógica de negócios da interface do usuário, facilitando o desenvolvimento e a manutenção do código. Além disso, a ampla comunidade de desenvolvedores e o suporte da Microsoft garantem atualizações regulares e segurança.  
+
+<strong>Entity Framework:</strong> O Entity Framework foi escolhido como ORM (Object-Relational Mapping) para facilitar a manipulação dos dados do banco de dados. Com o EF, é possível mapear objetos do modelo de domínio diretamente para tabelas de banco de dados, simplificando operações de CRUD (Create, Read, Update, Delete) e garantindo um código mais limpo e legível.  
+
+<strong>SQL Server:</strong> Para o banco de dados, foi selecionado o SQL Server devido à sua confiabilidade, desempenho e recursos avançados de segurança. Sua integração com o ambiente .NET é excelente, simplificando o desenvolvimento e garantindo a integridade dos dados.  
+
+<strong>ASP.NET Identity:</strong> O ASP.NET Identity foi adotado para gerenciamento de identidade, autenticação e autorização de usuários. Ele oferece recursos robustos para lidar com o login, registro, recuperação de senha e gerenciamento de perfis de usuários de forma segura, além de ser altamente personalizável. 
+
+<strong>BCrypt:</strong> A escolha do BCrypt para criptografia de senhas foi motivada pela sua reputação de ser uma das técnicas mais seguras disponíveis atualmente. BCrypt é um algoritmo de hash de senha que adiciona um nível adicional de segurança, tornando as senhas dos usuários virtualmente impossíveis de serem decifradas por ataques de força bruta ou de dicionário. Isso é crucial para proteger as informações sensíveis dos usuários, como credenciais de login, garantindo que elas permaneçam seguras, mesmo em caso de violação de dados. 
+
 ## Project Model Canvas
 
 
