@@ -56,10 +56,10 @@ Os requisitos funcionais e não funcionais principais a serem atendidos são apr
 |RNF-006|Disponibilidade |Assegurar alta disponibilidade do aplicativo, minimizando períodos de inatividade para garantir que os clientes possam acessar a loja a qualquer momento. | MÉDIO |
 |RNF-007|Backup e Recuperação de Dados |Implementar procedimentos de backup regulares e mecanismos eficazes de recuperação de dados para evitar perdas irreparáveis de informações importantes. | ALTA |
 |RNF-008|Gerenciamento de Conteúdo |Facilitar a atualização de conteúdo por parte da equipe da Magnífico Ponto, permitindo a inclusão fácil de novos produtos, promoções e informações relevantes sem a necessidade de intervenção técnica constante. | ALTA |
-|RNF-009|Experiência do Usuário (UX) |
-|RNF-010|Monitoramento e Análise |
-|RNF-011|Gerenciamento de Sessão |
-|RNF-012|Atualizações Automáticas |
+|RNF-009|Experiência do Usuário (UX) |Garantir uma interface de usuário intuitiva, agradável e de fácil compreensão, promovendo uma experiência positiva e incentivando a interação contínua. |Médio |
+|RNF-010|Monitoramento e Análise |Integrar ferramentas de monitoramento para coletar dados sobre o comportamento dos usuários, possibilitando análises que orientem melhorias na experiência do cliente e na eficácia das estratégias de venda. |Média |
+|RNF-011|Gerenciamento de Sessão |Manter a estabilidade das sessões do usuário, permitindo que os clientes permaneçam logados durante suas interações no aplicativo sem a necessidade de múltiplos logins. |Alta |
+|RNF-012|Atualizações Automáticas |Implementar um sistema que permita atualizações automáticas do aplicativo para garantir que os usuários tenham acesso às últimas funcionalidades e correções de segurança. |Média |
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
