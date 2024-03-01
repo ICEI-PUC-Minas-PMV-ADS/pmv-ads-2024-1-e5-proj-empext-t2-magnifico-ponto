@@ -51,6 +51,16 @@ Os requisitos funcionais e não funcionais principais a serem atendidos são apr
 |RNF-001|Desempenho e Velocidade | O aplicativo deve garantir uma resposta rápida às interações do usuário, minimizando o tempo de carregamento de páginas e imagens.  | ALTA | 
 |RNF-002|Segurança |Implementação de protocolos de segurança robustos para proteger dados sensíveis dos usuários, como informações de pagamento e dados pessoais. |  ALTA | 
 |RNF-003|Compatibilidade e Responsividade |Garantir que o aplicativo seja compatível com diferentes dispositivos e sistemas operacionais, além de possuir um layout responsivo para oferecer uma experiência consistente. | MÉDIA |
+|RNF-004|Escalabilidade| A arquitetura do aplicativo deve ser projetada para lidar com o crescimento de usuários e transações, assegurando que o desempenho seja mantido mesmo diante de um aumento significativo de demanda. | ALTA |
+|RNF-005| Navegação Intuitiva | Proporcionar uma experiência de usuário intuitiva e fácil de navegar, com uma estrutura de menu lógica e botões claros, para facilitar a busca e a compra de produtos. | MÉDIO |
+|RNF-006|Disponibilidade |Assegurar alta disponibilidade do aplicativo, minimizando períodos de inatividade para garantir que os clientes possam acessar a loja a qualquer momento. | MÉDIO |
+|RNF-007|Backup e Recuperação de Dados |Implementar procedimentos de backup regulares e mecanismos eficazes de recuperação de dados para evitar perdas irreparáveis de informações importantes. | ALTA |
+|RNF-008|Gerenciamento de Conteúdo |Facilitar a atualização de conteúdo por parte da equipe da Magnífico Ponto, permitindo a inclusão fácil de novos produtos, promoções e informações relevantes sem a necessidade de intervenção técnica constante. | ALTA |
+|RNF-009|Experiência do Usuário (UX) |
+|RNF-010|Monitoramento e Análise |
+|RNF-011|Gerenciamento de Sessão |
+|RNF-012|Atualizações Automáticas |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
