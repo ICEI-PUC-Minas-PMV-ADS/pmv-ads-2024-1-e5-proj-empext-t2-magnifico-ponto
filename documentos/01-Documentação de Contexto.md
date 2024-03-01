@@ -40,3 +40,9 @@ No entanto, a loja ainda é pequena e opera exclusivamente pelo Instagram. Os cl
 A parceria com a artesã no desenvolvimento e implementação de uma aplicação web representa um elo estratégico para o Magnífico Ponto, cuja produção se encontra em Uberaba, Minas Gerais, possibilitando alcançar diversos locais. A artesã, como cliente real, desempenha um papel crucial ao fornecer insights valiosos sobre suas necessidades específicas no gerenciamento de vendas e controle de peças no contexto de seu negócio de artesanato. A colaboração começa com uma compreensão profunda das demandas e desafios enfrentados pela artesã em seu dia a dia. 
 
 Todo o processo de desenvolvimento é pensado no público-alvo com o qual a Magnífico Ponto trabalha que se encontra no nicho materno-infantil representado pelas 3 personas abaixo. Elas estão alinhadas com o negócio e foram obtidas a partir de dados reais de publicações promovidas no Instagram que mostram que 48,4% apresentam 25 a 34 anos e 84,6% do público é feminino. 
+
+
+
+![Persona 01](documentos/img/persona_01.png)
+![Persona 02](documentos/img/persona_02.png)
+![Persona 03](documentos/img/persona_03.png)
