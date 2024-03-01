@@ -13,6 +13,8 @@ o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a s
 ## Project Model Canvas
 
 
+![Project Model Canvas](documentos/img/ProjectModelCanvasA1.pdf)
+
 
 ## Requisitos
 
