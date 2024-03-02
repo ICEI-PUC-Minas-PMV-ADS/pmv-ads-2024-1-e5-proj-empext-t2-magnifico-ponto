@@ -41,7 +41,7 @@ A parceria com a artesã no desenvolvimento e implementação de uma aplicação
 
 Todo o processo de desenvolvimento é pensado no público-alvo com o qual a Magnífico Ponto trabalha que se encontra no nicho materno-infantil representado pelas 3 personas abaixo. Elas estão alinhadas com o negócio e foram obtidas a partir de dados reais de publicações promovidas no Instagram que mostram que 48,4% apresentam 25 a 34 anos e 84,6% do público é feminino. 
 
-
+## Personas
 
 ![Persona 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4be0c842df3959dd8539cff43ac982ae8cea8796/documentos/img/persona_01.png)
 ![Persona 02](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4be0c842df3959dd8539cff43ac982ae8cea8796/documentos/img/persona_02.png)
