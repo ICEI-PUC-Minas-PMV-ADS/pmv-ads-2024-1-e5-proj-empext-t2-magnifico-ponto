@@ -76,8 +76,11 @@ A integração do Mercado Pago no site de vendas Magnífico Ponto oferece uma so
 Além de simplificar o processo de pagamento para os clientes, a integração com o Mercado Pago também oferece benefícios significativos para o Magnífico Ponto. Como uma plataforma de comércio eletrônico estabelecida e confiável, o Mercado Pago proporciona segurança e confiança tanto para os vendedores quanto para os compradores no momento de efetuar o pagamento online. <br>
 <br>
 
-Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabilidade, facilidade de uso e capacidade de fornecer uma experiência de usuário de alta qualidade no site de vendas. Além disso, as integrações com APIs externas adicionam funcionalidades importantes que melhoram a conveniência e a confiabilidade para os usuários finais. 
+Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabilidade, facilidade de uso e capacidade de fornecer uma experiência de usuário de alta qualidade no site de vendas. Além disso, as integrações com APIs externas adicionam funcionalidades importantes que melhoram a conveniência e a confiabilidade para os usuários finais. <br>
+<br>
 
+
+![Diagrama_Arquitetura_MagnificoPonto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/18ba5b6b-a994-423c-b24f-56530eb5dc42)
 
 
 
