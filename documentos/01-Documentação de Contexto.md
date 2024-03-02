@@ -48,17 +48,3 @@ Todo o processo de desenvolvimento é pensado no público-alvo com o qual a Magn
 ![Persona 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4be0c842df3959dd8539cff43ac982ae8cea8796/documentos/img/persona_03.png)
 
 
-## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Cliente  | Acessar produtos do site de forma simples e rápida  | Facilitar a minha compra  |
-|Cliente  |Calcular o frete direto do site |Saber qual o valor do envio do produto até minha casa |
-|Cliente   | Ter acesso a uma fila de espera dos pedidos em produção|Saber o Tempo de fabricação do meu pedido  |
-|Cliente   |Saber quais cores estão disponíveis   |Configurar meu pedido de acordo com minha necessidade  |
-|Cliente  | Ter acesso a um link ou botão que possibilite contato pelo WhatsApp |  Conversar diretamente com o Vendedor  |
-|Vendedor  |Painel com todas os pedidos do site em ordem de chegada  |Produzir os pedidos de acordo com que são encomendados  |
-|Vendedor  |Cadastrar e gerenciar meus produtos de acordo com estoque e disponibilidade   |Evitar que um cliente faça um pedido que não possa ser atendido |
-|Vendedor  | Cadastrar minhas vendas feitas pelo WhatsApp |Manter atualizado a fila de espera dos pedidos |
