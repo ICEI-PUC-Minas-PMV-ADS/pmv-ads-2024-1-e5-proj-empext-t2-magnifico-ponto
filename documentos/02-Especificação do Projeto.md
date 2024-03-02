@@ -55,6 +55,26 @@ Uma das principais vantagens do Bootstrap é sua grade responsiva, que permite q
 
 Outro ponto forte do Bootstrap é sua extensa documentação e comunidade de desenvolvedores ativa, que fornecem suporte e recursos adicionais para facilitar o desenvolvimento. Isso faz do Bootstrap uma escolha sólida para criar uma interface do usuário consistente e profissional, garantindo uma experiência positiva para os usuários do site de vendas Magnífico Ponto. 
 
+### Uso de ferramentas externas 
+
+ 
+
+<strong>API dos Correios:</strong>
+
+A integração da API dos Correios desempenha um papel fundamental no aprimoramento da experiência do usuário no site de vendas Magnífico Ponto. Ao calcular os custos de frete com base no endereço do cliente, esta API proporciona uma estimativa precisa dos custos de envio, permitindo que os clientes tenham uma visão transparente dos custos totais antes de finalizar a compra.  
+
+Além de fornecer uma estimativa de frete precisa, a integração com a API dos Correios também oferece benefícios adicionais, como a rastreabilidade dos pedidos. Os clientes podem acompanhar o status de entrega de seus produtos, aumentando a confiança e a satisfação do cliente. Isso contribui para uma experiência de compra mais satisfatória e confiável, fatores essenciais para o sucesso do site de vendas.  
+
+A API dos Correios também simplifica os processos logísticos para o Magnífico Ponto, automatizando o cálculo de custos de envio e agilizando o processo de despacho de produtos. Isso permite que a equipe de operações gerencie os pedidos de forma mais eficiente, reduzindo erros e custos associados ao envio de mercadorias. 
+
+  
+
+<strong>Mercado Pago (método de pagamento):</strong> 
+
+A integração do Mercado Pago no site de vendas Magnífico Ponto oferece uma solução abrangente para o processamento de pagamentos, proporcionando aos clientes uma variedade de opções seguras e eficientes para concluir suas compras. Ao oferecer métodos de pagamento como cartão de crédito e PIX, o Magnífico Ponto atende às preferências dos clientes, oferecendo conveniência e flexibilidade no momento do pagamento.  
+
+Além de simplificar o processo de pagamento para os clientes, a integração com o Mercado Pago também oferece benefícios significativos para o Magnífico Ponto. Como uma plataforma de comércio eletrônico estabelecida e confiável, o Mercado Pago proporciona segurança e confiança tanto para os vendedores quanto para os compradores no momento de efetuar o pagamento online. 
+
 ## Project Model Canvas
 
 
