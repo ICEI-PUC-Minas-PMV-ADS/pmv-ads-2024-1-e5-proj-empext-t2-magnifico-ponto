@@ -73,7 +73,13 @@ A API dos Correios também simplifica os processos logísticos para o Magnífico
 
 A integração do Mercado Pago no site de vendas Magnífico Ponto oferece uma solução abrangente para o processamento de pagamentos, proporcionando aos clientes uma variedade de opções seguras e eficientes para concluir suas compras. Ao oferecer métodos de pagamento como cartão de crédito e PIX, o Magnífico Ponto atende às preferências dos clientes, oferecendo conveniência e flexibilidade no momento do pagamento.  
 
-Além de simplificar o processo de pagamento para os clientes, a integração com o Mercado Pago também oferece benefícios significativos para o Magnífico Ponto. Como uma plataforma de comércio eletrônico estabelecida e confiável, o Mercado Pago proporciona segurança e confiança tanto para os vendedores quanto para os compradores no momento de efetuar o pagamento online. 
+Além de simplificar o processo de pagamento para os clientes, a integração com o Mercado Pago também oferece benefícios significativos para o Magnífico Ponto. Como uma plataforma de comércio eletrônico estabelecida e confiável, o Mercado Pago proporciona segurança e confiança tanto para os vendedores quanto para os compradores no momento de efetuar o pagamento online. <br>
+<br>
+
+Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabilidade, facilidade de uso e capacidade de fornecer uma experiência de usuário de alta qualidade no site de vendas. Além disso, as integrações com APIs externas adicionam funcionalidades importantes que melhoram a conveniência e a confiabilidade para os usuários finais. 
+
+
+
 
 ## Project Model Canvas
 
