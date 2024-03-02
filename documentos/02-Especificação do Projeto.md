@@ -2,6 +2,22 @@
 
 O projeto tem como objetivo desenvolver uma aplicação web personalizada para a artesã Katia, visando otimizar a gestão de vendas e controle de peças em seu negócio de artesanato. A solução fornecerá uma interface intuitiva e funcionalidades específicas para atender às necessidades exclusivas da Katia. 
 
+## Histórias de Usuários
+
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Cliente  | Acessar produtos do site de forma simples e rápida  | Facilitar a minha compra  |
+|Cliente  |Calcular o frete direto do site |Saber qual o valor do envio do produto até minha casa |
+|Cliente   | Ter acesso a uma fila de espera dos pedidos em produção|Saber o Tempo de fabricação do meu pedido  |
+|Cliente   |Saber quais cores estão disponíveis   |Configurar meu pedido de acordo com minha necessidade  |
+|Cliente  | Ter acesso a um link ou botão que possibilite contato pelo WhatsApp |  Conversar diretamente com o Vendedor  |
+|Vendedor  |Painel com todas os pedidos do site em ordem de chegada  |Produzir os pedidos de acordo com que são encomendados  |
+|Vendedor  |Cadastrar e gerenciar meus produtos de acordo com estoque e disponibilidade   |Evitar que um cliente faça um pedido que não possa ser atendido |
+|Vendedor  | Cadastrar minhas vendas feitas pelo WhatsApp |Manter atualizado a fila de espera dos pedidos |
+
+
 ## Arquitetura e Tecnologias
 
 Com o avanço do comércio eletrônico e a crescente digitalização dos negócios, é fundamental para empresas de todos os setores expandirem sua presença para o meio digital. Nesse contexto, a loja de artesanato "Magnífico Ponto" reconheceu a necessidade de ingressar no mundo online para alcançar um público mais amplo e oferecer uma experiência de compra conveniente e acessível aos seus clientes. Para atender a esse objetivo, a equipe de desenvolvimento optou por adotar tecnologias sólidas e confiáveis no mercado, visando criar um site de vendas robusto e eficiente. Logo abaixo, a fim de justificar a escolha das tecnologias selecionadas para o desenvolvimento do site "Magnífico Ponto", é detalhado tanto as ferramentas escolhidas para o backend quanto para o frontend, bem como as integrações com APIs externas. 
