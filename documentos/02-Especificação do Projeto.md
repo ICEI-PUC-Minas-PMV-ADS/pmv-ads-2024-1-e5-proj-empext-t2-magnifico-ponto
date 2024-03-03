@@ -80,7 +80,8 @@ Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabi
 <br>
 
 
-![Diagrama_Arquitetura_MagnificoPonto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/18ba5b6b-a994-423c-b24f-56530eb5dc42)
+![Diagrama_Arquitetura_MagnificoPonto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/f1e69163-6835-4915-8418-19013ea89cab)
+
 
 
 
