@@ -17,9 +17,9 @@ Com isso, é de suma importância realizar um trabalho com um cliente real para 
 
 ## Justificativa
 
-A justificativa para o desenvolvimento de um aplicativo mobile e web para uma loja de artesanato baseia-se na necessidade de alinhar a estratégia de negócios com as crescentes demandas do mercado digital. A presença massiva de smartphones no Brasil, evidenciada pelo IBGE, e o aumento expressivo nas vendas online, conforme dados da Ebit/Nielsen, destacam a importância de adaptar as estratégias de venda para atender a essa tendência tecnológica. 
+A justificativa para o desenvolvimento de uma aplicação responsiva web/mobile para uma loja de artesanato baseia-se na necessidade de alinhar a estratégia de negócios com as crescentes demandas do mercado digital. A presença massiva de smartphones no Brasil, evidenciada pelo IBGE, e o aumento expressivo nas vendas online, conforme dados da Ebit/Nielsen, destacam a importância de adaptar as estratégias de venda para atender a essa tendência tecnológica. 
 
-A preferência dos consumidores por transações móveis, como indicado pela pesquisa da Conversion, reforça a necessidade de uma plataforma móvel otimizada. O desenvolvimento do aplicativo visa capitalizar os benefícios específicos do setor de artesanato, proporcionando uma experiência de compra envolvente e emocional. Essa iniciativa não apenas acompanha as tendências tecnológicas, mas também aprimora a experiência do cliente, consolidando a loja como referência no cenário digital de produtos artesanais no Brasil. 
+A preferência dos consumidores por transações móveis, como indicado pela pesquisa da Conversion, reforça a necessidade de uma plataforma móvel otimizada. O desenvolvimento da aplicação visa capitalizar os benefícios específicos do setor de artesanato, proporcionando uma experiência de compra envolvente e emocional. Essa iniciativa não apenas acompanha as tendências tecnológicas, mas também aprimora a experiência do cliente, consolidando a loja como referência no cenário digital de produtos artesanais no Brasil. 
 
 ## Relação com a Extensão Universitária
 
