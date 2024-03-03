@@ -6,7 +6,7 @@
 
 `5º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto propõe o desenvolvimento de uma aplicação web/mobile responsiva e personalizada para a loja Magnifico Ponto, com o objetivo de criar um canal digital eficaz para exposição e venda dos produtos fabricados artesanalmente. Nesse contexto, além de viabilizar a comercialização dos produtos, a aplicação também visa aprimorar a gestão de vendas e o controle de estoque da loja de artesanato. Para garantir uma experiência única, a solução será elaborada oferecendo uma interface intuitiva e funcionalidades específicas adaptadas às necessidades exclusivas da artesã, com o propósito de proporcionar uma experiência de usuário otimizada e satisfatória.
 
 ## Integrantes
 
