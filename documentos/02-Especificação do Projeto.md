@@ -156,7 +156,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Modelo ER (Projeto Conceitual)
-![Modelo ER]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/diagrama_casosdeusoMp.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Diagrama_ER_MagnificoPonto.png))
+![Modelo ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Diagrama_ER_MagnificoPonto.png)
 
 
 ## Projeto da Base de Dados
