@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-O projeto tem como objetivo desenvolver uma aplicação web personalizada para a artesã Katia, visando otimizar a gestão de vendas e controle de peças em seu negócio de artesanato. A solução fornecerá uma interface intuitiva e funcionalidades específicas para atender às necessidades exclusivas da Katia. 
+O projeto tem como objetivo desenvolver uma aplicação responsiva web/mobile personalizada para a artesã Katia, visando otimizar a gestão de vendas e controle de peças em seu negócio de artesanato. A solução fornecerá uma interface intuitiva e funcionalidades específicas para atender às necessidades exclusivas da Katia. 
 
 ## Histórias de Usuários
 
