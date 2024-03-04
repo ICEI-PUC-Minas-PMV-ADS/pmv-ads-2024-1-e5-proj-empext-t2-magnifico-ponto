@@ -92,6 +92,18 @@ Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabi
 
 
 
+## GitHub Project (KANBAN)
+
+
+
+|Gerenciamento do Projeto| GitHub e Teams   | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/802|
+
+![Gestao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/bec4a6b419cc4530304bffed795ccf177733e1b0/documentos/img/quadro_tarefas.png)
+
+
+
+
+
 ## Requisitos
 
 Os requisitos funcionais e não funcionais principais a serem atendidos são apresentados abaixo. De acordo com a ordem de prioridade eles serão implementados. As restrições também são apresentadas abaixo. 
