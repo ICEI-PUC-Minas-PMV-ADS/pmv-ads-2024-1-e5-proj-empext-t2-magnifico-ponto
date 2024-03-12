@@ -1,5 +1,7 @@
 # Sistema de Controle de Vendas- Magnífico Ponto
 
+<img src="documentos/img/logotipo.jpeg" width="50%" alt="Logomarca">
+
 `Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
 `Eixo 5- Projeto: Desenvolvimento de um Sistema Sociotécnico Inovador`
@@ -7,7 +9,6 @@
 `5º Semestre`
 
 
-<img src="documentos/img/logotipo.jpeg" width="50%" alt="Logomarca">
 
 O projeto propõe o desenvolvimento de uma aplicação Web responsiva e personalizada para a loja Magnífico Ponto, com o objetivo de criar um canal digital eficaz para exposição e venda dos produtos fabricados artesanalmente. Nesse contexto, além de viabilizar a comercialização dos produtos, a aplicação também visa aprimorar a gestão de vendas e o controle de estoque da loja de artesanato. Para garantir uma experiência única, a solução será elaborada oferecendo uma interface intuitiva e funcionalidades específicas adaptadas às necessidades exclusivas da artesã, com o propósito de proporcionar uma experiência de usuário otimizada e satisfatória.
 
