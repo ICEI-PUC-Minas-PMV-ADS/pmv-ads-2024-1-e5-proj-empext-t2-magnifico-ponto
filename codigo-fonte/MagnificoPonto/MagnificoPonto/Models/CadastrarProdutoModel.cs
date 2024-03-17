@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MagnificoPonto.Enums;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MagnificoPonto.Models
@@ -16,9 +17,9 @@ namespace MagnificoPonto.Models
         public double Referencia { get; set; }
         [Display(Name = "Cor Predominante")]
         [Required(ErrorMessage = "Informe a cor predominante do item!")]
-        public string Cor { get; set; }
+        public CorType Cor { get; set; }
         [Required(ErrorMessage = "Informe o tamanho do item!")]
-        public string Tamanho { get; set; }
+        public TamanhoType Tamanho { get; set; }
         [Display(Name = "Preço")]
         [Column(TypeName = "decimal(18,2)")]
         [Required(ErrorMessage = "Informe o preço do item!")]
