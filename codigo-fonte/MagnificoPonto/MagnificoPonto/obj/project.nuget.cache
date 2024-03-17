@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bfXO15uE2HfJgU1gDCnQqmbflWwwdES2kfVwwtjvo6lL2Nrg+7jfVv4d5f1x7wOALnG6GMDWp8XUVMvLMOzGEg==",
+  "dgSpecHash": "45uzwmoARRFlcdQHw+Bib9JozliRNeDHKV71FMJXxjGpO2VL5tTJD/pxtarZBZHd8IugeI1w+ojT1eS3X4YU8g==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+  "projectFilePath": "C:\\Workspace\\MagnificoPonto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 10\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.28\\microsoft.aspnetcore.cryptography.internal.6.0.28.nupkg.sha512",
