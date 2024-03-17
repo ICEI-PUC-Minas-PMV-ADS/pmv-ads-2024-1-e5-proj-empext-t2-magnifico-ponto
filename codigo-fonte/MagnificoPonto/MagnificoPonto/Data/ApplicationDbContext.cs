@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using MagnificoPonto.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace MagnificoPonto.Data
@@ -9,5 +10,7 @@ namespace MagnificoPonto.Data
             : base(options)
         {
         }
+
+        public DbSet<CadastrarProdutoModel> CadastrarProdutos { get; set; }
     }
 }
