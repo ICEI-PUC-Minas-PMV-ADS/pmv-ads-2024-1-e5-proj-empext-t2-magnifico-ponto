@@ -11,6 +11,6 @@ namespace MagnificoPonto.Data
         {
         }
 
-        public DbSet<CadastrarProdutoModel> CadastrarProdutos { get; set; }
+        public DbSet<ProdutoModel> Produtos { get; set; }
     }
 }
