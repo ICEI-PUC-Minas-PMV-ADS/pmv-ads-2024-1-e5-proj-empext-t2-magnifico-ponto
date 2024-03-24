@@ -22,12 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Produtos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Termos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Workspace/MagnificoPonto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Create.cshtml]

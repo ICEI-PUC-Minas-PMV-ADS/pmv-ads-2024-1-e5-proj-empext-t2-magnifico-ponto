@@ -18,7 +18,22 @@ namespace MagnificoPonto.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Sobre()
+        {
+            return View();
+        }
+
+        public IActionResult Produtos()
+        {
+            return View();
+        }
+
+        public IActionResult Contato()
+        {
+            return View();
+        }
+
+        public IActionResult Termos()
         {
             return View();
         }
