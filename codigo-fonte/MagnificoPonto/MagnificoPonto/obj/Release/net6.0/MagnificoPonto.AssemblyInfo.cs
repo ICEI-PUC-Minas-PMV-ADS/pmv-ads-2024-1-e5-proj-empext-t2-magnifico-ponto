@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-MagnificoPonto-0392b9c3-6425-4254-97e3-58425f263aad")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagnificoPonto")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67c5d5458422335b2392fc4b48ab4cea7c1bf6e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagnificoPonto")]
