@@ -11,9 +11,14 @@ A carência de uma solução dedicada prejudica a experiência do cliente, dific
 
 ## Objetivos
 
-A aplicação proposta para o Magnifico Ponto visa solucionar esse problema ao simplificar a gestão de vendas e controle de peças para a artesã. A principal meta é fornecer uma ferramenta eficaz que atenda às necessidades específicas do setor, proporcionando uma experiência de compra personalizada para os clientes. 
+### Objetivo Geral
+Desenvolver uma aplicação web responsiva e móvel para o Magnífico Ponto, visando facilitar a gestão de vendas e controle de peças para a artesã, proporcionando uma experiência de compra personalizada para os clientes da loja, e contribuindo para o crescimento e consolidação da presença online das lojas de artesanato no mercado brasileiro.
 
-Com isso, é de suma importância realizar um trabalho com um cliente real para avaliar a capacidade da equipe em compreender: atender as necessidades reais do cliente, compreender e atender as necessidades do negócio e desenvolver uma aplicação web eficaz aplicado a um contexto real. 
+### Objetivos Específicos
+* Criar uma interface intuitiva e fácil de usar para a aplicação.
+* Integrar funcionalidades específicas para o setor de artesanato, como exibição visualmente atraente de produtos e tutoriais de DIY.
+* Aprimorar a eficiência na navegação e busca por itens específicos no aplicativo.
+* Realizar um trabalho de avaliação com um cliente real para validar a capacidade da equipe em compreender e atender às necessidades do cliente e do negócio.
 
 ## Justificativa
 
