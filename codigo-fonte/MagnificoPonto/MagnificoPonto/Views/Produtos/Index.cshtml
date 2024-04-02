@@ -13,7 +13,10 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                @* @Html.DisplayNameFor(model => model.ImageFileName) *@ Foto
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Nome) *@ Amigurumi
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Referencia)
@@ -28,10 +31,18 @@
                 @Html.DisplayNameFor(model => model.Preco)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>            
+            <th>
                 @Html.DisplayNameFor(model => model.TempoConfeccao)
             </th>
+            @*
             <th>
                 @Html.DisplayNameFor(model => model.ProntaEntrega)
+            </th>
+            *@
+            <th>
+                 Gerenciar Produtos
             </th>
             <th></th>
         </tr>
@@ -39,6 +50,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.ImageFileName)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
@@ -55,15 +69,22 @@
                 @Html.DisplayFor(modelItem => item.Preco)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TempoConfeccao)
+                @Html.DisplayFor(modelItem => item.Categoria)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TempoConfeccao) dias úteis
+            </td>
+            @*
             <td>
                 @Html.DisplayFor(modelItem => item.ProntaEntrega)
-            </td>
+            </td> 
+            *@
             <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                <div>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> 
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                </div>
             </td>
         </tr>
 }

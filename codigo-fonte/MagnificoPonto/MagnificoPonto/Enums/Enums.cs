@@ -15,4 +15,11 @@
         Grande
     }
 
+    public enum Categoria
+    {
+        Pequeno,
+        Médio,
+        Grande
+    }
+
 }
