@@ -49,9 +49,7 @@ namespace MagnificoPonto.Controllers
             return View();
         }
 
-        // POST: Produtos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Produtos/Create        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Referencia,Cor,Tamanho,Preco,Categoria,Descrição,TempoConfeccao,ProntaEntrega,ImageFileName")] ProdutoModel produtoModel)
@@ -81,9 +79,7 @@ namespace MagnificoPonto.Controllers
             return View(produtoModel);
         }
 
-        // POST: Produtos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Produtos/Edit/5        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Referencia,Cor,Tamanho,Preco,Categoria,Descrição,TempoConfeccao,ProntaEntrega,ImageFileName")] ProdutoModel produtoModel)

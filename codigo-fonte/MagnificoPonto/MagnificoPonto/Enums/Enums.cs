@@ -17,9 +17,13 @@
 
     public enum Categoria
     {
-        Pequeno,
-        Médio,
-        Grande
+        Bonecas,
+        Ursos,
+        Bichinhos,
+        Naninhas_e_Chocalhos,
+        Móbiles_de_berço,
+        Porta_maternidade
+
     }
 
 }
