@@ -1,0 +1,45 @@
+﻿/* Estilizando o título */
+h1 {
+    color: #ec581b; /* Cor do texto */
+    font-size: 2.5em; /* Tamanho da fonte ajustado */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 30px; /* Margem inferior aumentada */
+}
+
+/* Estilizando o contêiner principal */
+body {
+    background-color: #fae4d8; /* Cor de fundo */
+}
+
+/* Estilizando os rótulos dos inputs */
+.form-floating label {
+    color: #555; /* Cor do texto ajustada para melhor leitura */
+}
+
+/* Estilizando os inputs */
+.form-floating input {
+    border-radius: 5px; /* Raio da borda */
+    padding: 15px; /* Espaçamento interno aumentado para melhor toque */
+    border: 1px solid #ccc; /* Adiciona uma borda sutil para definição */
+}
+
+/* Estilizando o botão de cadastro */
+#registerSubmit {
+    margin-top: 20px; /* Margem superior */
+    background-color: #ec581b; /* Cor de fundo ajustada para combinar com o esquema */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 15px 0; /* Ajusta o padding para tornar o botão mais substancial */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+#registerSubmit:hover {
+   background-color: #000000; /* Cor de fundo no hover para feedback visual */
+   cursor: pointer; /* Altera o cursor para indicar ação */
+}
+
+/* Resposta visual para campos focados */
+.form-floating input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(236, 88, 27, 0.25);
+    border-color: #ec581b;
+}
