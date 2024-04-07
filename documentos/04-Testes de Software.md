@@ -1,5 +1,29 @@
 # Planos de Testes de Software
 
+|Caso de Teste|CT-001|
+|-|-|
+|Requisitos que motivaram o teste: |**RNF-001:**  A plataforma deve possuir uma página de login com usuário e senha.
+|Objetivo do teste:| Averiguar funcionamento do cadastro ao popular banco de dados.|
+|Condição para aprovado: | Login e senha cadastrados no banco de dados a partir da página de login.|
+|Resultado:| Login e senha de novo usuário inserido no banco de dados.|
+|Observação: ||	
+
+|Caso de Teste|CT-002|
+|-|-|
+|Requisitos que motivaram o teste:| **RF-001:**  O app fornecerá a funcionalidade para autenticação do usuário|
+|Objetivo do teste:| Averiguar que pessoas autorizadas tenham acesso ao sistema.|
+|Condição para aprovado:|Inseridos usuário e senha, o login deve ser feito.|
+|Resultado:| Bloqueio/liberação do sistema após inserção de credenciais de acesso.|
+|Observação: ||	
+
+|Caso de Teste|CT-003|
+|-|-|
+|Requisitos que motivaram o teste:|**RNF-001:** O app fornecerá a funcionalidade para autenticação do usuário|
+|Objetivo do teste: | Averiguar que somente pessoas autorizadas tenham acesso ao sistema|
+|Condição para aprovado:| Inseridos usuário e senha errados, o usuário não deve acessar o sistema|
+|Resultado:| Bloqueio de credenciais não cadastrados.|
+|Observação: ||
+
 Os planos de testes realizados, agrupam as seguintes funcionalidades do sistema:  
 
 - RF -001 (Autenticação e Cadastro de Usuário) 
