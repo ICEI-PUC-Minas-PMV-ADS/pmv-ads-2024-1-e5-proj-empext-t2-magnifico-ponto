@@ -41,7 +41,7 @@ RF-002 - Catálogo de Produtos
  
 Plano de Teste 03 
 RF-006 - Perfil do Usuário 
--O plano de teste 03, mostra o RF-006 (Perfil do Usuário). Abaixo, é possível visualizar a página de Perfil do Usuário da plataforma Ponto Magnífico, local destinado à inserção dos dados do usuário e editor. 
+- O plano de teste 03, mostra o RF-006 (Perfil do Usuário). Abaixo, é possível visualizar a página de Perfil do Usuário da plataforma Ponto Magnífico, local destinado à inserção dos dados do usuário e editor. 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/f3ffed82-3ed6-4d79-95f7-a53fb55838d7)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/3cb38d7d-11e8-4196-a286-ddbb2deccf78)
 
