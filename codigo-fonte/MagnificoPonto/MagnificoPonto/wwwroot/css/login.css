@@ -1,0 +1,61 @@
+﻿/* Estilização específica da página de login */
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilizando o botão de envio */
+#login-submit {
+    margin-top: 20px; /* Margem superior */
+    background-color: #ec581b; /* Cor de fundo ajustada para combinar com o esquema */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 15px 0; /* Ajusta o padding para tornar o botão mais substancial */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+#login-submit:hover {
+        background-color: #000000; /* Cor de fundo no hover para feedback visual */
+        cursor: pointer; /* Altera o cursor para indicar ação */
+}
+
+/* Outras regras de estilo */
+body {
+    background-color: #fae4d8;
+}
+
+h1 {
+    color: #ec581b;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    
+}
+
+.form-floating {
+    margin-bottom: 10px;
+}
+
+.form-floating input {
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        width: 100%;
+}
+
+.form-floating label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+}
+
+.checkbox {
+    margin-bottom: 1rem;
+}
