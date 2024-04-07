@@ -2,10 +2,10 @@
 
 Os planos de testes realizados, agrupam as seguintes funcionalidades do sistema:  
 
-- • RF -001 (Autenticação e Cadastro de Usuário) 
-- • RF-002  (Catálogo de Produtos) 
-- • RF-003 (Perfil do Usuário) 
-- • RF-008 (Integração com Redes Sociais) 
+- RF -001 (Autenticação e Cadastro de Usuário) 
+- RF-002  (Catálogo de Produtos) 
+- RF-003 (Perfil do Usuário) 
+- RF-008 (Integração com Redes Sociais) 
 
 Abaixo, estão ilustrados os testes de forma individual : 
 
