@@ -12,18 +12,20 @@
 
 O projeto propõe o desenvolvimento de uma aplicação Web responsiva e personalizada para a loja Magnífico Ponto, com o objetivo de criar um canal digital eficaz para exposição e venda dos produtos fabricados artesanalmente. Nesse contexto, além de viabilizar a comercialização dos produtos, a aplicação também visa aprimorar a gestão de vendas e o controle de estoque da loja de artesanato. Para garantir uma experiência única, a solução será elaborada oferecendo uma interface intuitiva e funcionalidades específicas adaptadas às necessidades exclusivas da artesã, com o propósito de proporcionar uma experiência de usuário otimizada e satisfatória.
 
-## Integrantes
+## Integrantes do Grupo
 
-* Anna Karolina de Souza Freitas
-* Arthur Hudson Ferreira Machado
-* Elder Ferreira Ramos
-* Franciele Teixeira Félix
-* Guilherme Bonfim Lima
-* Matheus Fernandes Rosa
+- [Anna Karolina de Souza Freitas](https://github.com/AnnaFreitask)
+- [Arthur Hudson Ferreira Machado](https://github.com/Arthurm12)
+- [Elder Ferreira Ramos](https://github.com/Elder-Ferreira)
+- [Franciele Teixeira Félix](https://github.com/FrancieleFelix)
+- [Guilherme Bonfim Lima](https://github.com/bonfimdev)
+- [Matheus Fernandes Rosa](https://github.com/mfernandesr)
+
+
 
 ## Orientador
 
-* Soraia Lúcia da Silva
+- Soraia Lúcia da Silva
 
 ## Instruções de utilização
 
