@@ -16,6 +16,8 @@ O plano de teste 01, mostra o RF-001 (cadastro). Abaixo, é possível visualizar
 ![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/31f1dc0a-9113-4ff2-a1da-d71d8ffb0455)
 Caminho:  Areas > identity > Pages > Account > Login e Register 
 
+
+
 Plano de Teste 02 
 RF-002 - Catálogo de Produtos 
 O plano de teste 02, mostra o RF-002 (Catálogo de Produtos). Abaixo, é possível visualizar a página de Catálogo de Produtos da plataforma Ponto Magnífico, local destinado à inserção dos produtos vendidos.  
@@ -34,12 +36,16 @@ O plano de teste 02, mostra o RF-002 (Catálogo de Produtos). Abaixo, é possív
 ![Imagem do WhatsApp de 2024-04-02 à(s) 17 14 46_c26001ea](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/b0039b98-f647-4074-9034-c90c566a1a60)
 ![Imagem do WhatsApp de 2024-04-02 à(s) 17 14 50_632684c6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/0c786c6b-5454-4654-8556-de8b167e1457)
 
+
+
  
 Plano de Teste 03 
 RF-006 - Perfil do Usuário 
 O plano de teste 03, mostra o RF-006 (Perfil do Usuário). Abaixo, é possível visualizar a página de Perfil do Usuário da plataforma Ponto Magnífico, local destinado à inserção dos dados do usuário e editor. 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/f3ffed82-3ed6-4d79-95f7-a53fb55838d7)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/3cb38d7d-11e8-4196-a286-ddbb2deccf78)
+
+
 
  
 Plano de Teste 04 
