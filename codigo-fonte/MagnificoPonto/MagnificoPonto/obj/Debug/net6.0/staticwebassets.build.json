@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HjQhqUOMoilsHfcwm2DFeQIiM2quS/UbgyiSlFCdqPI=",
+  "Hash": "oF/UcUKscUsNm+du4ryYfQCMVCvqnx1Sn6pK90kS0EM=",
   "Source": "MagnificoPonto",
   "BasePath": "_content/MagnificoPonto",
   "Mode": "Default",
@@ -1212,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Workspace\\MagnificoPonto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\MagnificoPonto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "css/termos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\termos.css"
     },
     {
       "Identity": "C:\\Workspace\\MagnificoPonto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\favicon.ico",

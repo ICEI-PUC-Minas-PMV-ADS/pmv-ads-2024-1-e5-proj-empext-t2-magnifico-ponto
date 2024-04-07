@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Workspace\\MagnificoPonto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
+      "PackagePath": "staticwebassets\\css\\termos.css"
+    },
+    {
       "Id": "C:\\Workspace\\MagnificoPonto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
