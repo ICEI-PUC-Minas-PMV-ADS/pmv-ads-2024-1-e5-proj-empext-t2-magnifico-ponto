@@ -10,7 +10,7 @@
 
 |Caso de Teste|CT-002|
 |-|-|
-|Requisitos que motivaram o teste:| **RF-001:**  O app fornecerá a funcionalidade para autenticação do usuário|
+|Requisitos que motivaram o teste:| **RF-001:**  A plataforma fornecerá a funcionalidade para autenticação do usuário|
 |Objetivo do teste:| Averiguar que pessoas autorizadas tenham acesso ao sistema.|
 |Condição para aprovado:|Inseridos usuário e senha, o login deve ser feito.|
 |Resultado:| Bloqueio/liberação do sistema após inserção de credenciais de acesso.|
@@ -18,7 +18,7 @@
 
 |Caso de Teste|CT-003|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-001:** O app fornecerá a funcionalidade para autenticação do usuário|
+|Requisitos que motivaram o teste:|**RNF-001:** A plataforma fornecerá a funcionalidade para autenticação do usuário|
 |Objetivo do teste: | Averiguar que somente pessoas autorizadas tenham acesso ao sistema|
 |Condição para aprovado:| Inseridos usuário e senha errados, o usuário não deve acessar o sistema|
 |Resultado:| Bloqueio de credenciais não cadastrados.|
@@ -26,7 +26,7 @@
 
 |Caso de Teste|CT-004|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-011:** Garantir que o aplicativo seja adaptável a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis. |
+|Requisitos que motivaram o teste:|**RNF-011:** Garantir que a plataforma seja adaptável a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis. |
 |Objetivo do teste: | Todas as funcionalidades descritas no backlog funcionam em Android e iOS.|
 |Condição para aprovado:|Um usuário realizará todos os casos de teste descritos para os requisitos funcionais de RF-001 a RF-015 ao menos uma vez a partir de um aparelho iOS e um aparelho Android e todos devem ser aprovados. |
 |Resultado:| Aplicativo funcional nas plataformas Android e IOS|
