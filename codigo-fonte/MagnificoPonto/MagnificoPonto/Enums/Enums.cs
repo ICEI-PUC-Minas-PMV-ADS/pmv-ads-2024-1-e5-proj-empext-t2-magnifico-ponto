@@ -21,9 +21,7 @@
         Ursos,
         Bichinhos,
         Naninhas_e_Chocalhos,
-        Móbiles_de_berço,
-        Porta_maternidade
-
+        Móbiles_de_berço
     }
 
 }
