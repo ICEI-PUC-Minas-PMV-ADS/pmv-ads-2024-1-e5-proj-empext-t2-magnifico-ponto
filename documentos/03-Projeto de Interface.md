@@ -14,4 +14,20 @@ Após uma análise detalhada das necessidades do projeto e uma discussão produt
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4109239833724baa1e0fea5140b2a2c1b86c7048/documentos/img/wireframe_inicial.jpeg)
 
 
-Wireframe Final:
+## Wireframe Final:
+
+![Pagina Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/24f657f9e8b351e6d2b4b6ec70f31be9e090093d/documentos/Testes/index_other_selected_Screen.png)
+
+![Equipe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/24f657f9e8b351e6d2b4b6ec70f31be9e090093d/documentos/Testes/About_Screen.png)
+
+![Produtos 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/24f657f9e8b351e6d2b4b6ec70f31be9e090093d/documentos/Testes/produtos.png)
+
+![Produtos 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/24f657f9e8b351e6d2b4b6ec70f31be9e090093d/documentos/Testes/produtos_02.png)
+
+![Faqs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/24f657f9e8b351e6d2b4b6ec70f31be9e090093d/documentos/Testes/faq_Screen.png)
+
+
+![Contatos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/24f657f9e8b351e6d2b4b6ec70f31be9e090093d/documentos/Testes/Contact_Screen.png)
+
+
+
