@@ -8,7 +8,8 @@ Visando uma aplicação leve a fim de garantir usabilidade e acesso aos usuário
 
 Após uma análise detalhada das necessidades do projeto e uma discussão produtiva com nossa cliente, realizamos uma atualização significativa em relação ao wireframe inicialmente proposto. Durante o processo de desenvolvimento, identificamos a importância de adaptar o escopo do projeto para melhor atender às expectativas e requisitos específicos da cliente.
 
-Wireframe Inicial:
+##Wireframe Inicial:
+
 ![Diagrama de Fluxo Web](
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/4109239833724baa1e0fea5140b2a2c1b86c7048/documentos/img/wireframe_inicial.jpeg)
 
