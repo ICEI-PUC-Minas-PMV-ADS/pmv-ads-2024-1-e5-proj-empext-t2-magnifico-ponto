@@ -17,10 +17,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72d39fcf014d564fa0a0fb6d46c655669bf06909")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8396fb9294ce17360d814ac7609bb70528b6e398")]
 >>>>>>> MagníficoPonto-Anna
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72d39fcf014d564fa0a0fb6d46c655669bf06909")]
+>>>>>>> parent of c93c1ce (Resolvendo Conflitos)
 [assembly: System.Reflection.AssemblyProductAttribute("MagnificoPonto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagnificoPonto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
