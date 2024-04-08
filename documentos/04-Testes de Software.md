@@ -58,6 +58,18 @@
 
 # Evidências de Testes de Software
 
+## Evidência de Caso de Teste CT-001
+Podemos visualizar um usuário inserindo os dados para realizar o cadastro
+![Imagem cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/InserindoRegistro.JPG)
+Após a inserção dos dados, os mesmos sao inseridos no banco de dados
+![Imagem BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/banco%20de%20dados%20login.jpg)
+## Evidência de Caso de Teste CT-002
+Ao inserir os dados corretamentes o usuário poderá entrar na pagina inicial do site
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Fazendo%20Login.JPG)
+![AutenticacaoHome](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Usuario%20Logado.JPG)
+## Evidência de Caso de Teste CT-003
+Caso o usuário insira os dados incorretamente ou não insira os dados não poderá ser redirecionado para a Home
+![Validação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Validação%20de%20inputs%20Login.JPG)
 ## Evidência de Caso de Teste CT-004
 
 Responsividade da página index / home (página principal da aplicação)
@@ -76,8 +88,19 @@ Responsividade da página contact, com a qual é possível enviar e-mail e consu
 
 ![Responsividade da página Contact](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/d3e72c0727efbef3a5ef634de40a3e4893c6ca99/documentos/Testes/about.gif)
 
-
-
+## Evidência de Caso de Teste CT-005
+O admin deve conseguir realizar o cadastro de produtos
+![CadastroProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Cadastro%20Novo%20Item.JPG)
+![CadastroProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Novo%20Item.JPG)
+## Evidência de Caso de Teste CT-006
+O admin deve conseguir editar informações do produto
+![EditarProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Editar%20Item.JPG)
+![EditarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Editado.JPG)
+![EditarDetalhes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Detalhes.JPG)
+## Evidência de Caso de Teste CT-007
+O admin deve conseguir apagar um produto
+![ApagarProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Apagar%20Item.JPG)
+![ApagarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Apagar.JPG)
 
 ---------------------------------------------------------
 Instruções
