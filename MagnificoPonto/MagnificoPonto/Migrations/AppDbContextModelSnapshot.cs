@@ -23,14 +23,21 @@ namespace MagnificoPonto.Migrations
 
             modelBuilder.Entity("MagnificoPonto.Models.Amigurumi", b =>
                 {
-                    b.Property<string>("AmigurumiId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("AmigurumiId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AmigurumiId"), 1L, 1);
 
                     b.Property<bool>("AmigurumiLancamento")
                         .HasColumnType("bit");
 
                     b.Property<int>("CategoriaId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Cor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
@@ -58,6 +65,14 @@ namespace MagnificoPonto.Migrations
 
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(10,2)");
+
+                    b.Property<string>("Tamanho")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<int>("TempoConfec")
+                        .HasColumnType("int");
 
                     b.HasKey("AmigurumiId");
 

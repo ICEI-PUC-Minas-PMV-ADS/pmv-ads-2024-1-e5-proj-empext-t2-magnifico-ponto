@@ -26,10 +26,14 @@ namespace MagnificoPonto.Migrations
                 name: "Amigurumis",
                 columns: table => new
                 {
-                    AmigurumiId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AmigurumiId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(80)", maxLength: 80, nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Preco = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
+                    Tamanho = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    TempoConfec = table.Column<int>(type: "int", nullable: false),
+                    Cor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImagemUrl = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     ImagemThumbnailUrl = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     Personalizacao = table.Column<string>(type: "nvarchar(max)", nullable: true),

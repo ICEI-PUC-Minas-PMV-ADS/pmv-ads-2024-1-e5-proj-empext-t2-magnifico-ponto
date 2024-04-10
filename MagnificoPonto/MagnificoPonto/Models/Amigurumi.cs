@@ -7,7 +7,7 @@ namespace MagnificoPonto.Models
     public class Amigurumi
     {
         [Key]
-        public string AmigurumiId { get; set; }
+        public int AmigurumiId { get; set; }
 
         [Required(ErrorMessage = "O nome do amigurumi deve ser informado")]
         [Display(Name = "Nome do Amigurumi")]
@@ -25,6 +25,19 @@ namespace MagnificoPonto.Models
         [Column(TypeName = "decimal(10,2)")]
         [Range(1, 999.99, ErrorMessage = "O preço deve estar entre 1 e 999,99 reais")]
         public decimal Preco { get; set; }
+
+        [Required(ErrorMessage = "Um tamanho deve ser informado!")]
+        [Display(Name = "Tamanho")]
+        [StringLength(200)]
+        public string Tamanho { get; set; }
+
+        [Required(ErrorMessage = "Tempo de confecção deve ser informado!")]
+        [Display(Name = "Tempo de confecção em dias úteis")]
+        public int TempoConfec { get; set; }
+
+        [Required(ErrorMessage = "Uma cor deve ser informada!")]
+        [Display(Name = "Cor")]
+        public string Cor { get; set; }
 
         [Display(Name = "Caminho Imagem Normal")]
         [StringLength(200, ErrorMessage = "O {0} deve ter no máximo {1} caracteres")]
