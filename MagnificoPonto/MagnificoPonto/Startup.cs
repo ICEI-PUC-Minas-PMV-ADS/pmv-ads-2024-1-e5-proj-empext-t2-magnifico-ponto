@@ -1,4 +1,6 @@
 ﻿using MagnificoPonto.Context;
+using MagnificoPonto.Repositories;
+using MagnificoPonto.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace MagnificoPonto;
@@ -17,6 +19,9 @@ namespace MagnificoPonto;
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient <IAmigurumiRepository, AmigurumiRepository>();
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
             services.AddControllersWithViews();
         }
