@@ -33,6 +33,11 @@ namespace MagnificoPonto.Controllers
             return View();
         }
 
+        public IActionResult Faq()
+        {
+            return View();
+        }
+
         public IActionResult Termos()
         {
             return View();

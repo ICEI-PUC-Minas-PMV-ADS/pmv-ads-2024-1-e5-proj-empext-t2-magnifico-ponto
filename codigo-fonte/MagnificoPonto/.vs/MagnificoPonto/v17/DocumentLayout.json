@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\",
+  "WorkspaceRootPath": "C:\\Users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\views\\home\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\home\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\views\\listarprodutos\\listarprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\listarprodutos\\listarprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\wwwroot\\css\\termos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\wwwroot\\css\\termos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +22,36 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Termos.cshtml",
-              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Home\\Termos.cshtml",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Views\\Home\\Termos.cshtml",
-              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Home\\Termos.cshtml",
-              "RelativeToolTip": "MagnificoPonto\\Views\\Home\\Termos.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAkwDgAAAAIAAAA",
+              "Title": "ListarProdutos.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\ListarProdutos\\ListarProdutos.cshtml",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Views\\ListarProdutos\\ListarProdutos.cshtml",
+              "ToolTip": "C:\\Users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\ListarProdutos\\ListarProdutos.cshtml",
+              "RelativeToolTip": "MagnificoPonto\\Views\\ListarProdutos\\ListarProdutos.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T21:36:06.35Z",
+              "WhenOpened": "2024-04-07T21:33:43.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "termos.css",
-              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
-              "RelativeDocumentMoniker": "MagnificoPonto\\wwwroot\\css\\termos.css",
-              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
-              "RelativeToolTip": "MagnificoPonto\\wwwroot\\css\\termos.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-02T21:44:45.736Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ahfme\\source\\repos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T21:31:35.096Z",
               "EditorCaption": ""
             }
           ]
