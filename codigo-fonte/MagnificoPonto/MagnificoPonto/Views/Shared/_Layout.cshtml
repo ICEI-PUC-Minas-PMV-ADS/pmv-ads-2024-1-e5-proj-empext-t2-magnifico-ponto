@@ -11,6 +11,62 @@
 
 <body>
     <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="index.html">
+                    <strong><span>Magnífico</span> Ponto</strong>
+                </a>
+
+                <div class="d-lg-none">
+                    <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                    <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Sobre">Sobre</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Produtos">Produtos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Faq">FAQs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contato">Contato</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="Produtos" asp-action="Index">Cadastrar Produto</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="ListarProdutos" asp-action="ListaProdutos">Produto</a>
+                    </ul>
+
+                    <partial name="_LoginPartial" />
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        @*
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Magnifico Ponto</a>
@@ -41,9 +97,17 @@
                         
                     </ul>
                     <partial name="_LoginPartial" />
+
+                <div class="d-none d-lg-block">
+                         <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                         <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                 </div>
+
                 </div>
             </div>
         </nav>
+        *@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
