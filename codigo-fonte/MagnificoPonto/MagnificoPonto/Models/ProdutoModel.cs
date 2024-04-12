@@ -28,6 +28,7 @@ namespace MagnificoPonto.Models
         [Display(Name = "Preço")]
         [DataType(DataType.Currency)]
         [DisplayFormat(DataFormatString = "{0:C2}")]
+        [Range(1, 999.99, ErrorMessage = "O preço deve estar entre 1 e 999,99")]
         [Required(ErrorMessage = "Informe o preço do item!")]
         public decimal Preco { get; set; }
 
