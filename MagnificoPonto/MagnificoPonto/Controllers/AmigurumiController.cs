@@ -15,6 +15,7 @@ namespace MagnificoPonto.Controllers
         public IActionResult List()
         {
             var amigurumis = _amigurumiRepository.Amigurumis;
+            
             return View(amigurumis);
         }
     }
