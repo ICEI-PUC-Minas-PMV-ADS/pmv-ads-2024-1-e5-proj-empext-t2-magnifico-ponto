@@ -11,5 +11,6 @@ namespace MagnificoPonto.Context
 
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Amigurumi> Amigurumis { get; set; }
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
     }
 }

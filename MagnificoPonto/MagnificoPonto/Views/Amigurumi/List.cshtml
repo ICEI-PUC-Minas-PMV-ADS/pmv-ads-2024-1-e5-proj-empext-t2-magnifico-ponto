@@ -8,13 +8,7 @@
     <div class="row">
         @foreach (var amigurumi in Model.Amigurumis)
         {
-            <div class="col-sm-4 col-md-4 col-lg-4">
-                <p> <img src="@amigurumi.ImagemUrl" class="img-fluid" ></p>
-                <h3>Preço : @amigurumi.Preco.ToString("c")</h3>
-                <h4>@amigurumi.Nome</h4>
-                <p>@amigurumi.Descricao</p>
-                
-            </div>
+            <partial name ="_AmigurumisResumo" for="@amigurumi"/>
         }
     </div> 
 </div>
