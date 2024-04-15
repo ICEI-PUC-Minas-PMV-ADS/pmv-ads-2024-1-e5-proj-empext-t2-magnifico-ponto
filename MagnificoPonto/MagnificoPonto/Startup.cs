@@ -1,4 +1,5 @@
 ﻿using MagnificoPonto.Context;
+using MagnificoPonto.Models;
 using MagnificoPonto.Repositories;
 using MagnificoPonto.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,7 @@ namespace MagnificoPonto;
 
             services.AddTransient <IAmigurumiRepository, AmigurumiRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
             
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
