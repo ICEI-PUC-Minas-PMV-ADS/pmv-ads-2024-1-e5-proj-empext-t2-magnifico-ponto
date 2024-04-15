@@ -1,4 +1,5 @@
 ﻿using MagnificoPonto.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace MagnificoPonto.Models
 {
@@ -11,15 +12,15 @@ namespace MagnificoPonto.Models
         {
             _context = context;
         }
-        
+
         public string CarrinhoCompraId { get; set; }
 
-        public List <CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
+        public List<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
 
-        public static CarrinhoCompra GetCarrinho (IServiceProvider services)
+        public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
             //define uma sessão
-            ISession session = 
+            ISession session =
                 services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
             //obtem um serviço do tipo do nosso contexto
@@ -38,10 +39,10 @@ namespace MagnificoPonto.Models
             };
         }
 
-        public void AdicionarAoCarrinho (Amigurumi amigurumi)
+        public void AdicionarAoCarrinho(Amigurumi amigurumi)
         {
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault (
-                s=> s.Amigurumi.AmigurumiId == amigurumi.AmigurumiId &&
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
+                s => s.Amigurumi.AmigurumiId == amigurumi.AmigurumiId &&
                 s.CarrinhoCompraId == CarrinhoCompraId);
 
             if (carrinhoCompraItem == null)
@@ -61,6 +62,59 @@ namespace MagnificoPonto.Models
             }
 
             _context.SaveChanges();
+        }
+
+        public int RemoverDoCarrinho(Amigurumi amigurumi)
+        {
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
+                s => s.Amigurumi.AmigurumiId == amigurumi.AmigurumiId &&
+                s.CarrinhoCompraId == CarrinhoCompraId);
+
+            var quantidadeLocal = 0;
+
+            if (carrinhoCompraItem != null)
+            {
+                if (carrinhoCompraItem.Quantidade > 1)
+                {
+                    carrinhoCompraItem.Quantidade--;
+                    quantidadeLocal = carrinhoCompraItem.Quantidade;
+                }
+                else
+                {
+                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
+                }
+            }     
+            _context.SaveChanges();
+            return quantidadeLocal;
+        }
+        
+        public List <CarrinhoCompraItem> GetCarrinhoCompraItens()
+        {
+            return CarrinhoCompraItens ??
+                   (CarrinhoCompraItens =
+                       _context.CarrinhoCompraItens
+                       .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                       .Include(s => s.Amigurumi)
+                       .ToList());
+        }
+
+        public void LimparCarrinho()
+        {
+            var carrinhoItens = _context.CarrinhoCompraItens
+                                .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
+
+            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+            _context.SaveChanges();
+        }
+
+        public decimal GetCarrinhoCompraTotal ()
+        {
+            var total = _context.CarrinhoCompraItens
+                        .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                        .Select(c => c.Amigurumi.Preco * c.Quantidade)
+                        .Sum();
+
+            return total;
         }
     }
 }

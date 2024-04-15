@@ -247,3 +247,15 @@ C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-pr
 C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.csproj.AssemblyReference.cache
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.AssemblyInfoInputs.cache
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.AssemblyInfo.cs
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.csproj.CoreCompileInputs.cache
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.RazorAssemblyInfo.cache
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.RazorAssemblyInfo.cs
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.sourcelink.json
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.dll
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\refint\MagnificoPonto.dll
+C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.pdb
