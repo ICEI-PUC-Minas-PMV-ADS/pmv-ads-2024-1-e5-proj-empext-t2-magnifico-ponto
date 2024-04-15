@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="~/css/login.css">
 
 @{
-    ViewData["Title"] ="Entrar";
+    ViewData["Title"] = "Entrar";
 }
 
 <div class="container my-5">
@@ -36,9 +36,9 @@
                     </div>
                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Entrar</button>
                     <div class="mt-3">
-                        <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a><br>
+                     @* <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a><br> *@
                         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Registre-se como um novo usuário</a><br>
-                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Reenviar e-mail de confirmação</a>
+                     @* <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Reenviar e-mail de confirmação</a> *@
                     </div>
                 </form>
             </section>

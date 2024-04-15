@@ -3,30 +3,22 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace MagnificoPonto.Controllers
-{ 
-   
+{
     public class ListarProdutosController : Controller
     {
         private readonly ApplicationDbContext _context;
         public ListarProdutosController(ApplicationDbContext context)
         {
             _context = context;
-                
         }
-        public async Task<IActionResult> ListarProdutos()
+        public async Task<IActionResult> ListaProdutos()
         {
             var listarProdutos = await _context.Produtos.ToListAsync();
             return View(listarProdutos);
-
-            
         }
-        
-        public IActionResult Produto()
 
-            {
-                return View();
-            }
-        public async Task<IActionResult> Details(int? id)
+        // GET: Produtos/Details/5
+        public async Task<IActionResult> InfoProdutos(int? id)
         {
             if (id == null || _context.Produtos == null)
             {

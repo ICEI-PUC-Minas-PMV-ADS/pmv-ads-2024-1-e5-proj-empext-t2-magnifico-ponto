@@ -886,7 +886,14 @@ button:focus:not(:focus-visible) {
 }
 
 .product-image {
+<<<<<<< HEAD
   transition: all 0.5s ease-out;
+=======
+    transition: all 0.5s ease-out;
+    width: 120%; /* Define a largura da imagem como 100% */
+    height: 400px; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem cubra a área especificada */
+>>>>>>> 4ea1d3e02edbc26fd36123c1614cb18edc8dac4e
 }
 
 .product-thumb:hover .product-image {

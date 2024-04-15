@@ -8,6 +8,14 @@ html {
   }
 }
 
+<<<<<<< HEAD
+=======
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+>>>>>>> 4ea1d3e02edbc26fd36123c1614cb18edc8dac4e
 body {
   margin-bottom: 60px;
 }
