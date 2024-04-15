@@ -1,3 +1,13 @@
-﻿<h1>View Index</h1>
+﻿@model HomeViewModel
 
 <partial name="_Carousel"/>
+
+<h2>Os Lançamentos da semana!!</h2>
+<h4>Garanta já o seu!</h4>
+
+<div class="row">
+    @foreach(var amigurumi in Model.AmigurumisLancamento)
+    {
+        <partial name="_AmigurumisResumo" for="@amigurumi"/>
+    }
+</div>
