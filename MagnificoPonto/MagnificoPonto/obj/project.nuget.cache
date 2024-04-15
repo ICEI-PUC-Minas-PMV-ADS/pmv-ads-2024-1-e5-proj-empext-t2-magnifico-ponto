@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kJb51TxJnYJiDgv4KSFmp0d+q1/eJXDxI86TiMglzB++2FnMZnPlo1vdPQjJ6ZtvijXKKox0Md0CjZEa+jTl3w==",
+  "dgSpecHash": "b7NY3zhM/ficirILNmwmqvKleycRp0cIvQ8zUurYBTOEJmbvrR6L8uVjH83nyPLRR5E2zGjdEUyWNaMsglllyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
   "expectedPackageFiles": [
@@ -218,11 +218,7 @@
     "C:\\Users\\matheus.rosa\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\matheus.rosa\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\matheus.rosa\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\matheus.rosa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\matheus.rosa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\matheus.rosa\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\matheus.rosa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\matheus.rosa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+    "C:\\Users\\matheus.rosa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

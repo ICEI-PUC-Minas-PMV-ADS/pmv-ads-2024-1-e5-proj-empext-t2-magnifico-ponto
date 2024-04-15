@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Startup.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Startup.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Startup.cs",
-              "RelativeToolTip": "MagnificoPonto\\Startup.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABPAAAA",
+              "Title": "CarrinhoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\CarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Models\\CarrinhoCompra.cs",
+              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\CarrinhoCompra.cs",
+              "RelativeToolTip": "MagnificoPonto\\Models\\CarrinhoCompra.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwD4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T14:11:27.403Z",
+              "WhenOpened": "2024-04-15T16:28:00.392Z",
               "EditorCaption": ""
             }
           ]
