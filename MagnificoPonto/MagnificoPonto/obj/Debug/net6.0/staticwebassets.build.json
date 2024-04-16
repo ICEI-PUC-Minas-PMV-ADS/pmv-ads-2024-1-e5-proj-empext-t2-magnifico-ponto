@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UBlpTpGu5dQd/1DZBht5x33xMetYn1vgZEjmfDEptUA=",
+  "Hash": "11D5F6jqPzbuGYfXcxAM/HbKjWoZfy2PkFmmMXAH8OM=",
   "Source": "MagnificoPonto",
   "BasePath": "_content/MagnificoPonto",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\emilia.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\iconecarrinho.png",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "images/iconecarrinho.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iconecarrinho.png"
     },
     {
       "Identity": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\lixeira.jpeg",

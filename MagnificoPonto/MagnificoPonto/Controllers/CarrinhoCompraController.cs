@@ -26,6 +26,7 @@ namespace MagnificoPonto.Controllers
                 CarrinhoCompra = _carrinhoCompra,
                 CarrinhoCompraTotal = _carrinhoCompra.GetCarrinhoCompraTotal()
             };
+
             return View(carrinhoCompraVM);
         }
 
