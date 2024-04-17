@@ -1,46 +1,95 @@
 ﻿@page
 @model RegisterModel
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="~/css/Register.css">
-
 @{
-    ViewData["Title"] = "Cadastre-se agora!";
+    ViewData["Title"] = "Register";
 }
 
-<div class="container my-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
+<h1>@ViewData["Title"]</h1>
 
-            <h1>@ViewData["Title"]</h1>
 
-            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+<!doctype html>
+<html lang="en">
 
-                <div class="form-floating mb-3">
-                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                    <label asp-for="Input.Email">E-mail</label>
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
-                </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <div class="form-floating mb-3">
-                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
-                    <label asp-for="Input.Password">Senha</label>
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
-                </div>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-                <div class="form-floating mb-4">
-                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
-                    <label asp-for="Input.ConfirmPassword">Repita a senha</label>
-                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                </div>
+    <title>Tooplate's Little Fashion - Product Detail</title>
 
-                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg">Cadastrar</button>
-            </form>
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="sk-inner-circle"></span>
         </div>
-    </div>
-</div>
+    </section>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    <main>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <h2>Cadastre-se agora!</h2>
+                    <br />
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="username"
+                               aria-required="true" />
+                        <label asp-for="Input.Email">Email</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password"
+                               aria-required="true" />
+                        <label asp-for="Input.Password">Senha</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password"
+                               aria-required="true" />
+                        <label asp-for="Input.ConfirmPassword">Confirme seu email</label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-danger">Registre-se</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/front/js/jquery.min.js"></script>
+    <script src="~/front/js/bootstrap.bundle.min.js"></script>
+    <script src="~/front/js/Headroom.js"></script>
+    <script src="~/front/js/jQuery.headroom.js"></script>
+    <script src="~/front/js/slick.min.js"></script>
+    <script src="~/front/js/custom.js"></script>
+
+</body>
+
+</html>

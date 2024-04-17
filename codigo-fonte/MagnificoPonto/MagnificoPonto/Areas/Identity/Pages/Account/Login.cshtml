@@ -1,51 +1,122 @@
 ﻿@page
 @model LoginModel
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="~/css/login.css">
-
 @{
-    ViewData["Title"] = "Entrar";
+    ViewData["Title"] = "Log in";
 }
 
-<div class="container my-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
+<h1>@ViewData["Title"]</h1>
 
-            <h1>@ViewData["Title"]</h1>
 
-            <section>
-                <form id="account" method="post">
-                    <h2>Entre com a sua conta!</h2>
 
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-floating">
-                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                        <label asp-for="Input.Email" class="form-label">E-mail</label>
-                        <span asp-validation-for="Input.Email" class="text-danger"></span>
-                    </div>
-                    <div class="form-floating">
-                        <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
-                        <label asp-for="Input.Password" class="form-label">Senha</label>
-                        <span asp-validation-for="Input.Password" class="text-danger"></span>
-                    </div>
-                    <div class="checkbox mb-3">
-                        <label asp-for="Input.RememberMe" class="form-label">
-                            <input class="form-check-input" asp-for="Input.RememberMe" /> Lembrar-me
-                        </label>
-                    </div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Entrar</button>
-                    <div class="mt-3">
-                     @* <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a><br> *@
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Registre-se como um novo usuário</a><br>
-                     @* <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Reenviar e-mail de confirmação</a> *@
-                    </div>
-                </form>
-            </section>
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tooplate's Little Fashion - Product Detail</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="sk-inner-circle"></span>
         </div>
-    </div>
-</div>
+    </section>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    <main>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <section>
+                    <form id="account" method="post">
+                        <h2>Entre com a sua conta!</h2>
+                        <br />
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Email" class="form-control" autocomplete="username"
+                                   aria-required="true" />
+                            <label asp-for="Input.Email" class="form-label">Email</label>
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Password" class="form-control" autocomplete="current-password"
+                                   aria-required="true" />
+                            <label asp-for="Input.Password" class="form-label">Senha</label>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div>
+                            <div class="checkbox">
+                                <label asp-for="Input.RememberMe" class="form-label">
+                                    <input class="form-check-input"
+                                           asp-for="Input.RememberMe" /><!--@Html.DisplayNameFor(m => m.Input.RememberMe)-->
+                                    Lembrar-me
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Entrar</button>
+                        </div>
+                        <div>
+                            <p>
+                                <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a>
+                            </p>
+                            <p>
+                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">
+                                    Registre-se como um novo
+                                    usuário
+                                </a>
+                            </p>
+                            <p>
+                                <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">
+                                    Reenviar e-mail de
+                                    confirmação
+                                </a>
+                            </p>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/front/js/jquery.min.js"></script>
+    <script src="~/front/js/bootstrap.bundle.min.js"></script>
+    <script src="~/front/js/Headroom.js"></script>
+    <script src="~/front/js/jQuery.headroom.js"></script>
+    <script src="~/front/js/slick.min.js"></script>
+    <script src="~/front/js/custom.js"></script>
+
+</body>
+
+</html>
