@@ -25,6 +25,18 @@
       "PackagePath": "staticwebassets\\images\\emilia.jpg"
     },
     {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\envelope.png",
+      "PackagePath": "staticwebassets\\images\\envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\faleconosco.png",
+      "PackagePath": "staticwebassets\\images\\faleconosco.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
       "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\iconecarrinho.png",
       "PackagePath": "staticwebassets\\images\\iconecarrinho.png"
     },
@@ -35,6 +47,10 @@
     {
       "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\pato.jpg",
       "PackagePath": "staticwebassets\\images\\pato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\whats.png",
+      "PackagePath": "staticwebassets\\images\\whats.png"
     },
     {
       "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\js\\site.js",
