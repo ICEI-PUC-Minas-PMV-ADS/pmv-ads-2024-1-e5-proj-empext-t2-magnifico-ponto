@@ -41,5 +41,12 @@ namespace MagnificoPonto.Controllers
 
             return View(amigurumisListViewModel);
         }
+
+        public IActionResult Details (int amigurumiId)
+        {
+            var amigurumi = _amigurumiRepository.Amigurumis.FirstOrDefault(a=> a.AmigurumiId == amigurumiId);
+
+            return View(amigurumi);
+        }
     }
 }

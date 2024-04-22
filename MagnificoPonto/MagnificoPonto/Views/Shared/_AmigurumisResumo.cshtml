@@ -3,7 +3,18 @@
 <div class="col-sm-4 col-md-4 col-lg-4">
     <p> <img src="@Model.ImagemUrl" class="img-fluid"></p>
     <h3>Preço : @Model.Preco.ToString("c")</h3>
-    <h4>@Model.Nome</h4>
-    <p>@Model.Descricao</p>
+
+    <h4>
+        <a asp-controller="Amigurumi" asp-action="Details" asp-route-amigurumiId="@Model.AmigurumiId">@Model.Nome</a>
+    </h4>
+
+    <p>@Model.Descricao</p> @* mudar para personalização *@
+
+    <div>
+        <p class="button">
+            <a class="btn btn-primary" id="cartButton" asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra" asp-route-AmigurumiId="@Model.AmigurumiId">Incluir no Carrinho</a>
+
+        </p>
+    </div>
 
 </div>
