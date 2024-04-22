@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<form method="post" action="Payment/CreateCheckoutSession">
+    |
+        <div>
+            <label for="name">Amount:</label>
+
+            <input type="text" id="amount" name="amount" value="" />
+
+        </div>
+    
+        <button type-"submit">Checkout</button>
+</form>
