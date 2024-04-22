@@ -40,7 +40,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nome" class="control-label"></label>
@@ -87,10 +87,9 @@
                     <input class="form-check-input" asp-for="ProntaEntrega" /> @Html.DisplayNameFor(model => model.ProntaEntrega)
                 </label>
             </div>
-            <div class="form-group">
+                <div class="form-group">
                 <label asp-for="ImageFileName" class="control-label"></label>
-                <input type="file" asp-for="ImageFileName" class="form-control" />
-                <span asp-validation-for="ImageFileName" class="text-danger"></span>
+                <input type="file" name="foto" class="form-control" />                
             </div>
             <div class="form-group">
                 <input type="submit" value="Cadastrar produto" class="btn btn-success mb-3 mt-3" />

@@ -13,10 +13,12 @@ namespace MagnificoPonto.Controllers
     public class ProdutosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private string caminhoServidor;
 
-        public ProdutosController(ApplicationDbContext context)
+        public ProdutosController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            caminhoServidor = environment.WebRootPath;
         }
 
         // GET: Produtos
@@ -51,9 +53,22 @@ namespace MagnificoPonto.Controllers
 
         // POST: Produtos/Create        
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Referencia,Cor,Tamanho,Preco,Categoria,Descrição,TempoConfeccao,ProntaEntrega,ImageFileName")] ProdutoModel produtoModel)
+        public async Task<IActionResult> Create(ProdutoModel produtoModel, IFormFile foto)
         {
+            string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
+            string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+
+            if (!Directory.Exists(caminhoParaSalvarImagem))
+            {
+                Directory.CreateDirectory(caminhoParaSalvarImagem);
+            }
+
+            using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+            {
+                foto.CopyTo(stream);
+            }
+
+
             if (ModelState.IsValid)
             {
                 _context.Add(produtoModel);
@@ -153,5 +168,35 @@ namespace MagnificoPonto.Controllers
         {
           return _context.Produtos.Any(e => e.Id == id);
         }
+
+
+        /*
+
+        public IActionResult Upload()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Upload(IFormFile ImageFileName)
+        {
+            string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
+            string novoNomeParaImagem = Guid.NewGuid().ToString() + " " + ImageFileName.FileName;
+
+            if (!Directory.Exists(caminhoParaSalvarImagem))
+            {
+                Directory.CreateDirectory(caminhoParaSalvarImagem);
+            }
+
+            using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+            {
+                ImageFileName.CopyToAsync(stream);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        */
+
     }
 }

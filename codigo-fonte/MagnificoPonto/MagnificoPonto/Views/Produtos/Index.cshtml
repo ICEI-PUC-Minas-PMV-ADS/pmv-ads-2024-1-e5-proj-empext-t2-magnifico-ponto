@@ -40,7 +40,7 @@
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="text-center">
             <th>
                 @* @Html.DisplayNameFor(model => model.ImageFileName) *@ Foto
             </th>
@@ -78,10 +78,11 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+                <tr class="text-center align-middle"">
             <td>
-                    @Html.DisplayFor(modelItem => item.ImageFileName)
-            </td>
+                <img src="/Amigurumis/24e99f19-88b8-46b2-add8-f15bd4531dc5_Girafa.jpg" width="100" />
+                @*<img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" width="150" />*@
+                   
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
