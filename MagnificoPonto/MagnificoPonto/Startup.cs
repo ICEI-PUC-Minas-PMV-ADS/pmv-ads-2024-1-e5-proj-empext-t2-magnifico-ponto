@@ -58,6 +58,11 @@ namespace MagnificoPonto;
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name: "categoriaFiltro",
+                    pattern: "Amigurumi/{action}/{categoria?}",
+                    defaults: new { controller = "Amigurumi", Action = "List" });
+
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });

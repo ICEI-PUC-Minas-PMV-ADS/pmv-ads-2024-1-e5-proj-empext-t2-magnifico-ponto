@@ -1,4 +1,5 @@
-﻿using MagnificoPonto.Repositories.Interfaces;
+﻿using MagnificoPonto.Models;
+using MagnificoPonto.Repositories.Interfaces;
 using MagnificoPonto.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,15 +14,30 @@ namespace MagnificoPonto.Controllers
             _amigurumiRepository = amigurumiRepository;
         }
 
-        public IActionResult List()
+        public IActionResult List(string categoria)
         {
-            //var amigurumis = _amigurumiRepository.Amigurumis;
+            IEnumerable<Amigurumi> amigurumis;
+            string categoriaAtual = string.Empty;
 
-            //return View(amigurumis);
+            if(string.IsNullOrEmpty(categoria))
+            {
+                amigurumis = _amigurumiRepository.Amigurumis.OrderBy(a => a.AmigurumiId);
+                categoriaAtual = "Todos os Amigurumis";
+            }
+            else
+            {
+                amigurumis = _amigurumiRepository.Amigurumis
+                    .Where(a => a.Categoria.CategoriaNome.Equals(categoria))
+                    .OrderBy(c => c.Nome);
 
-            var amigurumisListViewModel = new AmigurumiListViewModel();
-            amigurumisListViewModel.Amigurumis = _amigurumiRepository.Amigurumis;
-            amigurumisListViewModel.CategoriaAtual = "Categoria Atual";
+                categoriaAtual = categoria;
+            }
+
+            var amigurumisListViewModel = new AmigurumiListViewModel
+            {
+                Amigurumis = amigurumis,
+                CategoriaAtual = categoriaAtual
+            };
 
             return View(amigurumisListViewModel);
         }
