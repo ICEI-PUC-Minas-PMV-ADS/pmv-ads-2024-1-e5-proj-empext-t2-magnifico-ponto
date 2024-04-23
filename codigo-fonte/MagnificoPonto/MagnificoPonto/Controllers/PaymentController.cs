@@ -1,4 +1,9 @@
-﻿using System.Xml.Linq;
+﻿/*
+
+
+
+
+using System.Xml.Linq;
 using MagnificoPonto.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -62,3 +67,5 @@ namespace MagnificoPonto.Controllers
         }
     }
 }
+
+*/

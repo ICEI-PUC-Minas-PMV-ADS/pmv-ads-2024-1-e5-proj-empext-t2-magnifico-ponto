@@ -3,39 +3,36 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-    </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-        </form>
-    </li>
-}
-else
-{
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
 
         <li class="d-none d-lg-block">
             <a class="bi-person custom-icon me-3" asp-area="Identity" asp-page="/Account/Register"></a>
-            <a class="bi-bag custom-icon" asp-area="Identity" asp-page="/Account/Login"></a>
+            <a class="bi bi-door-open custom-icon me-2" asp-area="Identity" asp-page="/Account/Login"></a>
         </li>
 
 
         @*
 
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Registrar</a>
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Registrar</a>
 
     </li>
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
     </li>
 
     *@
-}
+    }
 </ul>
-
-
-

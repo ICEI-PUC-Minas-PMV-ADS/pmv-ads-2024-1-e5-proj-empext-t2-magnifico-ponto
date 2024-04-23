@@ -51,7 +51,7 @@
             <div class="col-md-4">
                 <section>
                     <form id="account" method="post">
-                        <h2>Entre com a sua conta!</h2>
+                        <h2>Acesse sua conta!</h2>
                         <br />
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="form-floating mb-3">
@@ -76,22 +76,18 @@
                             </div>
                         </div>
                         <div>
-                            <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Entrar</button>
+                            <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-dark">Entrar</button>
                         </div>
                         <div>
                             <p>
                                 <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a>
-                            </p>
-                            <p>
+                                <br>
                                 <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">
-                                    Registre-se como um novo
-                                    usuário
+                                    Registre-se como um novo usuário
                                 </a>
-                            </p>
-                            <p>
+                                <br>
                                 <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">
-                                    Reenviar e-mail de
-                                    confirmação
+                                    Reenviar e-mail de confirmação
                                 </a>
                             </p>
                         </div>
