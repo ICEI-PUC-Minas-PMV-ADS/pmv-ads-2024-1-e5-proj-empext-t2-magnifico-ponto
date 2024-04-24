@@ -31,15 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MagnificoPonto",
+              "Title": "MagnificoPonto.csproj",
               "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
               "RelativeDocumentMoniker": "MagnificoPonto\\MagnificoPonto.csproj",
               "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
               "RelativeToolTip": "MagnificoPonto\\MagnificoPonto.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T18:35:14.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T18:35:14.394Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "MagnificoPonto\\Models\\CarrinhoCompra.cs",
               "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\CarrinhoCompra.cs",
               "RelativeToolTip": "MagnificoPonto\\Models\\CarrinhoCompra.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAswHQAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T16:28:00.392Z",
               "EditorCaption": ""
