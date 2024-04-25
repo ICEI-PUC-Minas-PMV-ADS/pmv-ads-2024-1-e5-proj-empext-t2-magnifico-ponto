@@ -1,4 +1,5 @@
 using MagnificoPonto.Data;
+using MagnificoPonto.Utils;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("StripeSettings"));
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -40,5 +42,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+app.MapControllers();
 
 app.Run();
