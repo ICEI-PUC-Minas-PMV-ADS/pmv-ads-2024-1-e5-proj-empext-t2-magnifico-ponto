@@ -9,11 +9,11 @@
       "MagnificoPonto/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.28",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.28",
-          "Microsoft.AspNetCore.Identity.UI": "6.0.28",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.28",
-          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.28",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.28",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.29",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.29",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.29",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.29",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16"
         },
         "runtime": {
@@ -586,28 +586,28 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
-      "Microsoft.AspNetCore.Cryptography.Internal/6.0.28": {
+      "Microsoft.AspNetCore.Cryptography.Internal/6.0.29": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.28": {
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.29": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.28"
+          "Microsoft.AspNetCore.Cryptography.Internal": "6.0.29"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.28": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.28"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.29"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
@@ -616,27 +616,27 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.28": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.29": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.28",
-          "Microsoft.Extensions.Identity.Stores": "6.0.28"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.29",
+          "Microsoft.Extensions.Identity.Stores": "6.0.29"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.12005"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/6.0.28": {
+      "Microsoft.AspNetCore.Identity.UI/6.0.29": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "6.0.28",
-          "Microsoft.Extensions.Identity.Stores": "6.0.28"
+          "Microsoft.Extensions.FileProviders.Embedded": "6.0.29",
+          "Microsoft.Extensions.Identity.Stores": "6.0.29"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.UI.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.12005"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
@@ -1156,14 +1156,14 @@
           }
         }
       },
-      "Microsoft.Data.Sqlite.Core/6.0.28": {
+      "Microsoft.Data.Sqlite.Core/6.0.29": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Data.Sqlite.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
@@ -1192,10 +1192,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/6.0.28": {
+      "Microsoft.EntityFrameworkCore/6.0.29": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.28",
-          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.28",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.29",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.29",
           "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -1204,78 +1204,78 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/6.0.28": {
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.29": {
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/6.0.28": {},
-      "Microsoft.EntityFrameworkCore.Design/6.0.28": {
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.29": {},
+      "Microsoft.EntityFrameworkCore.Design/6.0.29": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.28"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.29"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/6.0.28": {
+      "Microsoft.EntityFrameworkCore.Relational/6.0.29": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.28",
+          "Microsoft.EntityFrameworkCore": "6.0.29",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/6.0.28": {
+      "Microsoft.EntityFrameworkCore.Sqlite/6.0.29": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.28",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.29",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.28": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.29": {
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.28",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.28",
+          "Microsoft.Data.Sqlite.Core": "6.0.29",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.29",
           "Microsoft.Extensions.DependencyModel": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.28": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.29": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.7",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.28"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.29"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "6.0.28.0",
-            "fileVersion": "6.0.2824.11604"
+            "assemblyVersion": "6.0.29.0",
+            "fileVersion": "6.0.2924.16417"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/6.0.28": {
+      "Microsoft.EntityFrameworkCore.Tools/6.0.29": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "6.0.28"
+          "Microsoft.EntityFrameworkCore.Design": "6.0.29"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -1336,40 +1336,40 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/6.0.28": {
+      "Microsoft.Extensions.FileProviders.Embedded/6.0.29": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
-      "Microsoft.Extensions.Identity.Core/6.0.28": {
+      "Microsoft.Extensions.Identity.Core/6.0.29": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.28",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "6.0.29",
           "Microsoft.Extensions.Logging": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Identity.Core.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
-      "Microsoft.Extensions.Identity.Stores/6.0.28": {
+      "Microsoft.Extensions.Identity.Stores/6.0.29": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Identity.Core": "6.0.28",
+          "Microsoft.Extensions.Identity.Core": "6.0.29",
           "Microsoft.Extensions.Logging": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.Identity.Stores.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2824.12005"
+            "fileVersion": "6.0.2924.17108"
           }
         }
       },
@@ -3134,19 +3134,19 @@
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/6.0.28": {
+    "Microsoft.AspNetCore.Cryptography.Internal/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vEKy9Fl7YKcM9QGb2/dFSoX+yX0fsKrdid0ikEmEyrBcpQkd21fZGFHY0fidLrRv5utG4LYNR5sYwhNgONTFFw==",
-      "path": "microsoft.aspnetcore.cryptography.internal/6.0.28",
-      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.28.nupkg.sha512"
+      "sha512": "sha512-DDQehDWbo7LQNbgp9F2rfy6PYXXglMGwZIxMOT1bQ0mCxkBG5yMcmagMTLfCVIyrkSknGHD/32V2GS5WR1XZKg==",
+      "path": "microsoft.aspnetcore.cryptography.internal/6.0.29",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.6.0.29.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.28": {
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GWp+exISeydZVO0ruuz57Qpzb1zlLTOAkmAlcyIwmLJlnLEJowYo4s00VwtMZZMxXqazACWHPJ1LGAPadnRaNw==",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.28",
-      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.28.nupkg.sha512"
+      "sha512": "sha512-h5yX+p/1mNHldAz8xGk9VXsw7UaNQKY9wLOp//B/ZJZvYJ0LrUxDSgZDZLCzgYm4h0oo97xeAMRTJFvXL/zbVg==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.29",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.29.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.28": {
       "type": "package",
@@ -3155,19 +3155,19 @@
       "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.28",
       "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.28.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.28": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wjNmYlIDHHQN9CvDw6gbI3OQMXgx7YDvDrOYfcstzwUbTPSDDoSPxftHzUqeqGdz5foTYksxDQL3H5OTAIlPVw==",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.28",
-      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.28.nupkg.sha512"
+      "sha512": "sha512-hlKfBn5fHEAUAhLXtswOOocwawU/NVBilGMOQpvaQSW10wzZ55ElbGHPGdpcnc8h0SHCq95OgMV+WnQHWvE4ZQ==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.29",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.29.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.UI/6.0.28": {
+    "Microsoft.AspNetCore.Identity.UI/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SjqLbqdDlkh1cDSpWHosrcF+eu2zLMlbQLDJ1qELwM4qan4Csaai5wTNk249P7FKJZ1TI6ZhjCvAcNnCUKgYbQ==",
-      "path": "microsoft.aspnetcore.identity.ui/6.0.28",
-      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.28.nupkg.sha512"
+      "sha512": "sha512-EcjsDuogOCy8ChnneAKzV9H+Q/r9ZF8fUyfRyfQ+MieKqSYwHQkECrSQm1AGB8YnZ+gxgo3kPuifsB9sMO0Oyg==",
+      "path": "microsoft.aspnetcore.identity.ui/6.0.29",
+      "hashPath": "microsoft.aspnetcore.identity.ui.6.0.29.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",
@@ -3288,12 +3288,12 @@
       "path": "microsoft.data.sqlclient.sni.runtime/2.1.1",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512"
     },
-    "Microsoft.Data.Sqlite.Core/6.0.28": {
+    "Microsoft.Data.Sqlite.Core/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mty/lKBHPZvQFTs1rDx+AIZhpWv+z9olCYWyE54tlr0tiEnX3OH1cNY+4938/hm3nDs9AGPQOi9ssAb3P4ml3w==",
-      "path": "microsoft.data.sqlite.core/6.0.28",
-      "hashPath": "microsoft.data.sqlite.core.6.0.28.nupkg.sha512"
+      "sha512": "sha512-ML8y55r5ls7/i/0IFyJwiXo7p0HvtagB1Mm/4hyo/YYy/W3UuNhd1V71GVaeL/URlJ9G2Vk0xFezeIz2y4//tQ==",
+      "path": "microsoft.data.sqlite.core/6.0.29",
+      "hashPath": "microsoft.data.sqlite.core.6.0.29.nupkg.sha512"
     },
     "Microsoft.DiaSymReader/1.3.0": {
       "type": "package",
@@ -3309,68 +3309,68 @@
       "path": "microsoft.dotnet.scaffolding.shared/6.0.16",
       "hashPath": "microsoft.dotnet.scaffolding.shared.6.0.16.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/6.0.28": {
+    "Microsoft.EntityFrameworkCore/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B0/OgYIf4Jy+ZXxU1tQ29m235K63h6wadL9lnUPN7lFAeJRrwNXynFFAGDibgUjJvimZvbGxtF+AiJaODoRrig==",
-      "path": "microsoft.entityframeworkcore/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.6.0.28.nupkg.sha512"
+      "sha512": "sha512-6ugpDLkfGCpwcV/p0b4XYpQIbP+Srb/oz7R1Bae+U5gUTDvSq0ZlHrL3cGlkB2lof8r6zYNqNaGYV25CgbfBwg==",
+      "path": "microsoft.entityframeworkcore/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qLfDuiCvcoIY7IWbXuHCqILYyzV2rXcAh1tnkmYxA5ZfJq0wHIZrRoYP7LNJZttpq5cFyWRK5X6R2tP/M4M+Lw==",
-      "path": "microsoft.entityframeworkcore.abstractions/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.28.nupkg.sha512"
+      "sha512": "sha512-aPE3nFEA2MhEJ5Ae4o3HduoC6uTT/P22wyZBtWe1Sk1kGftCR17w4ozmz5xjoFgLmuaHNPVIKPKYO85J1+GM1w==",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9Y6RC2WMVvNGkhUEcxQGTpYgoebuoIm63acQYEzFVqxZeN9el47aXnypW5JJW3L7/tBkGMvDcQ8hG4t+SJmpHg==",
-      "path": "microsoft.entityframeworkcore.analyzers/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.28.nupkg.sha512"
+      "sha512": "sha512-YJYJVkjolxM1pN8ChusvTttHh7LaWXjmv1NhosP8s4Z/mqYsuoflnYBbBHIa3UnSDqp5v93v5wP+JqGtSQ6tig==",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Design/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jTWhwaLuLnt9K7aEZqp1objkK6xNHx2iYi2vqqyDNigw4u1mo1udy76MJMAsPPf9lDB5ZJQQrrRe+Tery4HDwQ==",
-      "path": "microsoft.entityframeworkcore.design/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.design.6.0.28.nupkg.sha512"
+      "sha512": "sha512-1fLtZkfZPkjCKEMMgk4aDZpnP34nTjBxYKLRTB0Ji7pdbT3cOuA+tQKwN25yroQ7NTq1WOx1hZzqZ7weHIRNpg==",
+      "path": "microsoft.entityframeworkcore.design/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.design.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Relational/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4cM9VUrIOAX/JpHjKDJLVRxmhKHgfcdCwEzLcGCfMWNKaALfQL29wyyNE+OOCC7pqwfcwC0VIZvFa/W0K07K6A==",
-      "path": "microsoft.entityframeworkcore.relational/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.relational.6.0.28.nupkg.sha512"
+      "sha512": "sha512-cvbRXNtRLv9mm5ivt4T0aKtuolz7RkHqkT9/CsXTQbCOgas0M1G8HNeAxeX6/3/lXqIogCBrriZ3qI5+IhCCAg==",
+      "path": "microsoft.entityframeworkcore.relational/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.relational.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Sqlite/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MYS10Fv1o44PDk8i1+SOhhTeuMlxz8OCSYNvmE3E5dWdOsRHLDTVwTEYpIAj5en/gonyrTRo8XuAOGkhe7tuaw==",
-      "path": "microsoft.entityframeworkcore.sqlite/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.sqlite.6.0.28.nupkg.sha512"
+      "sha512": "sha512-Dy12+arDAxaj5nHqi2LDefJVu+3lGAmBBtnuHUkdaW8dLORVsR3eYmzIvaj+nzIKAkDv9HzwpwLsKL94RHG90Q==",
+      "path": "microsoft.entityframeworkcore.sqlite/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-88QLIFXbQdf7zb69bFkvjqMp3jJEw6etaZs45QkV4khDhCWL9vsQ2Ws+Nw5UB2/gQzeeJrEsnMUnrs1YWwn5nw==",
-      "path": "microsoft.entityframeworkcore.sqlite.core/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.sqlite.core.6.0.28.nupkg.sha512"
+      "sha512": "sha512-NSDjK+Txbfpv/xgDBX4lm/Y4yabg0Rm8RMfW0TILXzKYRqHJKLYnOzp4ffu1yx2mXpSvd2ptyYPyJ6QWF4EJlw==",
+      "path": "microsoft.entityframeworkcore.sqlite.core/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.core.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.28": {
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-spwNd7VBXh7UAeY0Ua88SlD51xYCnmHrfzcDBZDXYjHU3I6C0kDtqdzfnYJCpVG56CQa2sA1mI+SWAPOwNZ5AA==",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.28.nupkg.sha512"
+      "sha512": "sha512-W6OGiEZcMQim4xfRKoykSCgkW2uuIbpmVR/xqHnFzDEuBdMyoNvS/q+1CzChzWMy3Cx4bcEh3PQtVjBkZOrVWQ==",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.29.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/6.0.28": {
+    "Microsoft.EntityFrameworkCore.Tools/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TTZONr3M/1Ckce9yZfyJ5+cxMWqBjbDaYGEKZGP2SI73D1sSLJTySwt8lni8w6Tf+CtoZSxpoGDi3ni4l8SeCA==",
-      "path": "microsoft.entityframeworkcore.tools/6.0.28",
-      "hashPath": "microsoft.entityframeworkcore.tools.6.0.28.nupkg.sha512"
+      "sha512": "sha512-WMAZJD60L0frZD74ghSqF7eORvlJsHGT/FR5w+MTHZPStDeYjEThbLkdaLyNdz9+Pipk/JZS4DYNkZq9+c4wRQ==",
+      "path": "microsoft.entityframeworkcore.tools/6.0.29",
+      "hashPath": "microsoft.entityframeworkcore.tools.6.0.29.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
       "type": "package",
@@ -3421,26 +3421,26 @@
       "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
       "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Embedded/6.0.28": {
+    "Microsoft.Extensions.FileProviders.Embedded/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vlMC8FYEU4BB7W5NXIalaVf9i1qlKIGJSCvB7n1RQLKSwQMhCIKjKvzeyvRbWUdmZwOJRCZm5fidKqnRI71bQQ==",
-      "path": "microsoft.extensions.fileproviders.embedded/6.0.28",
-      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.28.nupkg.sha512"
+      "sha512": "sha512-ih7lIqCUXsG4+CNNcPs67TBOe3Yd/HMdBBVP3BhvdZkJEUilhvUK69FB7ZPsiZKel08GkOh2qFXqZsWWPa/lPQ==",
+      "path": "microsoft.extensions.fileproviders.embedded/6.0.29",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.6.0.29.nupkg.sha512"
     },
-    "Microsoft.Extensions.Identity.Core/6.0.28": {
+    "Microsoft.Extensions.Identity.Core/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QSVg9psoGel+ZTvwWH6lrOoZx9pW2Y+vVok22ThnClpW9M9pwfOgYBW1mz5avw/YSo84tMx/aQ+WAsjeS9gStA==",
-      "path": "microsoft.extensions.identity.core/6.0.28",
-      "hashPath": "microsoft.extensions.identity.core.6.0.28.nupkg.sha512"
+      "sha512": "sha512-1xCrRLlAzH3ivxiPRS98qWkDHZOZGjxRByWN2JFYiWBhcSBO1v1+pdevaf+qSIQdG29g4IRzeflxtSdMfxgRQg==",
+      "path": "microsoft.extensions.identity.core/6.0.29",
+      "hashPath": "microsoft.extensions.identity.core.6.0.29.nupkg.sha512"
     },
-    "Microsoft.Extensions.Identity.Stores/6.0.28": {
+    "Microsoft.Extensions.Identity.Stores/6.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YHVJkv7SG054uguwZend0fHFnS4GBsNJSCJkkJkJfesC5pw+JKJoA8jqCMISqvhpJByXW1yM5tec8qXaw8N8bg==",
-      "path": "microsoft.extensions.identity.stores/6.0.28",
-      "hashPath": "microsoft.extensions.identity.stores.6.0.28.nupkg.sha512"
+      "sha512": "sha512-c8RczrevlYm/vMwdJAlnS5nIFgAqmFNVOErLhLlmxn66HCrlH733Q0vVvPjJmpEaxRIuJWFBkTemWmXmIGHV4w==",
+      "path": "microsoft.extensions.identity.stores/6.0.29",
+      "hashPath": "microsoft.extensions.identity.stores.6.0.29.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/6.0.0": {
       "type": "package",
