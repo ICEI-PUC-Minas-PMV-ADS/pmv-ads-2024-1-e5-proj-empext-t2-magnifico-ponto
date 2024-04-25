@@ -1,23 +1,103 @@
 ﻿@page
 @model RegisterConfirmationModel
 @{
-    ViewData["Title"] = "Register confirmation";
+    ViewData["Title"] = "Novo usuário cadastrado com sucesso!";
 }
 
 <h1>@ViewData["Title"]</h1>
-@{
-    if (@Model.DisplayConfirmAccountLink)
-    {
-<p>
-    This app does not currently have a real email sender registered, see <a href="https://aka.ms/aspaccountconf">these docs</a> for how to configure a real email sender.
-    Normally this would be emailed: <a id="confirm-link" href="@Model.EmailConfirmationUrl">Click here to confirm your account</a>
-</p>
-    }
-    else
-    {
-<p>
-        Please check your email to confirm your account.
-</p>
-    }
-}
 
+
+<h6 class="row justify-content-center text-dark">@ViewData["Title"]</h6>
+<br />
+
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tooplate's Little Fashion - Product Detail</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+        @{
+            if (@Model.DisplayConfirmAccountLink)
+            {
+                <div class="my-8">
+                    <h5>Seja muito bem-vindo ao Magnífico Ponto!</h5>
+                    <p>
+                        É um prazer imenso recebê-lo em nossa comunidade de compras online. Aqui no Magnífico Ponto, estamos
+                        empenhados em oferecer a você uma experiência de compra única e excepcional. Desde amigurumis artesanais
+                        de alta qualidade até um atendimento ao cliente de primeira classe, queremos garantir que cada interação
+                        sua conosco seja memorável.
+                    </p>
+                    <p>
+                        Como novo membro, você agora faz parte de uma comunidade vibrante de entusiastas de compras, onde a
+                        variedade é vasta e as oportunidades são infinitas. Esteja preparado para explorar uma infinidade de
+                        produtos, desde adoráveis amigurumis até itens de decoração encantadores, tudo a apenas um clique de
+                        distância.
+                    </p>
+                    <p>
+                        Nossa equipe está aqui para tornar sua jornada de compras o mais suave e agradável possível. Se surgir
+                        alguma dúvida ou se precisar de assistência em qualquer momento, não hesite em entrar em contato
+                        conosco. Estamos aqui para ajudar.
+                    </p>
+                    <p>
+                        Esperamos que sua experiência no Magnífico Ponto seja gratificante e que você encontre exatamente o que
+                        procura. Prepare-se para descobrir um novo mundo de compras online. Uma vez mais, seja muito bem-vindo!
+                    </p>
+                    <p>Atenciosamente,<br>Equipe Magnífico Ponto</p>
+                </div>
+                <div class="text-center justify-content-center">
+                    <a class="btn btn-success" id="confirm-link" asp-area="Identity" asp-page="/Account/Login">
+                        Clique aqui para realizar login no
+                        site
+                    </a>
+                </div>
+            }
+
+            @*
+        else
+        {
+        <p>
+        Please check your email to confirm your account.
+        </p>
+        }
+        *@
+        }
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/front/js/jquery.min.js"></script>
+    <script src="~/front/js/bootstrap.bundle.min.js"></script>
+    <script src="~/front/js/Headroom.js"></script>
+    <script src="~/front/js/jQuery.headroom.js"></script>
+    <script src="~/front/js/slick.min.js"></script>
+    <script src="~/front/js/custom.js"></script>
+
+</body>
+
+</html>

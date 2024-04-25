@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Produtos\\Index.cshtml",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Views\\Produtos\\Index.cshtml",
-              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Produtos\\Index.cshtml",
-              "RelativeToolTip": "MagnificoPonto\\Views\\Produtos\\Index.cshtml",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAvwFoAAAARAAAA",
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "MagnificoPonto\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAGYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T03:19:21.359Z",
+              "WhenOpened": "2024-04-25T19:48:46.753Z",
               "EditorCaption": ""
             },
             {
@@ -63,51 +55,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "MagnificoPonto\\Controllers\\PaymentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:04:55.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "MagnificoPonto\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T03:02:34.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-17T00:28:19.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "MagnificoPonto\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAHAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAFIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-16T23:25:58.624Z",
               "EditorCaption": ""

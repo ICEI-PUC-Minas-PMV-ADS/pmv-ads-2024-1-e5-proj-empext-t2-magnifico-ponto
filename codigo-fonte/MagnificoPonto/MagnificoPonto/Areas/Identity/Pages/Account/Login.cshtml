@@ -79,16 +79,17 @@
                             <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-dark">Entrar</button>
                         </div>
                         <div>
-                            <p>
-                                <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a>
+                            <p class="text-center">
                                 <br>
                                 <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">
                                     Registre-se como um novo usuário
                                 </a>
+                                @* <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a>*@
                                 <br>
-                                <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">
+                                <br>
+                                @*<a id="resend-confirmation" asp-page="./ResendEmailConfirmation">
                                     Reenviar e-mail de confirmação
-                                </a>
+                                </a>*@
                             </p>
                         </div>
                     </form>
