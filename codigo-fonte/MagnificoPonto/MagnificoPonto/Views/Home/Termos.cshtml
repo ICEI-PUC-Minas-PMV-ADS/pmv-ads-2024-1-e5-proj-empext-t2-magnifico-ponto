@@ -1,60 +1,353 @@
-﻿<!DOCTYPE html>
-<html lang="pt-br">
+﻿@{
+    ViewData["Title"] = "Termos de Uso";
+}
+
+
+
+<!doctype html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Termos de Uso</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Magnífico Ponto</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <main>
+
+        <div>
+            <br />
+            <br />
+        </div>
+
+
+        <div class="container">
+            <h2 class="mt-5">Termos de Uso</h2>
+            <p class="lead"><strong>Bem-vindo aos Termos de Uso da Loja de Amigurumis Artesanais.</strong></p>
+            <hr>
+
+            <!-- Introdução -->
+            <div class="mb-4">
+                <h6 class="text-dark">1. Introdução</h6>
+                <p>
+                    1.1. Bem-vindo aos Termos de Uso da Magnífico Ponto, uma loja de Amigurumis artesanais. Estes termos
+                    regem o uso do nosso site e todos os serviços oferecidos por nós.
+                </p>
+                <p>
+                    1.2. Ao acessar ou utilizar nosso site, você concorda com estes Termos de Uso na íntegra. Leia-os
+                    atentamente antes de prosseguir.
+                </p>
+            </div>
+
+            <!-- Coleta e Uso de Dados Pessoais -->
+            <div class="mb-4">
+                <h6 class="text-dark">2. Coleta e Uso de Dados Pessoais</h6>
+                <p>
+                    2.1. Ao se cadastrar em nossa loja, coletamos informações pessoais como nome, endereço e e-mail para
+                    processar pedidos e realizar entregas.
+                </p>
+                <p>
+                    2.2. Garantimos que todas as informações fornecidas serão tratadas de acordo com as diretrizes da
+                    LGPD e apenas utilizadas para os fins específicos para os quais foram fornecidas.
+                </p>
+            </div>
+
+            <!-- Segurança de Dados -->
+            <div class="mb-4">
+                <h6 class="text-dark">3. Segurança de Dados</h6>
+                <p>
+                    3.1. Implementamos medidas de segurança adequadas para proteger suas informações pessoais contra
+                    acesso não autorizado, divulgação ou alteração.
+                </p>
+                <p>
+                    3.2. Utilizamos tecnologias de criptografia para proteger informações confidenciais durante a
+                    transmissão de dados.
+                </p>
+            </div>
+
+            <!-- Pagamentos e Transações Financeiras -->
+            <div class="mb-4">
+                <h6 class="text-dark">4. Pagamentos e Transações Financeiras</h6>
+                <p>
+                    4.1. Para processar pagamentos, utilizamos plataformas de pagamento externas que aderem aos mais
+                    altos padrões de segurança e proteção de dados.
+                </p>
+                <p>
+                    4.2. Não armazenamos informações sensíveis de pagamento, como números de cartão de crédito, em nossos
+                    servidores.
+                </p>
+            </div>
+
+            <!-- Entrega e Frete -->
+            <div class="mb-4">
+                <h6 class="text-dark">5. Entrega e Frete</h6>
+                <p>
+                    5.1. Para realizar a entrega de produtos, compartilhamos informações de entrega com serviços de
+                    transporte terceirizados, como os Correios.
+                </p>
+                <p>
+                    5.2. Os cálculos de frete são realizados diretamente pelos serviços dos Correios, e não armazenamos
+                    suas informações de entrega além do necessário para concluir a transação.
+                </p>
+            </div>
+
+            <!-- Direitos do Consumidor -->
+            <div class="mb-4">
+                <h6 class="text-dark"> 6. Direitos do Consumidor</h6>
+                <p>
+                    6.1. Respeitamos integralmente os direitos do consumidor previstos na legislação brasileira,
+                    incluindo o direito de arrependimento e garantia de produtos.
+                </p>
+                <p>
+                    6.2. Caso haja algum problema com seu pedido ou insatisfação com nossos produtos, entre em contato
+                    conosco para resolver a situação da melhor forma possível.
+                </p>
+            </div>
+
+            <!-- Cancelamento e Devoluções -->
+            <div class="mb-4">
+                <h6 class="text-dark">7. Cancelamento e Devoluções</h6>
+                <p>
+                    7.1. Aceitamos cancelamentos e devoluções de produtos dentro do prazo estabelecido por lei, desde que
+                    os produtos sejam devolvidos em condições adequadas e não utilizados.
+                </p>
+                <p>7.2. O reembolso será processado de acordo com nossa política de devolução e reembolso.</p>
+            </div>
+
+            <!-- Responsabilidade do Usuário -->
+            <div class="mb-4">
+                <h6 class="text-dark">8. Responsabilidade do Usuário</h6>
+                <p>
+                    8.1. O usuário é responsável por garantir a precisão e veracidade das informações fornecidas durante
+                    o processo de compra.
+                </p>
+                <p>
+                    8.2. O usuário é responsável por manter suas credenciais de login e senha seguras e não
+                    compartilhá-las com terceiros.
+                </p>
+            </div>
+
+            <!-- Propriedade Intelectual -->
+            <div class="mb-4">
+                <h6 class="text-dark">9. Propriedade Intelectual</h6>
+                <p>
+                    9.1. Todo o conteúdo do site, incluindo imagens, textos e logotipos, é protegido por direitos
+                    autorais e propriedade intelectual.
+                </p>
+                <p>
+                    9.2. O uso não autorizado do conteúdo do site é estritamente proibido e pode resultar em ações
+                    legais.
+                </p>
+            </div>
+
+            <!-- Alterações nos Termos de Uso -->
+            <div class="mb-4">
+                <h6 class="text-dark">10. Alterações nos Termos de Uso</h6>
+                <p>
+                    10.1. Reservamo-nos o direito de modificar estes Termos de Uso a qualquer momento, sem aviso prévio.
+                </p>
+                <p>
+                    10.2. Recomendamos que você reveja regularmente esta página para se manter atualizado sobre quaisquer
+                    alterações.
+                </p>
+            </div>
+
+            <!-- Consentimento do Usuário -->
+            <div class="mb-4">
+                <h6 class="text-dark">11. Consentimento do Usuário</h6>
+                <p>
+                    11.1. Ao utilizar nosso site e serviços, você consente com estes Termos de Uso e concorda em
+                    obedecê-los integralmente.
+                </p>
+            </div>
+
+            <!-- Disposições Gerais -->
+            <div class="mb-4">
+                <h6 class="text-dark">12. Disposições Gerais</h6>
+                <p>
+                    12.1. Estes Termos de Uso constituem o acordo integral entre o usuário e a Loja de Amigurumis
+                    Artesanais em relação ao uso do site e serviços.
+                </p>
+                <p>
+                    12.2. Se qualquer disposição destes Termos de Uso for considerada inválida ou inexequível, tal
+                    disposição será eliminada ou limitada na medida mínima necessária e as demais disposições
+                    permanecerão em pleno vigor e efeito.
+                </p>
+            </div>
+
+            <!-- Vigência dos Termos de Uso -->
+            <div class="mb-5">
+                <h6 class="text-dark">13. Vigência dos Termos de Uso</h6>
+                <p>
+                    13.1. Estes Termos de Uso permanecerão em vigor enquanto você continuar a utilizar nosso site e
+                    serviços.
+                </p>
+                <p>
+                    13.2. O término do uso do site não afetará quaisquer direitos e obrigações decorrentes destes Termos
+                    de Uso, que por sua natureza devem sobreviver ao término.
+                </p>
+            </div>
+
+            <!-- Legislação Aplicável -->
+            <div class="mb-5">
+                <h6 class="text-dark">14. Legislação Aplicável</h6>
+                <p>14.1. Estes Termos de Uso são regidos e interpretados de acordo com as leis do Brasil.</p>
+                <p>
+                    14.2. Qualquer disputa decorrente destes termos será submetida à jurisdição exclusiva dos tribunais
+                    brasileiros.
+                </p>
+            </div>
+
+            <!-- Contato -->
+            <div class="mb-5">
+                <h6 class="text-dark">15. Contato</h6>
+                <p>
+                    15.1. Se você tiver alguma dúvida ou preocupação sobre estes Termos de Uso, entre em contato conosco
+                    através dos meios disponibilizados em nosso site.
+                </p>
+            </div>
+
+            <!-- Agradecimento -->
+            <div class="mb-5">
+                <h6 class="text-dark">16. Agradecimento</h6>
+                <p>
+                    16.1. Agradecemos por escolher a Magnífico Ponto para suas compras de Amigurumis artesanais.
+                    Esperamos proporcionar uma experiência de compra excepcional.
+                </p>
+            </div>
+
+            <p>
+                <strong>
+                    Esperamos que você tenha uma ótima experiência em nossa loja de Amigurumis Artesanais e estamos à
+                    disposição para atendê-lo da melhor forma possível!
+                </strong>
+            </p>
+        </div>
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/front/js/jquery.min.js"></script>
+    <script src="~/front/js/bootstrap.bundle.min.js"></script>
+    <script src="~/front/js/Headroom.js"></script>
+    <script src="~/front/js/jQuery.headroom.js"></script>
+    <script src="~/front/js/slick.min.js"></script>
+    <script src="~/front/js/custom.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+@*
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Uso</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/termos.css">
 
 </head>
+
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 offset-md-2">
-        <div class="card">
-          <div class="card-header">
-            Termos de Uso
-          </div>
-          <div class="card-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        Termos de Uso
+                    </div>
+                    <div class="card-body">
                         <p>
                             <strong></strong> Termos de Uso
 
-                            Por favor, leia atentamente estes termos de uso ("Termos") antes de utilizar o nosso website (o "Serviço") operado por Ponto Magnífico.
+                            Por favor, leia atentamente estes termos de uso ("Termos") antes de utilizar o nosso website
+                            (o "Serviço") operado por Ponto Magnífico.
 
-                            Seu acesso e uso do Serviço estão condicionados à sua aceitação e conformidade com estes Termos. Estes Termos se aplicam a todos os visitantes, usuários e outras pessoas que acessam ou usam o Serviço.
+                            Seu acesso e uso do Serviço estão condicionados à sua aceitação e conformidade com estes
+                            Termos. Estes Termos se aplicam a todos os visitantes, usuários e outras pessoas que acessam
+                            ou usam o Serviço.
 
-                            Ao acessar ou usar o Serviço, você concorda em ficar vinculado a estes Termos. Se você discordar de qualquer parte destes Termos, então você não tem permissão para acessar o Serviço.
+                            Ao acessar ou usar o Serviço, você concorda em ficar vinculado a estes Termos. Se você
+                            discordar de qualquer parte destes Termos, então você não tem permissão para acessar o
+                            Serviço.
                         </p>
                         <p>
-                            <strong>Contas:</strong> Ao criar uma conta conosco, você deve fornecer informações precisas, completas e atualizadas em todos os momentos. O não cumprimento deste requisito constitui uma violação dos Termos, o que pode resultar no encerramento imediato da sua conta no nosso Serviço.
+                            <strong>Contas:</strong> Ao criar uma conta conosco, você deve fornecer informações
+                            precisas, completas e atualizadas em todos os momentos. O não cumprimento deste requisito
+                            constitui uma violação dos Termos, o que pode resultar no encerramento imediato da sua conta
+                            no nosso Serviço.
 
-                            Você é responsável por proteger a senha que você usa para acessar o Serviço e por qualquer atividade ou ação sob sua senha, quer sua senha seja com nosso Serviço ou um serviço de terceiros.
+                            Você é responsável por proteger a senha que você usa para acessar o Serviço e por qualquer
+                            atividade ou ação sob sua senha, quer sua senha seja com nosso Serviço ou um serviço de
+                            terceiros.
 
-                            Você concorda em não divulgar sua senha a terceiros. Você deve nos notificar imediatamente após tomar conhecimento de qualquer violação de segurança ou uso não autorizado da sua conta.
+                            Você concorda em não divulgar sua senha a terceiros. Você deve nos notificar imediatamente
+                            após tomar conhecimento de qualquer violação de segurança ou uso não autorizado da sua
+                            conta.
                         </p>
                         <p>
-                            <strong>Links para Outros Websites:</strong> Nosso Serviço pode conter links para sites ou serviços de terceiros que não são de propriedade ou controlados por nós.
+                            <strong>Links para Outros Websites:</strong> Nosso Serviço pode conter links para sites ou
+                            serviços de terceiros que não são de propriedade ou controlados por nós.
 
-                            Não temos controle e não assumimos responsabilidade pelo conteúdo, políticas de privacidade ou práticas de quaisquer sites ou serviços de terceiros. Você reconhece e concorda que não seremos responsáveis, direta ou indiretamente, por qualquer dano ou perda causada ou supostamente causada por ou em conexão com o uso de ou confiança em qualquer conteúdo, bens ou serviços disponíveis em ou através de tais sites ou serviços.
+                            Não temos controle e não assumimos responsabilidade pelo conteúdo, políticas de privacidade
+                            ou práticas de quaisquer sites ou serviços de terceiros. Você reconhece e concorda que não
+                            seremos responsáveis, direta ou indiretamente, por qualquer dano ou perda causada ou
+                            supostamente causada por ou em conexão com o uso de ou confiança em qualquer conteúdo, bens
+                            ou serviços disponíveis em ou através de tais sites ou serviços.
                         </p>
                         <p>
-                            <strong>Alterações:</strong> Reservamo-nos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. Se uma revisão for material, tentaremos fornecer pelo menos 30 dias de aviso prévio antes que quaisquer novos termos entrem em vigor. O que constitui uma alteração material será determinado a nosso exclusivo critério.
+                            <strong>Alterações:</strong> Reservamo-nos o direito, a nosso exclusivo critério, de
+                            modificar ou substituir estes Termos a qualquer momento. Se uma revisão for material,
+                            tentaremos fornecer pelo menos 30 dias de aviso prévio antes que quaisquer novos termos
+                            entrem em vigor. O que constitui uma alteração material será determinado a nosso exclusivo
+                            critério.
 
-                            Ao continuar a acessar ou usar nosso Serviço após essas revisões entrarem em vigor, você concorda em ficar vinculado aos termos revisados. Se você não concordar com os novos termos, pare de usar o Serviço.
+                            Ao continuar a acessar ou usar nosso Serviço após essas revisões entrarem em vigor, você
+                            concorda em ficar vinculado aos termos revisados. Se você não concordar com os novos termos,
+                            pare de usar o Serviço.
                         </p>
                         <p>
-                            <strong>Contate-Nos:</strong> 
+                            <strong>Contate-Nos:</strong>
 
                             Se você tiver alguma dúvida sobre estes Termos, por favor, entre em contato conosco.
                         </p>
 
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 
 </body>
+
 </html>
+
+*@
