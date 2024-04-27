@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\controllers\\amigurumicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\controllers\\amigurumicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\repositories\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\repositories\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\models\\pedidodetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\models\\pedidodetalhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|c:\\users\\matheus.rosa\\desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\magnificoponto\\magnificoponto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1B17E1-0C90-4CFF-B6A2-C1444E808364}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,78 +31,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Startup.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Startup.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Startup.cs",
-              "RelativeToolTip": "MagnificoPonto\\Startup.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wCAAAAAAAAAA",
+              "Title": "AmigurumiController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Controllers\\AmigurumiController.cs",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Controllers\\AmigurumiController.cs",
+              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Controllers\\AmigurumiController.cs",
+              "RelativeToolTip": "MagnificoPonto\\Controllers\\AmigurumiController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwE8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:23:03.159Z",
+              "WhenOpened": "2024-04-27T12:55:37.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Repositories\\PedidoRepository.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Repositories\\PedidoRepository.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Repositories\\PedidoRepository.cs",
-              "RelativeToolTip": "MagnificoPonto\\Repositories\\PedidoRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:15:45.74Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MagnificoPonto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAACXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T12:51:22.995Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Repositories\\Interfaces\\IPedidoRepository.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Repositories\\Interfaces\\IPedidoRepository.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Repositories\\Interfaces\\IPedidoRepository.cs",
-              "RelativeToolTip": "MagnificoPonto\\Repositories\\Interfaces\\IPedidoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T11:15:03.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "MagnificoPonto\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:56:16.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PedidoDetalhe.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\PedidoDetalhe.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Models\\PedidoDetalhe.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\PedidoDetalhe.cs",
-              "RelativeToolTip": "MagnificoPonto\\Models\\PedidoDetalhe.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:52:29.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "MagnificoPonto\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\matheus.rosa\\Desktop\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\Models\\Pedido.cs",
-              "RelativeToolTip": "MagnificoPonto\\Models\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:32:56.512Z"
             }
           ]
         },

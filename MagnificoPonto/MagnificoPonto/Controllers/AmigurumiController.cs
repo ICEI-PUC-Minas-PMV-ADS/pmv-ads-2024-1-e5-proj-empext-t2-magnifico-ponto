@@ -48,5 +48,36 @@ namespace MagnificoPonto.Controllers
 
             return View(amigurumi);
         }
+
+        public ViewResult Search(string searchString)
+        {
+            IEnumerable<Amigurumi> amigurumis;
+            string categoriaAtual = string.Empty;
+
+            if (string.IsNullOrEmpty(searchString))
+            {
+                amigurumis = _amigurumiRepository.Amigurumis.OrderBy(p => p.AmigurumiId);
+                categoriaAtual = "Todos os Amigurumis";
+            }
+            else
+            {
+                amigurumis = _amigurumiRepository.Amigurumis
+                             .Where(p => p.Nome.ToLower().Contains(searchString.ToLower()));
+
+                if (amigurumis.Any())
+
+                    categoriaAtual = "Amigurumis";
+
+                else
+
+                    categoriaAtual = "Nenhum Amigurumi foi encontrado";
+            }
+
+            return View("~/Views/Amigurumi/List.cshtml", new AmigurumiListViewModel
+            {
+                Amigurumis = amigurumis,
+                CategoriaAtual = categoriaAtual
+            });
+        }
     }
 }
