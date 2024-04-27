@@ -23,9 +23,11 @@ namespace MagnificoPonto;
 
             services.AddTransient <IAmigurumiRepository, AmigurumiRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
-            services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
-            
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
             services.AddControllersWithViews();
 
