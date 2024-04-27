@@ -1,13 +1,55 @@
 ﻿@model HomeViewModel
 
-<partial name="_Carousel"/>
+<div class="container">
+    <section id="sobre">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <img src="colocar icone 1" />
+                <h3>Feitos com amor</h3>
+                <p class="tex-muted">Fazemos amigurumis com carinho</p>
+            </div>
 
-<h2>Os Lançamentos da semana!!</h2>
-<h4>Garanta já o seu!</h4>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <img src="colocar icone 2" />
+                <h3>Prontos para entrega</h3>
+                <p class="tex-muted">Entregamos seu pedido</p>
+            </div>
 
-<div class="row">
-    @foreach(var amigurumi in Model.AmigurumisLancamento)
-    {
-        <partial name="_AmigurumisResumo" for="@amigurumi"/>
-    }
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <img src="colocar icone 3" />
+                <h3>Preços camaradas</h3>
+                <p class="tex-muted">Promoções imperdíveis</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <img src="colocar icone 4" />
+                <h3>Exemplo</h3>
+                <p class="tex-muted">Exemplo</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        @await Html.PartialAsync("_IndexPartial")
+    </section>
+
+    <section id="contato">
+        <div class="row">
+            <div class="col-10 col-md-5 col-lg-5 offset-1" style="color: black">
+                <h4>&copy; 2021 - Magnifico Ponto</h4>
+                <p class="text-justify">
+                    Texto
+                </p>
+            </div>
+
+            <div class="col-10 col-md-5 col-lg-5 offset-1" style="color: black">
+                <h4>Tem alguma dúvida?</h4>
+                <ul class="list-unstyled">
+                    <li class="py-1">Enderço</li>
+                    <li class="py-1">Telefone</li>
+                    <li class="py-1"><a href="email@email.com" style="color: blue">email@email.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </div>
