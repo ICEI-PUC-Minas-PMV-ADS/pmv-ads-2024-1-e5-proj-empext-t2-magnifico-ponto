@@ -97,7 +97,7 @@ namespace MagnificoPonto.Controllers
         // POST: Produtos/Edit/5        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Referencia,Cor,Tamanho,Preco,Categoria,Descrição,TempoConfeccao,ProntaEntrega,ImageFileName")] ProdutoModel produtoModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Quantidade,Peso,Cor,Tamanho,Preco,Categoria,Descrição,TempoConfeccao,ProntaEntrega,ImageFileName")] ProdutoModel produtoModel)
         {
             if (id != produtoModel.Id)
             {
@@ -169,34 +169,7 @@ namespace MagnificoPonto.Controllers
           return _context.Produtos.Any(e => e.Id == id);
         }
 
-
-        /*
-
-        public IActionResult Upload()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Upload(IFormFile ImageFileName)
-        {
-            string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
-            string novoNomeParaImagem = Guid.NewGuid().ToString() + " " + ImageFileName.FileName;
-
-            if (!Directory.Exists(caminhoParaSalvarImagem))
-            {
-                Directory.CreateDirectory(caminhoParaSalvarImagem);
-            }
-
-            using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
-            {
-                ImageFileName.CopyToAsync(stream);
-            }
-
-            return RedirectToAction("Index");
-        }
-
-        */
+       
 
     }
 }

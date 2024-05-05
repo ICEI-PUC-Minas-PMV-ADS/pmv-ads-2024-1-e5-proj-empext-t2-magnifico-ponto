@@ -42,13 +42,16 @@
     <thead>
         <tr class="text-center">
             <th>
-                @* @Html.DisplayNameFor(model => model.ImageFileName) *@ Foto
+                Foto
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.Nome) *@ Amigurumi
+               Amigurumi
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Referencia)
+                Qtd.
+            </th>
+            <th>
+              Peso (gr)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Cor)
@@ -87,8 +90,11 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Referencia)
+                @Html.DisplayFor(modelItem => item.Quantidade)
             </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Peso)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Cor)
             </td>

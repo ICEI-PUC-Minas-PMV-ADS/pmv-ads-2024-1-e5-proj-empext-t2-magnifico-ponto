@@ -17,7 +17,7 @@ namespace MagnificoPonto.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.28")
+                .HasAnnotation("ProductVersion", "6.0.29")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -50,15 +50,17 @@ namespace MagnificoPonto.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Peso")
+                        .HasColumnType("float");
+
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<bool>("ProntaEntrega")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Referencia")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
 
                     b.Property<string>("Tamanho")
                         .IsRequired()

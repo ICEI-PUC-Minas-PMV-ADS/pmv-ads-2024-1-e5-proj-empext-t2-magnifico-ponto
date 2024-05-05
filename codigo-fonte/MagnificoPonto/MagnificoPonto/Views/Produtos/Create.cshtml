@@ -48,9 +48,14 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Referencia" class="control-label"></label>
-                <input asp-for="Referencia" class="form-control" />
-                <span asp-validation-for="Referencia" class="text-danger"></span>
+                <label asp-for="Quantidade" class="control-label"></label>
+                <input asp-for="Quantidade" class="form-control" />
+                <span asp-validation-for="Quantidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Peso" class="control-label"></label>
+                <input asp-for="Peso" class="form-control" />
+                <span asp-validation-for="Peso" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Cor" class="control-label"></label>
@@ -89,8 +94,8 @@
             </div>
                 <div class="form-group">
                 <label asp-for="ImageFileName" class="control-label"></label>
-                <input type="file" name="foto" class="form-control" />                
-            </div>
+                    <input type="file" name="foto" class="form-control" />
+                </div>
             <div class="form-group">
                 <input type="submit" value="Cadastrar produto" class="btn btn-success mb-3 mt-3" />
             </div>
@@ -101,6 +106,8 @@
 <div>
     <a class="btn btn-secondary" asp-action="Index">Retornar para a lista de produtos</a>
 </div>
+ 
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
