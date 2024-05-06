@@ -38,9 +38,9 @@
 <p>
     <a class="btn btn-success" asp-action="Create">Inserir novo item</a>
 </p>
-<table class="table">
+<table id="Cadastro" class="table">
     <thead>
-        <tr class="text-center">
+        <tr class="text-center align-middle">
             <th>
                 Foto
             </th>
@@ -49,10 +49,7 @@
             </th>
             <th>
                 Qtd.
-            </th>
-            <th>
-              Peso (gr)
-            </th>
+            </th>            
             <th>
                 @Html.DisplayNameFor(model => model.Cor)
             </th>
@@ -91,10 +88,7 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Quantidade)
-            </td>
-                <td>
-                        @Html.DisplayFor(modelItem => item.Peso)
-                </td>
+            </td>                
             <td>
                 @Html.DisplayFor(modelItem => item.Cor)
             </td>
@@ -116,7 +110,7 @@
             </td> 
             *@
             <td>
-                <div>
+                <div class="text-sm-left">
                     <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
                     <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> 
                     <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
