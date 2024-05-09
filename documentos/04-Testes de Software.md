@@ -82,7 +82,7 @@
 
 |Caso de Teste|CT-011|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-05:** Monitoramento e Análise   |
+|Requisitos que motivaram o teste:|**RNF-10:** Monitoramento e Análise   |
 |Objetivo do teste: | Integrar ferramentas de monitoramento para coletar dados sobre o comportamento dos usuários, possibilitando análises que orientem melhorias na experiência do cliente e na eficácia das estratégias de venda. |
 |Condição para aprovado:| Agrupamento de mensagens coordenadas por assuntos. |
 |Resultado:| Aprovado |
@@ -124,14 +124,34 @@ Responsividade da página contact, com a qual é possível enviar e-mail e consu
 O admin deve conseguir realizar o cadastro de produtos
 ![CadastroProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Cadastro%20Novo%20Item.JPG)
 ![CadastroProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Novo%20Item.JPG)
+
 ## Evidência de Caso de Teste CT-006
 O admin deve conseguir editar informações do produto
 ![EditarProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Editar%20Item.JPG)
 ![EditarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Editado.JPG)
 ![EditarDetalhes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Detalhes.JPG)
+
 ## Evidência de Caso de Teste CT-007
 O admin deve conseguir apagar um produto
 ![ApagarProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Apagar%20Item.JPG)
 ![ApagarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Apagar.JPG)
+
+##Evidência de Caso de Teste CT-008, CT-009 e CT-010.
+Registra na página de mensagem, Aceitação de dados inseridas pelo usuário e Experiência do Usuário (UX).
+![1  Página de contato direto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/8c65cebb-b6a3-49e1-93db-7aa9c38c53b9)
+![2  Teste de envio de mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/fde35f81-d29f-4d68-8957-e913a322065c)
+
+##Evidência de Caso de Teste CT-011
+Agrupamento de mensagens coordenadas por assuntos
+![3  Listagem de mensagens](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/bee919d0-e9b2-4a46-8c46-9e28ead3fce2)
+![4  Visualização da mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/d6a1faab-910d-49e9-8ac6-505efa850055)
+![5  Mensagens cadastradas no banco de dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/888cdc69-5285-4e66-bbd6-1a998d185f6f)
+![6  Mensagem apagada da listagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/b03b1826-82a4-4978-a57e-9bd2e046dab4)
+![7  Mensagem apagada do banco de dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/0ebc7ee4-d770-4c97-8ff4-f74e359fdcae)
+
+
+
+
+
 
 ---------------------------------------------------------
