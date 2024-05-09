@@ -63,6 +63,31 @@
 |Condição para aprovado:| Registro na página de mensagem. |
 |Resultado:| Mensagem armazenada. |
 |Observação: | Visualizar detalhes da mensagem. |
+
+|Caso de Teste|CT-009|
+|-|-|
+|Requisitos que motivaram o teste:|**RNF-05:** Navegação Intuitiva  |
+|Objetivo do teste: | Proporcionar uma experiência de usuário intuitiva e fácil de navegar, com uma estrutura de menu lógica e botões claros, para facilitar a busca e a compra de produtos. |
+|Condição para aprovado:| Aceitação de dados inseridas pelo usuário. |
+|Resultado:| Aprovado, após ser armazenado os dados. |
+|Observação: ||
+
+|Caso de Teste|CT-010|
+|-|-|
+|Requisitos que motivaram o teste:|**RNF-05:** Experiência do Usuário (UX)  |
+|Objetivo do teste: | Garantir uma interface de usuário intuitiva, agradável e de fácil compreensão, promovendo uma experiência positiva e incentivando a interação contínua. |
+|Condição para aprovado:| Fácil percepção dos dados a ser inserido. |
+|Resultado:| Aprovado, após observado a percepção de dados inseridos no software. |
+|Observação: ||
+
+|Caso de Teste|CT-011|
+|-|-|
+|Requisitos que motivaram o teste:|**RNF-05:** Monitoramento e Análise   |
+|Objetivo do teste: | Integrar ferramentas de monitoramento para coletar dados sobre o comportamento dos usuários, possibilitando análises que orientem melhorias na experiência do cliente e na eficácia das estratégias de venda. |
+|Condição para aprovado:| Agrupamento de mensagens coordenadas por assuntos. |
+|Resultado:| Aprovado |
+|Observação: ||
+
 # Evidências de Testes de Software
 
 ## Evidência de Caso de Teste CT-001
@@ -110,16 +135,3 @@ O admin deve conseguir apagar um produto
 ![ApagarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Apagar.JPG)
 
 ---------------------------------------------------------
-Instruções
-
-
-
-# Planos de Testes de Software
-
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-# Evidências de Testes de Software
-
-Apresente imagens e/ou vídeos que comprovam que um determinado teste foi executado, e o resultado esperado foi obtido. Normalmente são screenshots de telas, ou vídeos do software em funcionamento.
