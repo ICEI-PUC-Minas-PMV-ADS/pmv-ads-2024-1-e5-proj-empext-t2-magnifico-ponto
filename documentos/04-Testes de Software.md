@@ -2,7 +2,7 @@
 
 |Caso de Teste|CT-001|
 |-|-|
-|Requisitos que motivaram o teste: |**RNF-001:**  A plataforma deve possuir uma página de login com usuário e senha.
+|Requisitos que motivaram o teste: |**RF-001:**  A plataforma deve possuir uma página de login com usuário e senha.
 |Objetivo do teste:| Averiguar funcionamento do cadastro ao popular banco de dados.|
 |Condição para aprovado: | Login e senha cadastrados no banco de dados a partir da página de login.|
 |Resultado:| Login e senha de novo usuário inserido no banco de dados.|
@@ -18,7 +18,7 @@
 
 |Caso de Teste|CT-003|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-001:** A plataforma fornecerá a funcionalidade para autenticação do usuário|
+|Requisitos que motivaram o teste:|**RF-001:** A plataforma fornecerá a funcionalidade para autenticação do usuário|
 |Objetivo do teste: | Averiguar que somente pessoas autorizadas tenham acesso ao sistema|
 |Condição para aprovado:| Inseridos usuário e senha errados, o usuário não deve acessar o sistema|
 |Resultado:| Bloqueio de credenciais não cadastrados.|
@@ -26,7 +26,7 @@
 
 |Caso de Teste|CT-004|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-011:** Garantir que a plataforma seja adaptável a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis. |
+|Requisitos que motivaram o teste:|**RF-011:** Garantir que a plataforma seja adaptável a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis. |
 |Objetivo do teste: | Todas as funcionalidades descritas no backlog funcionam em Android e iOS.|
 |Condição para aprovado:|Um usuário realizará todos os casos de teste descritos para os requisitos funcionais de RF-001 a RF-015 ao menos uma vez a partir de um aparelho iOS e um aparelho Android e todos devem ser aprovados. |
 |Resultado:| Aplicativo funcional nas plataformas Android e IOS|
@@ -34,7 +34,7 @@
 
 |Caso de Teste|CT-005|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-010:** Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. |
+|Requisitos que motivaram o teste:|**RF-010:** Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. |
 |Objetivo do teste: |Efetuar o cadastro de um produto e adiciona-lo ao banco de dados |
 |Condição para aprovado:| Produto devidamente cadastrado e presente no banco de dados|
 |Resultado:| Produto cadastrado com sucesso|
@@ -42,7 +42,7 @@
 
 |Caso de Teste|CT-006|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-010:** Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. |
+|Requisitos que motivaram o teste:|**RF-010:** Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. |
 |Objetivo do teste: |Efetuar a edição de um produto e atualizando as informações no banco de dados |
 |Condição para aprovado:| Produto devidamente editado e atualizado no banco de dados|
 |Resultado:| Produto editado com sucesso|
@@ -50,12 +50,19 @@
 
 |Caso de Teste|CT-007|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-010:** Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. |
+|Requisitos que motivaram o teste:|**RF-010:** Manter um controle preciso do estoque para evitar vendas de produtos esgotados e otimizar a logística de reposição. |
 |Objetivo do teste: |Efetuar a exclusão de um produto e apagando as informações no banco de dados |
 |Condição para aprovado:| Produto devidamente excluído e atualizado no banco de dados|
 |Resultado:| Produto editado com sucesso|
 |Observação: ||
 
+|Caso de Teste|CT-008|
+|-|-|
+|Requisitos que motivaram o teste:|**RF-009:** Suporte ao Cliente  |
+|Objetivo do teste: | Disponibilizar um canal de suporte eficiente, ou seja, e-mail ou telefone, para esclarecimento de dúvidas e resolução de problemas. |
+|Condição para aprovado:| Registro na página de mensagem. |
+|Resultado:| Mensagem armazenada. |
+|Observação: | Visualizar detalhes da mensagem. |
 # Evidências de Testes de Software
 
 ## Evidência de Caso de Teste CT-001
