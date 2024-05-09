@@ -60,21 +60,21 @@
 |-|-|
 |Requisitos que motivaram o teste:|**RF-009:** Suporte ao Cliente  |
 |Objetivo do teste: | Disponibilizar um canal de suporte eficiente, ou seja, e-mail ou telefone, para esclarecimento de dúvidas e resolução de problemas. |
-|Condição para aprovado:| Registro na página de mensagem. |
-|Resultado:| Mensagem armazenada. |
-|Observação: | Visualizar detalhes da mensagem. |
+|Condição para aprovado:| Registro das mensagens enviadas pelo usuário na página listagem de mensagens do administrador. |
+|Resultado:| Mensagem armazenada no banco de dados. |
+|Observação: ||
 
 |Caso de Teste|CT-009|
 |-|-|
 |Requisitos que motivaram o teste:|**RNF-05:** Navegação Intuitiva  |
 |Objetivo do teste: | Proporcionar uma experiência de usuário intuitiva e fácil de navegar, com uma estrutura de menu lógica e botões claros, para facilitar a busca e a compra de produtos. |
-|Condição para aprovado:| Aceitação de dados inseridas pelo usuário. |
-|Resultado:| Aprovado, após ser armazenado os dados. |
+|Condição para aprovado:| Renderização de campos com instruções de preenchimento.|
+|Resultado:| Aprovado e renderizado com sucesso. |
 |Observação: ||
 
 |Caso de Teste|CT-010|
 |-|-|
-|Requisitos que motivaram o teste:|**RNF-05:** Experiência do Usuário (UX)  |
+|Requisitos que motivaram o teste:|**RNF-09:** Experiência do Usuário (UX)  |
 |Objetivo do teste: | Garantir uma interface de usuário intuitiva, agradável e de fácil compreensão, promovendo uma experiência positiva e incentivando a interação contínua. |
 |Condição para aprovado:| Fácil percepção dos dados a ser inserido. |
 |Resultado:| Aprovado, após observado a percepção de dados inseridos no software. |
@@ -84,8 +84,8 @@
 |-|-|
 |Requisitos que motivaram o teste:|**RNF-10:** Monitoramento e Análise   |
 |Objetivo do teste: | Integrar ferramentas de monitoramento para coletar dados sobre o comportamento dos usuários, possibilitando análises que orientem melhorias na experiência do cliente e na eficácia das estratégias de venda. |
-|Condição para aprovado:| Agrupamento de mensagens coordenadas por assuntos. |
-|Resultado:| Aprovado |
+|Condição para aprovado:| Agrupamento de mensagens coordenadas por assuntos na página de listagem de mensagens do administrador.|
+|Resultado:| Aprovado e mensagens registradas no banco de dados com sucesso. |
 |Observação: ||
 
 # Evidências de Testes de Software
