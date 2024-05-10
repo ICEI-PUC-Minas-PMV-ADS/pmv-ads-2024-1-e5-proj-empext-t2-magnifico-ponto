@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MagnificoPonto.Models
 {
-    [Table("Contato")]
+    [Table("Contatos")]
     public class ContatoModel
     {
         public int Id { get; set; }
