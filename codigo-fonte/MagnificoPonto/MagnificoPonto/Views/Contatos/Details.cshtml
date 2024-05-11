@@ -4,10 +4,39 @@
     ViewData["Title"] = "Details";
 }
 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Magnífico Ponto - Contact Page</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+
+</head>
+
+<body>
+
 <h1>Details</h1>
 
 <div>
-    <h4>ContatoModel</h4>
+    <h3>Detalhes da mensagem</h3>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -43,6 +72,13 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Apagar mensagem" class="btn btn-danger" />
+        <a class="btn btn-secondary" asp-action="Index">Retornar para mensagens</a>
+    </form>
 </div>
+
+
+</body>
+</html>

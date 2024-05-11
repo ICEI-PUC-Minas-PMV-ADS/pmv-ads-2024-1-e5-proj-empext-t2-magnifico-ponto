@@ -4,28 +4,56 @@
     ViewData["Title"] = "Index";
 }
 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Magnífico Ponto - Contact Page</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+
+</head>
+
+<body>
+
 <h1>Index</h1>
+
+    <h5>Mensagens recebidas</h5>
 
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                @Html.DisplayNameFor(model => model.Nome) do usuário
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Assunto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Mensagem)
-            </th>
+            </th>            
             <th>
                 @Html.DisplayNameFor(model => model.CriadoEm)
-            </th>
-            <th></th>
+            </th>                
+            <th>Gerenciar mensagens</th>
         </tr>
     </thead>
     <tbody>
@@ -41,17 +69,17 @@
                 @Html.DisplayFor(modelItem => item.Assunto)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Mensagem)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.CriadoEm)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                @* <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> *@
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Visualizar</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Apagar</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+</body>
+</html>
