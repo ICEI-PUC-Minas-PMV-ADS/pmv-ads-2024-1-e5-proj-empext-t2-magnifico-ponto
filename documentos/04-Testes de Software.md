@@ -88,6 +88,14 @@
 |Resultado:| Aprovado e mensagens registradas no banco de dados com sucesso. |
 |Observação: ||
 
+|Caso de Teste|CT-012|
+|-|-|
+|Requisitos que motivaram o teste:|**RF-04:** Finalização de Compra e Pagamento	Oferecer uma experiência simplificada para a conclusão da compra, integrando métodos de pagamento seguros e eficientes.   |
+|Objetivo do teste: | Integrar ferramentas de pagamento que permita uso de cartão e pedido de reembolso |
+|Condição para aprovado:| Aprovação de uma compra, e registro de extorno|
+|Resultado:| Aprovado, a funcionalidade funcionou como esperado no teste |
+|Observação: ||
+
 # Evidências de Testes de Software
 
 ## Evidência de Caso de Teste CT-001
@@ -157,7 +165,9 @@ Apagando última mensagem na página de listagem de mensagens do administrador. 
 ![6  Mensagem apagada da listagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/b03b1826-82a4-4978-a57e-9bd2e046dab4)
 ![7  Mensagem apagada do banco de dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/0ebc7ee4-d770-4c97-8ff4-f74e359fdcae)
 
-
+## Evidência de Caso de Teste CT-011
+Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
+![Teste de pagamento]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/b03b1826-82a4-4978-a57e-9bd2e046dab4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/29d98f95297a4902df6ecbb9446d5fe859b3e69f/documentos/Testes/Pagamento_teste.mp4))
 
 
 
