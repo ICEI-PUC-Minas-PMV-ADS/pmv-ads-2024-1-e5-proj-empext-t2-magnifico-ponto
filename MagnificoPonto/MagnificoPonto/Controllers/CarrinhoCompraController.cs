@@ -1,6 +1,7 @@
 ﻿using MagnificoPonto.Models;
 using MagnificoPonto.Repositories.Interfaces;
 using MagnificoPonto.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MagnificoPonto.Controllers
@@ -30,6 +31,7 @@ namespace MagnificoPonto.Controllers
             return View(carrinhoCompraVM);
         }
 
+        [Authorize]
         public IActionResult AdicionarItemNoCarrinhoCompra (int amigurumiId)
         {
             var amigurumiSelecionado = _amigurumiRepository.Amigurumis
@@ -43,6 +45,7 @@ namespace MagnificoPonto.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize]
         public IActionResult RemoverItemNoCarrinhoCompra(int amigurumiId)
         {
             var amigurumiSelecionado = _amigurumiRepository.Amigurumis
