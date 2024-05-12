@@ -9,83 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MagnificoPonto
 build_property.RootNamespace = MagnificoPonto
-build_property.ProjectDir = C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto
+build_property.MSBuildProjectDirectory = C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Amigurumi/Details.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Amigurumi/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1pZ3VydW1pXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Amigurumi/List.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Amigurumi/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1pZ3VydW1pXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/CarrinhoCompra/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/CarrinhoCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Contato/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Home/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Home/TermosdeUso.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Home/TermosdeUso.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtb3NkZVVzby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Home/_IndexPartial.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Home/_IndexPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSW5kZXhQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Pedido/Checkout.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Pedido/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Pedido/CheckoutCompleto.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Pedido/CheckoutCompleto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0Q29tcGxldG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FycmluaG9Db21wcmFSZXN1bW9cRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/Components/CategoriaMenu/Default.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/Components/CategoriaMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmlhTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/Error.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_AmigurumisResumo.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_AmigurumisResumo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbWlndXJ1bWlzUmVzdW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_Carousel.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/_ViewImports.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/_ViewStart.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matheus.rosa/Desktop/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_Layout.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/Magnifico Ponto/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/MagnificoPonto/MagnificoPonto/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wjh13ctuhe
