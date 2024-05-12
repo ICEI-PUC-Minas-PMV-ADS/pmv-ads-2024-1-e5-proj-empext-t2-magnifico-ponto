@@ -259,3 +259,8 @@ C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\M
 C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.dll
 C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\refint\MagnificoPonto.dll
 C:\Users\matheus.rosa\Desktop\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\obj\Debug\net6.0\MagnificoPonto.pdb
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\Magnifico Ponto\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\MagnificoPonto\MagnificoPonto\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

@@ -2,6 +2,7 @@
 using MagnificoPonto.Models;
 using MagnificoPonto.Repositories;
 using MagnificoPonto.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace MagnificoPonto;
@@ -20,6 +21,10 @@ namespace MagnificoPonto;
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddIdentity<IdentityUser, IdentityRole>()
+            .AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
 
             services.AddTransient <IAmigurumiRepository, AmigurumiRepository>();
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
