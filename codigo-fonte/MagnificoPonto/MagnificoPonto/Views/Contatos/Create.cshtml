@@ -69,28 +69,23 @@
                         <form asp-action="Create" class="contact-form me-lg-5 pe-lg-3" role="form">
                             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                             <div class="form-floating">
-                                <input asp-for="Nome" type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
-
+                                <input asp-for="Nome" class="form-control" placeholder="Full name">
                                 <label asp-for="Nome" for="name">Nome completo</label>
                                 <span asp-validation-for="Nome" class="text-danger"></span>
-
                             </div>
 
                             <div class="form-floating my-4">
-                                <input asp-for="Email"  class="form-control" >
-
+                                <input asp-for="Email" class="form-control" placeholder="Email address">
                                 <label asp-for="Email" for="email">Endereço de e-mail</label>
                             </div>
 
                             <div class="form-floating my-4">
-                                <input asp-for="Assunto" type="subject" name="subject" id="subject" class="form-control" placeholder="Subject" required>
-
+                                <input asp-for="Assunto" class="form-control" placeholder="Subject">
                                 <label asp-for="Assunto" for="subject">Assunto: Dúvida / Encomenda / Outro</label>
                             </div>
 
                             <div class="form-floating mb-4">
-                                <textarea asp-for="Mensagem" id="message" name="message" class="form-control" placeholder="Leave a comment here" required style="height: 160px"></textarea>
-
+                                <textarea asp-for="Mensagem" class="form-control" placeholder="Leave a comment here" style="height: 160px"></textarea>
                                 <label asp-for="Mensagem" for="message">Sua mensagem aqui</label>
                             </div>
 
@@ -153,57 +148,3 @@
     <script src="~/front/js/custom.js"></script>
 </body>
 </html>
-
-
-@*
-
-<h1>Create</h1>
-
-<h4>ContatoModel</h4>
-<hr />
-
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Assunto" class="control-label"></label>
-                <input asp-for="Assunto" class="form-control" />
-                <span asp-validation-for="Assunto" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Mensagem" class="control-label"></label>
-                <input asp-for="Mensagem" class="form-control" />
-                <span asp-validation-for="Mensagem" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CriadoEm" class="control-label"></label>
-                <input asp-for="CriadoEm" class="form-control" />
-                <span asp-validation-for="CriadoEm" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-
-*@
