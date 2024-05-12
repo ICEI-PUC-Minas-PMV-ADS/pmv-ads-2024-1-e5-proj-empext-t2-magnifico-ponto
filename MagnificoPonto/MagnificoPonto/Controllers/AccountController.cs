@@ -50,5 +50,33 @@ namespace MagnificoPonto.Controllers
             ModelState.AddModelError("", "Falha ao realizar o login!");
             return View(loginVM);
         }
+
+        public IActionResult Register ()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(LoginViewModel registroVM)
+        {
+            if(ModelState.IsValid)
+            {
+                var user = new IdentityUser { UserName = registroVM.Username };
+                var result = await _userManager.CreateAsync(user, registroVM.Password);
+
+                if(result.Succeeded)
+                {
+                    //await _signInMaganer.SignInAsync(user, isPersistent: false); ja apresenta o formulario de login
+                    return RedirectToAction("Login", "Account");
+                }
+                else
+                {
+                    this.ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
+                }
+            }
+
+            return View(registroVM);
+        }
     }
 }
