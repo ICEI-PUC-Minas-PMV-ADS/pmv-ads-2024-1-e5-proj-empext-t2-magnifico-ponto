@@ -41,7 +41,7 @@
 <table id="Cadastro" class="table">
     <thead>
         <tr class="text-center align-middle">
-            <th>
+            <th class="text-center align-middle">
                 Foto
             </th>
             <th>
@@ -63,14 +63,9 @@
                 @Html.DisplayNameFor(model => model.Categoria)
             </th>            
             <th>
-                @Html.DisplayNameFor(model => model.TempoConfeccao)
+                @* @Html.DisplayNameFor(model => model.TempoConfeccao) *@ Confecção
             </th>
-            @*
-            <th>
-                @Html.DisplayNameFor(model => model.ProntaEntrega)
-            </th>
-            *@
-            <th>
+            <th class="text-center align-middle">
                  Gerenciar Produtos
             </th>
             <th></th>
@@ -78,7 +73,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-                <tr class="text-center align-middle">
+                <tr class="text-start align-middle">
             <td>
                 <img src="/Amigurumis/24e99f19-88b8-46b2-add8-f15bd4531dc5_Girafa.jpg" width="100" />
                 @*<img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" width="150" />*@
@@ -86,7 +81,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
-            <td>
+            <td class="text-start align-middle">
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </td>                
             <td>
