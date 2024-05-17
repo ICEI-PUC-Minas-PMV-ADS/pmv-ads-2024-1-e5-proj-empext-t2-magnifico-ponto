@@ -2,6 +2,7 @@
 using MagnificoPonto.Models;
 using MagnificoPonto.Repositories;
 using MagnificoPonto.Repositories.Interfaces;
+using MagnificoPonto.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -42,6 +43,8 @@ namespace MagnificoPonto;
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();
             services.AddTransient<IPedidoRepository, PedidoRepository>();
 
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
@@ -53,7 +56,9 @@ namespace MagnificoPonto;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app,
+                              IWebHostEnvironment env,
+                              ISeedUserRoleInitial seedUserRoleInitial)
         {
             if (env.IsDevelopment())
             {
@@ -72,12 +77,21 @@ namespace MagnificoPonto;
 
             app.UseRouting();
 
+            //cria os perfis
+            seedUserRoleInitial.SeedRoles();
+            //cria os usuários e atribui ao perfil
+            seedUserRoleInitial.SeedUsers();
+
             app.UseAuthentication();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "categoriaFiltro",
                     pattern: "Amigurumi/{action}/{categoria?}",

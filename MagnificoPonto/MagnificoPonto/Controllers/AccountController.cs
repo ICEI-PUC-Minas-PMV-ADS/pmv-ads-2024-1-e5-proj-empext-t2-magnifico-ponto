@@ -68,6 +68,7 @@ namespace MagnificoPonto.Controllers
                 if(result.Succeeded)
                 {
                     //await _signInMaganer.SignInAsync(user, isPersistent: false); ja apresenta o formulario de login
+                    await _userManager.AddToRoleAsync(user, "Member");
                     return RedirectToAction("Login", "Account");
                 }
                 else
