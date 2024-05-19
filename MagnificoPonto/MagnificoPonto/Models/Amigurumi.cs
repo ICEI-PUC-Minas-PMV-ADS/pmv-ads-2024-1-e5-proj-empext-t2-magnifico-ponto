@@ -11,12 +11,13 @@ namespace MagnificoPonto.Models
 
         [Required(ErrorMessage = "O nome do amigurumi deve ser informado")]
         [Display(Name = "Nome do Amigurumi")]
-        [StringLength(80, MinimumLength = 10, ErrorMessage = "O {0} deve ter no mínimo {1} e no máximo {2} caracteres")]
+        [MinLength(3, ErrorMessage = "Nome deve ter no mínimo {1} caracteres")]
+        [MaxLength(200, ErrorMessage = "Nome deve ter no máximo {1} caracteres")]
         public string Nome { get; set; }
 
         [Required (ErrorMessage = "Uma descrição detalhada deve ser adicionada")]
         [Display(Name = "Descrição Detalhada")]
-        [MinLength(20, ErrorMessage = "Descrição deve ter no mínimo {1} caracteres")]
+        [MinLength(2, ErrorMessage = "Descrição deve ter no mínimo {1} caracteres")]
         [MaxLength(200, ErrorMessage = "Descrição deve ter no máximo {1} caracteres")]
         public string Descricao { get; set; }
 

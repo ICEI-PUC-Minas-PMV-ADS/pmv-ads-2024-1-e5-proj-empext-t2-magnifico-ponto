@@ -1,0 +1,96 @@
+﻿@model IEnumerable<MagnificoPonto.Models.Amigurumi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Novo Amigurumi</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tamanho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagemUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagemThumbnailUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AmigurumiLancamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TempoConfec)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmEstoque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tamanho)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImagemUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImagemThumbnailUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AmigurumiLancamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TempoConfec)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmEstoque)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categoria.CategoriaNome)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AmigurumiId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.AmigurumiId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.AmigurumiId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
