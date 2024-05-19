@@ -56,7 +56,7 @@ namespace MagnificoPonto.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AmigurumiId,Nome,Descricao,Preco,Tamanho,ImagemUrl,ImagemThumbnailUrl,AmigurumiLancamento,EmEstoque,CategoriaId,TempoConfec")] Amigurumi amigurumi)
+        public async Task<IActionResult> Create([Bind("AmigurumiId,Nome,Descricao,Cor,Preco,Tamanho,ImagemUrl,ImagemThumbnailUrl,AmigurumiLancamento,EmEstoque,CategoriaId,TempoConfec")] Amigurumi amigurumi)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace MagnificoPonto.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AmigurumiId,Nome,Descricao,Preco,Tamanho,ImagemUrl,ImagemThumbnailUrl,AmigurumiLancamento,EmEstoque,CategoriaId,TempoConfec")] Amigurumi amigurumi)
+        public async Task<IActionResult> Edit(int id, [Bind("AmigurumiId,Nome,Descricao,Cor,Preco,Tamanho,ImagemUrl,ImagemThumbnailUrl,AmigurumiLancamento,EmEstoque,CategoriaId,TempoConfec")] Amigurumi amigurumi)
         {
             if (id != amigurumi.AmigurumiId)
             {
