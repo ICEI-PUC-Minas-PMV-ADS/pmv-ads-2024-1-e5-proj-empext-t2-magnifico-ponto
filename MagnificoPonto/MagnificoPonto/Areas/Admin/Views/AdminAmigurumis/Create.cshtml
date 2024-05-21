@@ -9,7 +9,7 @@
 <h4>Amigurumi</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-10">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -17,55 +17,74 @@
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Cor" class="control-label"></label>
                 <input asp-for="Cor" class="form-control" />
                 <span asp-validation-for="Cor" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Tamanho" class="control-label"></label>
                 <input asp-for="Tamanho" class="form-control" />
                 <span asp-validation-for="Tamanho" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Preco" class="control-label"></label>
                 <input asp-for="Preco" class="form-control" />
                 <span asp-validation-for="Preco" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="TempoConfec" class="control-label"></label>
                 <input asp-for="TempoConfec" class="form-control" />
                 <span asp-validation-for="TempoConfec" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="ImagemUrl" class="control-label"></label>
                 <input asp-for="ImagemUrl" class="form-control" />
                 <span asp-validation-for="ImagemUrl" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="ImagemThumbnailUrl" class="control-label"></label>
                 <input asp-for="ImagemThumbnailUrl" class="form-control" />
                 <span asp-validation-for="ImagemThumbnailUrl" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="AmigurumiLancamento" /> @Html.DisplayNameFor(model => model.AmigurumiLancamento)
-                </label>
+
+            <div class="row">
+                <div class="form-group form-check col-md-4">
+                    <label class="control-label">Marcar como Lançamento?</label>
+                    <br />
+                    <label class="form-check-label" style="padding-left: 20px">
+                        <input class="form-check-input" asp-for="AmigurumiLancamento" /> @Html.DisplayNameFor(model => model.AmigurumiLancamento)
+                    </label>
+                </div>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="EmEstoque" /> @Html.DisplayNameFor(model => model.EmEstoque)
-                </label>
+
+            <div class="row">
+                <div class="form-group form-check col-md-4">
+                    <label class="control-label">Marcar como Estoque?</label>
+                    <br />
+                    <label class="form-check-label" style="padding-left: 20px">
+                        <input class="form-check-input" asp-for="EmEstoque" /> @Html.DisplayNameFor(model => model.EmEstoque)
+                    </label>
+                </div>
             </div>
-            <div class="form-group">
+
+            <div class="form-group col-md-4">
                 <label asp-for="CategoriaId" class="control-label"></label>
                 <select asp-for="CategoriaId" class="form-control" asp-items="ViewBag.CategoriaId"></select>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

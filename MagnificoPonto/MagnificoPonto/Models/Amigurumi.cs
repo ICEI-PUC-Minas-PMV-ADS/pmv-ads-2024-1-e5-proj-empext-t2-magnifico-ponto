@@ -59,6 +59,7 @@ namespace MagnificoPonto.Models
         [NotMapped]
         public DateTime DataCriacao { get; set; }
 
+        [Display(Name = "Categorias")]
         public int CategoriaId { get; set; }
 
         public virtual Categoria Categoria { get; set;}
