@@ -5,6 +5,7 @@ using MagnificoPonto.Repositories.Interfaces;
 using MagnificoPonto.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
 
 namespace MagnificoPonto;
 
@@ -59,6 +60,12 @@ namespace MagnificoPonto;
             services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
             services.AddControllersWithViews();
+
+            services.AddPaging(options =>
+            {
+                options.ViewName = "Bootstrap4";
+                options.PageParameterName = "pageIndex";
+            });
 
             services.AddMemoryCache();
             services.AddSession();
