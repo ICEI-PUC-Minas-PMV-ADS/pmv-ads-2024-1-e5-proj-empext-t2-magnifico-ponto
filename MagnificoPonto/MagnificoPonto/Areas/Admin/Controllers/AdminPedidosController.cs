@@ -1,5 +1,6 @@
 ﻿using MagnificoPonto.Context;
 using MagnificoPonto.Models;
+using MagnificoPonto.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,29 @@ namespace MagnificoPonto.Areas.Admin.Controllers
         public AdminPedidosController(AppDbContext context)
         {
             _context = context;
+        }
+
+        public IActionResult PedidoAmigurumis (int? id)
+        {
+            var pedido = _context.Pedidos
+                        .Include(pd => pd.PedidoItens)
+                        .ThenInclude(a => a.Amigurumi)
+                        .FirstOrDefault(p => p.PedidoId == id);
+
+            if (pedido == null)
+            {
+                Response.StatusCode = 404;
+
+                return View("PedidoNotFound", id.Value);
+            }
+
+            PedidoAmigurumiViewModel pedidoAmigurumis = new PedidoAmigurumiViewModel()
+            {
+                Pedido = pedido,
+                PedidoDetalhes = pedido.PedidoItens
+            };
+
+            return View(pedidoAmigurumis);
         }
 
         // GET: Admin/AdminPedidos
