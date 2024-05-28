@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Data\\Migrations\\20240528190630_M3_CriacaoTabelaFormularioEntregas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MagnificoPonto\\Data\\Migrations\\20240528190630_M3_CriacaoTabelaFormularioEntregas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\controllers\\formularioentregascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\controllers\\formularioentregascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\models\\formularioentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\models\\formularioentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|c:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\magnificoponto\\magnificoponto\\views\\home\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E7E1B29B-FA5E-49A6-869C-73ED911D18CD}|MagnificoPonto\\MagnificoPonto.csproj|solutionrelative:magnificoponto\\views\\home\\termos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 250,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\appsettings.json",
+              "RelativeDocumentMoniker": "MagnificoPonto\\appsettings.json",
+              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\appsettings.json",
+              "RelativeToolTip": "MagnificoPonto\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-28T19:11:29.796Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -29,18 +62,74 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240528190630_M3_CriacaoTabelaFormularioEntregas.cs",
+              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Data\\Migrations\\20240528190630_M3_CriacaoTabelaFormularioEntregas.cs",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Data\\Migrations\\20240528190630_M3_CriacaoTabelaFormularioEntregas.cs",
+              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Data\\Migrations\\20240528190630_M3_CriacaoTabelaFormularioEntregas.cs",
+              "RelativeToolTip": "MagnificoPonto\\Data\\Migrations\\20240528190630_M3_CriacaoTabelaFormularioEntregas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T19:06:31.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormularioEntregasController.cs",
+              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Controllers\\FormularioEntregasController.cs",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Controllers\\FormularioEntregasController.cs",
+              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Controllers\\FormularioEntregasController.cs",
+              "RelativeToolTip": "MagnificoPonto\\Controllers\\FormularioEntregasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T19:04:06.421Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MagnificoPonto\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T19:00:07.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormularioEntrega.cs",
+              "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Models\\FormularioEntrega.cs",
+              "RelativeDocumentMoniker": "MagnificoPonto\\Models\\FormularioEntrega.cs",
+              "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Models\\FormularioEntrega.cs",
+              "RelativeToolTip": "MagnificoPonto\\Models\\FormularioEntrega.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:57:12.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Termos.cshtml",
               "DocumentMoniker": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Home\\Termos.cshtml",
               "RelativeDocumentMoniker": "MagnificoPonto\\Views\\Home\\Termos.cshtml",
               "ToolTip": "C:\\faculdade\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\Views\\Home\\Termos.cshtml",
               "RelativeToolTip": "MagnificoPonto\\Views\\Home\\Termos.cshtml",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAgwGABAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGABAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-25T20:19:30.169Z",
               "EditorCaption": ""
