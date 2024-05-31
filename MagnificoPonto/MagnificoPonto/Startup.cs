@@ -1,4 +1,5 @@
-﻿using MagnificoPonto.Context;
+﻿using MagnificoPonto.Areas.Admin.Services;
+using MagnificoPonto.Context;
 using MagnificoPonto.Models;
 using MagnificoPonto.Repositories;
 using MagnificoPonto.Repositories.Interfaces;
@@ -45,6 +46,7 @@ namespace MagnificoPonto;
             services.AddTransient<IPedidoRepository, PedidoRepository>();
 
             services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+            services.AddScoped<RelatorioVendasService>();
 
             services.AddAuthorization(options =>
             {

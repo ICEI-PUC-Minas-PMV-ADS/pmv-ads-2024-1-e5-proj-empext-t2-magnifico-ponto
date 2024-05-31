@@ -2,6 +2,7 @@
 
 namespace MagnificoPonto.Models
 {
+    [Table("PedidoDetalhes")]
     public class PedidoDetalhe
     {
         public int PedidoDetalheId { get; set; }
