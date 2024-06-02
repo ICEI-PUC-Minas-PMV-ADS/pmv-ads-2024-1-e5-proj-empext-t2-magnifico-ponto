@@ -21,4 +21,8 @@
     <PackageReference Include="ReflectionIT.Mvc.Paging" Version="6.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\produtos\" />
+  </ItemGroup>
+
 </Project>
