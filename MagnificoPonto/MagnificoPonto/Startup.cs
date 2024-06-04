@@ -50,6 +50,7 @@ namespace MagnificoPonto;
 
             services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
             services.AddScoped<RelatorioVendasService>();
+            services.AddScoped<GraficosVendasService>();
 
             services.AddAuthorization(options =>
             {

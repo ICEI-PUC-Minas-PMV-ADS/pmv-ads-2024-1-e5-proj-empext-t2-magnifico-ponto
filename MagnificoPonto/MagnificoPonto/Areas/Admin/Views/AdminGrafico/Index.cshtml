@@ -1,0 +1,60 @@
+﻿<title>
+    @ViewData["Title"] - Gráfico de Vendas
+</title>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+<script type="text/javascript">
+    google.charts.load('current', { 'packages': ['corechart'] });
+
+    google.charts.setOnLoadCallback(CarregaDados);
+
+    function CarregaDados() {
+        $.ajax({
+            url: '@Url.Action("VendasAmigurumis", "AdminGrafico")',
+            data: { dias: 360 },
+            dataType: "json",
+            type: "GET",
+            error: function (xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                toast.error(err.message);
+            },
+            success: function (data) {
+                GraficoVendasAmigurumis(data);
+                return false;
+            }
+        });
+
+        function GraficoVendasAmigurumis(data) {
+            var dataArray = [
+                ['Amigurumi', 'Quantidade', 'Valores(R$)']
+            ];
+            $.each(data, function (i, item) {
+                dataArray.push([item.amigurumiNome, item.amigrumisQuantidade, item.amigurumisValorTotal]);
+            });
+
+            var data = google.visualization.arrayToDataTable(dataArray);
+
+            var options = {
+                title: 'Amigurumis - Vendas nos últimos 360 dias',
+                chartArea: {
+                    width: '70%'
+                },
+                colors: ['#5202b5', '#d2a828'],
+                hAxis: {
+                    title: 'Valor Total (em Reais)',
+                    minValue: 0
+                },
+                vAxis: {
+                    title: 'Amigurumis'
+                }
+            };
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+            chart.draw(data, options);
+
+        }
+    }
+</script>
