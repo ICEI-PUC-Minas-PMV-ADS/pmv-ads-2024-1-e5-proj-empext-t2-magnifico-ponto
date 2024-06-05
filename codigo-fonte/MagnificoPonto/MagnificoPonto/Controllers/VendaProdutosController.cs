@@ -22,7 +22,8 @@ namespace MagnificoPonto.Controllers
         // GET: VendaProdutos
         public async Task<IActionResult> Index()
         {
-              return View(await _context.VendaProdutos.ToListAsync());
+            var listarProdutos = await _context.Produtos.ToListAsync();
+            return View(listarProdutos);
         }
 
         // GET: VendaProdutos/Details/5

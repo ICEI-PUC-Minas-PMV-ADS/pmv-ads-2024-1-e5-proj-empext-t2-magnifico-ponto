@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "54B85R3suhMLwpHoSNliJxISVqeGJW7ACrotzcMiuJs=",
+  "Hash": "04EkutXlCV/m65Bm6GIYqEiYh7VFZKZ93CGVjV+myo8=",
   "Source": "MagnificoPonto",
   "BasePath": "_content/MagnificoPonto",
   "Mode": "Default",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Amigurumis\\619712bc-090a-409c-9da3-b33b8ea1eb6b_Girafa.jpg"
+    },
+    {
+      "Identity": "C:\\Workspace\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\ecab1f8b-60c4-4bae-80f7-eef6a7a33325_Girafa.jpg",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "Amigurumis/ecab1f8b-60c4-4bae-80f7-eef6a7a33325_Girafa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\ecab1f8b-60c4-4bae-80f7-eef6a7a33325_Girafa.jpg"
     },
     {
       "Identity": "C:\\Workspace\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\site.css",
