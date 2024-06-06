@@ -158,5 +158,32 @@ namespace MagnificoPonto.Controllers
         {
           return _context.VendaProdutos.Any(e => e.Id == id);
         }
+
+
+        // Listagem de Produtos
+
+        public async Task<IActionResult> ListaProdutos()
+        {
+            var listarProdutos = await _context.Produtos.ToListAsync();
+            return View(listarProdutos);
+        }
+
+        // GET: Produtos/Details/5
+        public async Task<IActionResult> InfoProdutos(int? id)
+        {
+            if (id == null || _context.Produtos == null)
+            {
+                return NotFound();
+            }
+
+            var produtoModel = await _context.Produtos
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (produtoModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(produtoModel);
+        }
     }
 }
