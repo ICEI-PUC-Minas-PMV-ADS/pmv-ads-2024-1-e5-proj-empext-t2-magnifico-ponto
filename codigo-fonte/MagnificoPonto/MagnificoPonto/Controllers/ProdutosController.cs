@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -68,6 +68,7 @@ namespace MagnificoPonto.Controllers
                 foto.CopyTo(stream);
             }
 
+            produtoModel.ImageFileName = novoNomeParaImagem;
 
             if (ModelState.IsValid)
             {
