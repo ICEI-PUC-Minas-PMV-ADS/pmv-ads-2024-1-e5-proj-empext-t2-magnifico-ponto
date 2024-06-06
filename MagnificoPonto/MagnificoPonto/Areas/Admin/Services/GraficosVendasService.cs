@@ -1,5 +1,8 @@
 ﻿using MagnificoPonto.Context;
 using MagnificoPonto.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace MagnificoPonto.Areas.Admin.Services
 {

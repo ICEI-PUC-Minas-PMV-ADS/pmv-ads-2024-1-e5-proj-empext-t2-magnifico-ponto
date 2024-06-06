@@ -49,6 +49,34 @@
       "PackagePath": "staticwebassets\\images\\pato.jpg"
     },
     {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\carrinho.png",
+      "PackagePath": "staticwebassets\\images\\produtos\\carrinho.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\envelope.png",
+      "PackagePath": "staticwebassets\\images\\produtos\\envelope.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\faleconosco.png",
+      "PackagePath": "staticwebassets\\images\\produtos\\faleconosco.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\home.png",
+      "PackagePath": "staticwebassets\\images\\produtos\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\iconecarrinho.png",
+      "PackagePath": "staticwebassets\\images\\produtos\\iconecarrinho.png"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\stitch.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\stitch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\produtos\\whats.png",
+      "PackagePath": "staticwebassets\\images\\produtos\\whats.png"
+    },
+    {
       "Id": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\whats.png",
       "PackagePath": "staticwebassets\\images\\whats.png"
     },

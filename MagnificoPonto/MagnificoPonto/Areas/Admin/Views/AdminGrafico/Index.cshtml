@@ -7,7 +7,7 @@
 <div id="chart_div" style="width: 900px; height: 500px;"></div>
 
 <script type="text/javascript">
-    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.load('current', { 'packages': ['corechart', 'bar'] });
 
     google.charts.setOnLoadCallback(CarregaDados);
 
@@ -26,7 +26,7 @@
                 return false;
             }
         });
-
+    }
         function GraficoVendasAmigurumis(data) {
             var dataArray = [
                 ['Amigurumi', 'Quantidade', 'Valores(R$)']
@@ -56,5 +56,4 @@
             chart.draw(data, options);
 
         }
-    }
 </script>
