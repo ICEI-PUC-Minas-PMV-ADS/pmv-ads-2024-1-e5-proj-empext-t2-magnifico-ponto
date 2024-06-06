@@ -1,24 +1,25 @@
-﻿using Correios.Demo.Services.Models;
+using Correios.Demo.Services.Models;
 using Correios.Demo.Services;
 using MagnificoPonto.Models;
 using System.Text.RegularExpressions;
 
 namespace Correios.Demo
 {
-    public class CorreiosManager
+    public static class CorreiosManager
     {
-        private readonly string _correiosUrl = "https://api.correios.com.br";
+        private readonly static string _correiosUrl = "https://api.correios.com.br";
 
-        private readonly string _usuario = "15665423670"; // modificar depois
+        private readonly static string _usuario = "hgimporthom"; // modificar depois
 
-        private readonly string _codigoAcesso = "pcqtxcHBJZ62vq2abziGTlloAet7laTcqVZpzjNl"; // modificar depois
+        private readonly static string _codigoAcesso = "9QFAX2Sjr3uGB5OQrBhQvHSVG2uIzXxk1Jgkr7jc"; // modificar depois //XgcyoyuOak8Eu5XhopZwpBuFgIThHB5OiNPS6rGN
 
-        private readonly string _cartaoPostagem = "SEU CARTÁO POSTAGEM AQUI"; // modificar depois
-        private readonly string _codigoServicoContratoPAC = "03298";
-        private readonly string _codigoServicoContratoSedex = "03220";
-        private readonly string _codigoServicoContratoSedex10 = "03158";
-        private readonly string _codigoServicoContratoSedexHoje = "";
-        private readonly string _codigoServicoContratoMiniEnvio = "03450";
+
+        private readonly static string _cartaoPostagem = "0073249300"; // modificar depois
+        private readonly static string _codigoServicoContratoPAC = "03298";
+        private readonly static string _codigoServicoContratoSedex = "03220";
+        private readonly static string _codigoServicoContratoSedex10 = "03158";
+        private readonly static string _codigoServicoContratoSedexHoje = "";
+        private readonly static string _codigoServicoContratoMiniEnvio = "03450";
 
         //TODO: armazenar no banco de dados
         private static string _contrato;
@@ -26,28 +27,25 @@ namespace Correios.Demo
         private static string _token;
         private static DateTime _expiracaotokenUTC;
 
-        public List<string> CalcularPrecoPrazo(string cepOrigem, string cepDestino, List<ProdutoModel> itens)
+        public static List<string> CalcularPrecoPrazo(string cepOrigem, string cepDestino, ProdutoModel item)
         {
             var volume = (double)0;
 
             double peso = 0;
+            
+            var comprimentoItem = 2;
+            var larguraItem = 2;
+            var alturaItem = ExtrairNumero(item.Tamanho);
 
-            foreach (var item in itens)
-            {
-                var comprimentoItem = 2;
-                var larguraItem = 2;
-                var alturaItem = ExtrairNumero(item.Tamanho);
+            var volumeItem = (alturaItem * larguraItem * comprimentoItem);
 
-                var volumeItem = (alturaItem * larguraItem * comprimentoItem);
+            volume += volumeItem;
 
-                volume += volumeItem;
+            volume *= item.Quantidade;
 
-                volume *= item.Quantidade;
+            peso += item.Peso;
 
-                peso += item.Peso;
-
-                peso *= item.Quantidade;
-            }
+            peso *= item.Quantidade;
 
             double potencia = 1.0 / 3.0;
             double raizCubica = Math.Pow(Convert.ToDouble(volume), potencia);
@@ -61,7 +59,7 @@ namespace Correios.Demo
             return GetPrecoPrazo(cepOrigem, cepDestino, altura, largura, comprimento, peso);
         }
 
-        private List<string> GetPrecoPrazo(string cepOrigem, string cepDestino, decimal altura, decimal largura, decimal comprimento, double peso)
+        private static List<string> GetPrecoPrazo(string cepOrigem, string cepDestino, decimal altura, decimal largura, decimal comprimento, double peso)
         {
             var correiosService = new CorreiosService(_correiosUrl);
 
@@ -127,7 +125,7 @@ namespace Correios.Demo
             return opcoesEntrega;
         }
 
-        private void UpdateCorreiosToken(CorreiosService correiosService)
+        private static void UpdateCorreiosToken(CorreiosService correiosService)
         {
             var correiosToken = _token;
             var expiracaotokenUTC = _expiracaotokenUTC;
@@ -143,14 +141,14 @@ namespace Correios.Demo
             }
         }
 
-        private bool CorreiosTokenExpired(DateTime expiracaotokenUTC)
+        private static bool CorreiosTokenExpired(DateTime expiracaotokenUTC)
         {
             bool expired = (expiracaotokenUTC <= DateTime.UtcNow.AddMinutes(-30));
 
             return expired;
         }
 
-        private IList<string> BuildCodigoServicosContrato()
+        private static IList<string> BuildCodigoServicosContrato()
         {
             var codigos = new List<string>();
 
@@ -172,7 +170,7 @@ namespace Correios.Demo
             return codigos;
         }
 
-        private List<string> GerarOpcoesEntrega(IList<PrecoResponse> precos, IList<PrazoResponse> prazos)
+        private static List<string> GerarOpcoesEntrega(IList<PrecoResponse> precos, IList<PrazoResponse> prazos)
         {
             var opcoesEntrega = new List<string>();
 
@@ -199,7 +197,7 @@ namespace Correios.Demo
             return opcoesEntrega;
         }
 
-        private string ObterNomeServico(string codigoServico)
+        private static string ObterNomeServico(string codigoServico)
         {
             string nomeServico = string.Empty;
 
@@ -232,7 +230,7 @@ namespace Correios.Demo
             return nomeServico;
         }
 
-        private string ObterPrazoEntrega(PrazoResponse prazo)
+        private static string ObterPrazoEntrega(PrazoResponse prazo)
         {
             int diasEntrega = 0;
 
@@ -250,7 +248,7 @@ namespace Correios.Demo
             return prazoEntrega;
         }
 
-        private double ExtrairNumero(string input)
+        private static double ExtrairNumero(string input)
         {
             Match match = Regex.Match(input, @"(\d+(\.\d+)?)");
 
