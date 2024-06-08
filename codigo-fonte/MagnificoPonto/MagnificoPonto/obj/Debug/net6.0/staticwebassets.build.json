@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eoyFngtwBUZWOOBYcxVy4aBdxT9TN+GhSRSm3lKZJnQ=",
+  "Hash": "zeTJ22a5o9J/ktTAAUiHQ+4GBpTMH2N6yJBJre43T0o=",
   "Source": "MagnificoPonto",
   "BasePath": "_content/MagnificoPonto",
   "Mode": "Default",
@@ -1630,6 +1630,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\front\\images\\people\\KatiaKarine.jpeg"
+    },
+    {
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\KatiaKarine2.jpg",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "front/images/people/KatiaKarine2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\front\\images\\people\\KatiaKarine2.jpg"
     },
     {
       "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg",
