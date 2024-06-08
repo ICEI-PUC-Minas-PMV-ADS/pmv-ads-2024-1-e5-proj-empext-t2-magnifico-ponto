@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MagnificoPonto.Data;
 using MagnificoPonto.Models;
+using Correios.Demo;
 
 namespace MagnificoPonto.Controllers
 {
@@ -184,6 +185,23 @@ namespace MagnificoPonto.Controllers
             }
 
             return View(produtoModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Calculate(string id, string cepDestino)
+        {
+            string cepOrigem = "36070450";
+
+            ProdutoModel model = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == Convert.ToInt32(id));
+
+            if (cepDestino == null)
+                return RedirectToAction("InfoProdutos", new { id = model.Id });
+
+            var result = CorreiosManager.CalcularPrecoPrazo(cepOrigem, cepDestino, model);
+
+            TempData["Result"] = result;
+
+            return RedirectToAction("InfoProdutos", new { id = model.Id });
         }
     }
 }

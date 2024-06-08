@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rWHtDTV9ss2NVvcW+5/BqNf0YWmJi0HIwu+1yfZCgeQ=",
+  "Hash": "eoyFngtwBUZWOOBYcxVy4aBdxT9TN+GhSRSm3lKZJnQ=",
   "Source": "MagnificoPonto",
   "BasePath": "_content/MagnificoPonto",
   "Mode": "Default",
@@ -1195,12 +1195,12 @@
       "OriginalItemSpec": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MagnificoPonto.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\0f959775-d38c-4e71-ba61-d3690d4e8d6f_Macaco.jpg",
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG",
       "SourceId": "MagnificoPonto",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
       "BasePath": "_content/MagnificoPonto",
-      "RelativePath": "Amigurumis/0f959775-d38c-4e71-ba61-d3690d4e8d6f_Macaco.jpg",
+      "RelativePath": "Amigurumis/06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1211,15 +1211,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Amigurumis\\0f959775-d38c-4e71-ba61-d3690d4e8d6f_Macaco.jpg"
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG"
     },
     {
-      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\4d6da54f-9bdf-4780-9340-0b2330abc8e0_Mamute.JPG",
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg",
       "SourceId": "MagnificoPonto",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
       "BasePath": "_content/MagnificoPonto",
-      "RelativePath": "Amigurumis/4d6da54f-9bdf-4780-9340-0b2330abc8e0_Mamute.JPG",
+      "RelativePath": "Amigurumis/26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1230,15 +1230,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Amigurumis\\4d6da54f-9bdf-4780-9340-0b2330abc8e0_Mamute.JPG"
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg"
     },
     {
-      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\619712bc-090a-409c-9da3-b33b8ea1eb6b_Girafa.jpg",
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG",
       "SourceId": "MagnificoPonto",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
       "BasePath": "_content/MagnificoPonto",
-      "RelativePath": "Amigurumis/619712bc-090a-409c-9da3-b33b8ea1eb6b_Girafa.jpg",
+      "RelativePath": "Amigurumis/79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,26 +1249,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Amigurumis\\619712bc-090a-409c-9da3-b33b8ea1eb6b_Girafa.jpg"
-    },
-    {
-      "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\ecab1f8b-60c4-4bae-80f7-eef6a7a33325_Girafa.jpg",
-      "SourceId": "MagnificoPonto",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
-      "BasePath": "_content/MagnificoPonto",
-      "RelativePath": "Amigurumis/ecab1f8b-60c4-4bae-80f7-eef6a7a33325_Girafa.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Amigurumis\\ecab1f8b-60c4-4bae-80f7-eef6a7a33325_Girafa.jpg"
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG"
     },
     {
       "Identity": "D:\\Users\\Windows 10\\Desktop\\08.06.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\CoresCatalogo\\CoresCatalogo.pdf",

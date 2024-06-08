@@ -1,4 +1,5 @@
 ﻿@model MagnificoPonto.Models.ProdutoModel
+@*Venda*@
 
 @{
     ViewData["Title"] = "Details";
@@ -123,12 +124,18 @@
                             </div>                             
                          
 
-                            @*
+                            
                             <p>
-                                <a href="#" class="product-additional-link">Calcule a entrega</a>
-                                <a href="#" class="product-additional-link">Métodos de pagamento</a>
+                            <button type="submit" class="btn product-additional-link" data-bs-toggle="modal" data-bs-target="#myModal">Calcule a entrega</button>
+
+                            <button type="submit" class="btn product-additional-link">Métodos de pagamento</button>
+
+                            @if (TempData["Result"] != null)
+                            {
+                            <p>The result is: @TempData["Result"]</p>
+                            }
                             </p>
-                            *@
+                            
 
                         </div>
 
@@ -227,7 +234,34 @@
         </section>
 
     </main>
-    
+
+
+    <!-- DELIVERY MODAL -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Calcule a entrega</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="/ListarProdutos/Calculate" method="post">
+                        <input type="text" id="deliveryInput" name="cepDestino" placeholder="Digite o CEP">
+                        <input type="hidden" name="id" value="@Model.Id">
+                        <button type="submit">Calcular</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
 
     <!-- CART MODAL -->
     <div class="modal fade" id="cart-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
