@@ -4,44 +4,109 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Relatório de pedidos</h1>
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Magnífico Ponto - Produtos</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>Index</h1>
+
+    <h2 class="text-center align-middle">Relatório de vendas</h2>
 
 <p>
-    <a asp-action="Create">Inserir pedido externo</a>
+    <a class="btn btn-success" asp-action="Create">Adicionar venda externa</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="text-center align-middle">
+            <th>
+                @* @Html.DisplayNameFor(model => model.Nome) *@ Amigurumi
+            </th>            
+            <th>
+                @Html.DisplayNameFor(model => model.Cor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tamanho)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Quantidade)
             </th>
             <th>
+                @* @Html.DisplayNameFor(model => model.Preco) *@ Valor do pedido
+            </th>
+            @*
+            <th>
                 @Html.DisplayNameFor(model => model.Personalizacao)
             </th>
+            *@
             <th>
                 @Html.DisplayNameFor(model => model.CriadoEm)
             </th>
-            <th></th>
+            <th class="text-center align-middle">Registros de vendas</th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr class="text-center align-middle">
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.Cor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tamanho)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            @*
+            <td>
                 @Html.DisplayFor(modelItem => item.Personalizacao)
             </td>
+                *@
             <td>
                 @Html.DisplayFor(modelItem => item.CriadoEm)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Carrinho de compras</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalhes de pedidos</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Excluir pedidos</a>
+            <td class="text-center align-middle">
+                <div class="text-sm-left">
+                 @* <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">Editar</a> *@
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Detalhes da venda</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Apagar registro</a>
+                </div>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+
+</body>
+
+</html>

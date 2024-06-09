@@ -150,15 +150,27 @@ namespace MagnificoPonto.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Cor")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CriadoEm")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Personalizacao")
                         .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
+
+                    b.Property<string>("Tamanho")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
