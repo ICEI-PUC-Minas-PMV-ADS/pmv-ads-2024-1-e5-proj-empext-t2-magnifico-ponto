@@ -154,8 +154,23 @@ Responsividade da página contact, com a qual é possível enviar e-mail e consu
 ## Evidência de Caso de Teste CT-005
 O admin deve conseguir realizar o cadastro de produtos
 
-![CadastroProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Cadastro%20Novo%20Item.JPG)
-![CadastroProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Novo%20Item.JPG)
+![1 - Itens cadastrados antes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-1.JPG)
+1 - Itens cadastrados antes
+
+![2 - Cadastro de itens](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-2.JPG)
+2 - Cadastro de itens
+
+![3 - Cadastro de itens](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-3.JPG)
+3 - Cadastro de itens
+
+![4 - Itens cadastrados depois](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-4.JPG)
+4 - Itens cadastrados depois
+
+![5 - Itens cadastrados na galeria de produtos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-5.JPG)
+5 - Itens cadastrados na galeria de produtos
+
+![6 - Itens cadastrados BD 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-6.JPG)
+6 - Itens cadastrados BD
 
 ## Evidência de Caso de Teste CT-006
 O admin deve conseguir editar informações do produto
