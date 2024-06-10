@@ -23,8 +23,7 @@ namespace MagnificoPonto.Controllers
         // GET: VendaProdutos
         public async Task<IActionResult> Index()
         {
-            var listarProdutos = await _context.Produtos.ToListAsync();
-            return View(listarProdutos);
+              return View(await _context.VendaProdutos.ToListAsync());
         }
 
         // GET: VendaProdutos/Details/5
@@ -56,7 +55,7 @@ namespace MagnificoPonto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Preco,Cor,Tamanho,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +87,7 @@ namespace MagnificoPonto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Preco,Cor,Tamanho,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
         {
             if (id != vendaProdutosModel.Id)
             {
@@ -113,7 +112,7 @@ namespace MagnificoPonto.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Edit));  //return RedirectToAction(nameof(Index));
             }
             return View(vendaProdutosModel);
         }
@@ -159,7 +158,6 @@ namespace MagnificoPonto.Controllers
         {
           return _context.VendaProdutos.Any(e => e.Id == id);
         }
-
 
         // Listagem de Produtos
 

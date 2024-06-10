@@ -1,12 +1,8 @@
-﻿@model IEnumerable<MagnificoPonto.Models.ProdutoModel>
-@* @model IEnumerable<MagnificoPonto.Models.VendaProdutosModel> *@
+﻿@model IEnumerable<MagnificoPonto.Models.VendaProdutosModel>
 
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Lista de produtos</h1>
-
 
 <!doctype html>
 <html lang="pt-br">
@@ -36,81 +32,81 @@
 
 <body>
 
-    <section class="preloader">
-        <div class="spinner">
-            <span class="sk-inner-circle"></span>
-        </div>
-    </section>
+<h1>Index</h1>
 
-    <main>
+    <h2 class="text-center align-middle">Relatório de vendas</h2>
 
-        <header class="site-header section-padding d-flex justify-content-center align-items-center">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-10 col-12">
-                        <h1>
-                            <span class="d-block text-primary"> Conheça nossos</span>
-                            <span class="d-block text-dark">Produtos</span>
-                        </h1>
-                    </div>
+<p>
+    <a class="btn btn-success" asp-action="Create">Adicionar venda externa</a>
+</p>
+<table class="table">
+    <thead>
+        <tr class="text-center align-middle">
+            <th>
+                @* @Html.DisplayNameFor(model => model.Nome) *@ Amigurumi
+            </th>            
+            <th>
+                @Html.DisplayNameFor(model => model.Cor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tamanho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantidade)
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Preco) *@ Valor do pedido
+            </th>
+            @*
+            <th>
+                @Html.DisplayNameFor(model => model.Personalizacao)
+            </th>
+            *@
+            <th>
+                @Html.DisplayNameFor(model => model.CriadoEm)
+            </th>
+            <th class="text-center align-middle">Registros de vendas</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="text-center align-middle">
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.Cor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tamanho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            @*
+            <td>
+                @Html.DisplayFor(modelItem => item.Personalizacao)
+            </td>
+                *@
+            <td>
+                @Html.DisplayFor(modelItem => item.CriadoEm)
+            </td>
+            <td class="text-center align-middle">
+                <div class="text-sm-left">
+                 @* <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">Editar</a> *@
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Detalhes da venda</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Apagar registro</a>
                 </div>
-            </div>
-        </header>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
 
-        <section class="products section-padding">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12">
-                        <h2 class="mb-5">Catálogo Amigurumis</h2>
-                    </div>
-
-
-
-                    <!-- PRODUTO -->
-                    @foreach (var item in Model)
-                    {
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" class="img-fluid product-image" alt="">
-                                </a>
-
-                                <div class="product-top d-flex">
-                                    <span class="product-alert me-auto">Novos Produtos</span>
-                                    <a href="#" class="bi-heart-fill product-icon"></a>
-                                </div>
-
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(modelItem => item.Nome)</a>
-                                        </h5>
-                                        <a class="btn btn-success btn-sm" asp-action="InfoProdutos" asp-route-id="@item.Id">Ver detalhes</a>
-                                    </div>
-                                    <small class="product-price text-muted ms-auto">@Html.DisplayFor(modelItem => item.Preco)</small>
-                                </div>
-                            </div>
-                        </div>
-
-                    }
-
-                </div>
-            </div>
-
-        </section>
-
-    </main>
-
-    <!-- JAVASCRIPT FILES -->
-    <script src="~/front/js/jquery.min.js"></script>
-    <script src="~/front/js/bootstrap.bundle.min.js"></script>
-    <script src="~/front/js/Headroom.js"></script>
-    <script src="~/front/js/jQuery.headroom.js"></script>
-    <script src="~/front/js/slick.min.js"></script>
-    <script src="~/front/js/custom.js"></script>
 
 </body>
+
 </html>
