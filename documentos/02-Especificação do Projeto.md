@@ -127,6 +127,7 @@ Os requisitos funcionais e não funcionais principais a serem atendidos são apr
 |RF-013| Histórico de Compras | Permitir que os usuários acessem facilmente seu histórico de compras, incentivando a fidelização e simplificando futuras transações. | MÉDIA |
 |RF-014| Contador de tempo de confecção | Permitir que itens com estoque zerado sejam comprados, porém exibir o prazo para confecção e envio de acordo com as regras de negócio. | ALTA |
 |RF-015| Personalização dos amigurumis | Permitir que as cores e acessórios sejam personalizados, de acordo com o amigurumi. Pode ser feito por meio de seleção ou de envio de mensagem junto com o pedido. | ALTA | 
+|RF-016| Envio | Permitir o cliente insira o CEP e escolha a melhor opção de envio | ALTA | 
 
 
 
