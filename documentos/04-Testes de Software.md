@@ -114,8 +114,8 @@
 
 |Caso de Teste|CT-015|
 |-|-|
-|Requisitos que motivaram o teste:|**RF-002:** Apresentar de forma organizada e intuitiva o catálogo de amigurumis. Além dos produtos relacionados, possibilitando a busca, filtragem e visualização detalhada de cada item|
-|Objetivo do teste: | Edição do catalago dos itens e funcionalidade no banco de dados |
+|Requisitos que motivaram o teste:|**RF-015:** Permitir que as cores e acessórios sejam personalizados, de acordo com o amigurumi. Pode ser feito por meio de seleção ou de envio de mensagem junto com o pedido|
+|Objetivo do teste: | Personalização dos amigurumis. |
 |Condição para aprovado:| Salvamento no banco de dados|
 |Resultado:| Aprovado, a funcionalidade funcionou como esperado|
 |Observação: ||
