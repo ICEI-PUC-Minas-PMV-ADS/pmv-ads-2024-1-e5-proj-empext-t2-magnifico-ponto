@@ -112,6 +112,13 @@
 |Resultado:| Aprovado, a funcionalidade funcionou como esperado|
 |Observação: ||
 
+|Caso de Teste|CT-015|
+|-|-|
+|Requisitos que motivaram o teste:|**RF-002:** Apresentar de forma organizada e intuitiva o catálogo de amigurumis. Além dos produtos relacionados, possibilitando a busca, filtragem e visualização detalhada de cada item|
+|Objetivo do teste: | Edição do catalago dos itens e funcionalidade no banco de dados |
+|Condição para aprovado:| Salvamento no banco de dados|
+|Resultado:| Aprovado, a funcionalidade funcionou como esperado|
+|Observação: ||
 # Evidências de Testes de Software
 
 ## Evidência de Caso de Teste CT-001
