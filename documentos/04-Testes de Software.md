@@ -217,7 +217,7 @@ Evidências sobre Formulário Crud Dados de entrega do usuário. Imagens do Banc
 
 
 ## Evidência de Caso de Teste CT-014
-Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
+abaixo segue as imagens com a funcionalidade exigida
 
 ![Inserir CEP](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste14-1_Inserir_CEP.png)
 1 Inserir CEp
