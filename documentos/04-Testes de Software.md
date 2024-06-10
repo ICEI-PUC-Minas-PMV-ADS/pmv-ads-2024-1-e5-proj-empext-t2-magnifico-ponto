@@ -219,7 +219,11 @@ Evidências sobre Formulário Crud Dados de entrega do usuário. Imagens do Banc
 ## Evidência de Caso de Teste CT-014
 Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
 
-![Envio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/b0b7213275d62e78ea990ae77af32a3828aaf5d0/documentos/Testes/Envio_Teste_GIF.gif)
+![Inserir CEP](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste14-1_Inserir_CEP.png)
+1 Inserir CEp
+
+![Lista de Fretes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste14-2_Lista_de_frete.png)
+2 Lista de Opcoes de frete
 
 ## Evidências de Casos de Teste CT-015 
 
