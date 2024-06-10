@@ -206,7 +206,10 @@ Apagando última mensagem na página de listagem de mensagens do administrador. 
 ## Evidência de Caso de Teste CT-012
 Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
 
-![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/feee3183ef5c9bd4d9c79549e6e912913b4aa641/documentos/Testes/Pagamento_GIF.gif)
+![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/271de484ca9cacb98c902e9365bedd737b0a72c6/documentos/img/pagamento1.png)
+
+![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/271de484ca9cacb98c902e9365bedd737b0a72c6/documentos/img/pagamento2.png)
+
 
 ## Evidência de Caso de Teste CT-013
 Evidências sobre Formulário Crud Dados de entrega do usuário. Imagens do Banco de dados funcionando normalmente. 
