@@ -119,7 +119,31 @@
 
                                 @if (TempData["Result"] != null)
                                 {
-                                <p>The result is: @TempData["Result"]</p>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Serviço</th>
+                                                <th scope="col">Preço</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @{
+                                                var result = TempData["Result"].ToString();
+                                                var services = result.Split(new[] { "Serviço: " }, StringSplitOptions.RemoveEmptyEntries);
+                                                foreach (var service in services)
+                                                {
+                                                    var parts = service.Split(new[] { " Preço: " }, StringSplitOptions.None);
+                                                    if (parts.Length == 2)
+                                                    {
+                                                        <tr>
+                                                            <td>@parts[0]</td>
+                                                            <td>@parts[1]</td>
+                                                        </tr>
+                                                    }
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
                                 }
                             </p>
                         </div>
