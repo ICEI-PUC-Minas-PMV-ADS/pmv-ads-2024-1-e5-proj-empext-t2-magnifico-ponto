@@ -221,4 +221,13 @@ Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
 
 ![Envio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/b0b7213275d62e78ea990ae77af32a3828aaf5d0/documentos/Testes/Envio_Teste_GIF.gif)
 
+## Evidências de Casos de Teste CT-015 
+
+Informações sobre o produto cadastrado pela empresa, edição e personalização. 
+![1 - Pagina Inicial InfoProdutos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/a4e83487-76a2-45b2-937b-812790440485)
+![2 - Inclusão do catálogo de cores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/dd4708ac-0d82-4bfe-b186-9a616c5c824b)
+![3 - Seleção da quantidade e personalização do item](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/4bdf45ea-7de4-48fd-8a89-191dcf7dea7b)
+
+ 
+
 
