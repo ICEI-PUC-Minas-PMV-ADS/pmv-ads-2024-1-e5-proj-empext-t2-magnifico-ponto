@@ -122,20 +122,46 @@
 # Evidências de Testes de Software
 
 ## Evidência de Caso de Teste CT-001
-Podemos visualizar um usuário inserindo os dados para realizar o cadastro
+Podemos visualizar um usuário inserindo os dados para realizar o cadastro.
+
+|Caso de Teste| CT-001 - Podemos visualizar um usuário inserindo os dados para realizar o cadastro. |
+|-|-|
+|Desenvolvido por | Guilherme |
+|Testado por | Elder |
+
 ![Imagem cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/InserindoRegistro.JPG)
 Após a inserção dos dados, os mesmos sao inseridos no banco de dados
 ![Imagem BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/banco%20de%20dados%20login.jpg)
+
 ## Evidência de Caso de Teste CT-002
-Ao inserir os dados corretamentes o usuário poderá entrar na pagina inicial do site
+Ao inserir os dados corretamentes o usuário poderá entrar na pagina inicial do site.
+
+|Caso de Teste| CT-002 - Ao inserir os dados corretamentes o usuário poderá entrar na pagina inicial do site.
+ |
+|-|-|
+|Desenvolvido por | Arthur |
+|Testado por | Franciele |
+
 ![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Fazendo%20Login.JPG)
 ![AutenticacaoHome](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Usuario%20Logado.JPG)
-## Evidência de Caso de Teste CT-003
-Caso o usuário insira os dados incorretamente ou não insira os dados não poderá ser redirecionado para a Home
-![Validação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Validação%20de%20inputs%20Login.JPG)
-## Evidência de Caso de Teste CT-004
 
+## Evidência de Caso de Teste CT-003
+Caso o usuário insira os dados incorretamente ou não insira os dados não poderá ser redirecionado para a Home.
+
+|Caso de Teste| CT-003 - Caso o usuário insira os dados incorretamente ou não insira os dados não poderá ser redirecionado para a Home. |
+|-|-|
+|Desenvolvido por | Matheus |
+|Testado por | Guilherme |
+
+![Validação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Validação%20de%20inputs%20Login.JPG)
+
+## Evidência de Caso de Teste CT-004
 Responsividade da página index / home (página principal da aplicação)
+
+|Caso de Teste| CT-004 - Responsividade da página index / home (página principal da aplicação) |
+|-|-|
+|Desenvolvido por | Anna |
+|Testado por | Elder |
 
 ![Responsividade da página Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/d3e72c0727efbef3a5ef634de40a3e4893c6ca99/documentos/Testes/Index.gif)
 
@@ -152,7 +178,12 @@ Responsividade da página contact, com a qual é possível enviar e-mail e consu
 ![Responsividade da página Contact](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/d3e72c0727efbef3a5ef634de40a3e4893c6ca99/documentos/Testes/about.gif)
 
 ## Evidência de Caso de Teste CT-005
-O admin deve conseguir realizar o cadastro de produtos
+O admin deve conseguir realizar o cadastro de produtos.
+
+|Caso de Teste| CT-005 -  admin deve conseguir realizar o cadastro de produtos. |
+|-|-|
+|Desenvolvido por | Elder |
+|Testado por | Matheus |
 
 ![1 - Itens cadastrados antes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste5-1.JPG)
 1 - Itens cadastrados antes
@@ -173,26 +204,47 @@ O admin deve conseguir realizar o cadastro de produtos
 6 - Itens cadastrados BD
 
 ## Evidência de Caso de Teste CT-006
-O admin deve conseguir editar informações do produto
+O admin deve conseguir editar informações do produto.
+
+|Caso de Teste| CT-006 - O admin deve conseguir editar informações do produto. |
+|-|-|
+|Desenvolvido por | Franciele |
+|Testado por | Guilherme |
 
 ![EditarProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Editar%20Item.JPG)
 ![EditarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Editado.JPG)
 ![EditarDetalhes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Detalhes.JPG)
 
 ## Evidência de Caso de Teste CT-007
-O admin deve conseguir apagar um produto
+O admin deve conseguir apagar um produto.
+
+|Caso de Teste|CT-007 - O admin deve conseguir apagar um produto. |
+|-|-|
+|Desenvolvido por | Arthur |
+|Testado por | Elder |
 
 ![ApagarProduto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Apagar%20Item.JPG)
 ![ApagarProdutoBD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/Index%20Apagar.JPG)
 
-## Evidência de Caso de Teste CT-008, CT-009 e CT-010.<br/>
+## Evidência de Caso de Teste CT-008, CT-009 e CT-010.
 Registra na página de mensagem, Aceitação de dados inseridas pelo usuário e Experiência do Usuário (UX).
+
+|Caso de Teste|CT-008, CT-009 E CT-010 - Registra na página de mensagem, Aceitação de dados inseridas pelo usuário e Experiência do Usuário (UX). |
+|-|-|
+|Desenvolvido por | Anna |
+|Testado por | Matheus |
 
 ![1  Página de contato direto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/8c65cebb-b6a3-49e1-93db-7aa9c38c53b9)
 ![2  Teste de envio de mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/fde35f81-d29f-4d68-8957-e913a322065c)
 
 ## Evidência de Caso de Teste CT-011
 Agrupamento de mensagens coordenadas por assuntos
+
+|Caso de Teste|CT-011 - grupamento de mensagens coordenadas por assuntos. |
+|-|-|
+|Desenvolvido por | Elder |
+|Testado por | Anna |
+
 
 ![3  Listagem de mensagens](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/bee919d0-e9b2-4a46-8c46-9e28ead3fce2)
 ![4  Visualização da mensagem](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/d6a1faab-910d-49e9-8ac6-505efa850055)
@@ -206,6 +258,11 @@ Apagando última mensagem na página de listagem de mensagens do administrador. 
 ## Evidência de Caso de Teste CT-012
 Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
 
+|Caso de Teste|CT-012 - Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida. |
+|-|-|
+|Desenvolvido por | Franciele |
+|Testado por | Guilherme |
+
 ![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/271de484ca9cacb98c902e9365bedd737b0a72c6/documentos/img/pagamento1.png)
 
 ![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/271de484ca9cacb98c902e9365bedd737b0a72c6/documentos/img/pagamento2.png)
@@ -213,6 +270,12 @@ Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
 
 ## Evidência de Caso de Teste CT-013
 Evidências sobre Formulário Crud Dados de entrega do usuário. Imagens do Banco de dados funcionando normalmente. 
+
+|Caso de Teste|CT-013 - Evidências sobre Formulário Crud Dados de entrega do usuário. Imagens do Banco de dados funcionando normalmente. |
+|-|-|
+|Desenvolvido por | Anna |
+|Testado por | Elder |
+
 ![4 - Dados no BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/8eed2750-8854-4d6a-af56-50a87f454e65)
 ![3 - Dados registrado no site](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/70e3e3b0-c1cb-42ee-abd4-bf2c7b6a249d)
 ![2 - Inserindo Dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/95801b80-58e3-4b06-a2cd-3271c3d28ed0)
@@ -222,6 +285,11 @@ Evidências sobre Formulário Crud Dados de entrega do usuário. Imagens do Banc
 ## Evidência de Caso de Teste CT-014
 abaixo segue as imagens com a funcionalidade exigida
 
+|Caso de Teste|CT-014 - Abaixo segue as imagens com a funcionalidade exigida |
+|-|-|
+|Desenvolvido por | Guilherme |
+|Testado por | Franciele |
+
 ![Inserir CEP](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/main/documentos/img/teste14-1_Inserir_CEP.png)
 1 Inserir CEp
 
@@ -229,6 +297,10 @@ abaixo segue as imagens com a funcionalidade exigida
 2 Lista de Opcoes de frete
 
 ## Evidências de Casos de Teste CT-015 
+|Caso de Teste|CT-015 - Informações sobre o produto cadastrado pela empresa, edição e personalização. |
+|-|-|
+|Desenvolvido por | Arthur |
+|Testado por | Matheus |
 
 Informações sobre o produto cadastrado pela empresa, edição e personalização. 
 ![1 - Pagina Inicial InfoProdutos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/102244252/a4e83487-76a2-45b2-937b-812790440485)
