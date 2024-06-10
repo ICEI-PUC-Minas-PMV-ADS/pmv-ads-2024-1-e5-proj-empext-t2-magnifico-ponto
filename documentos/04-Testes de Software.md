@@ -96,6 +96,14 @@
 |Resultado:| Aprovado, a funcionalidade funcionou como esperado no teste |
 |Observação: ||
 
+|Caso de Teste|CT-013|
+|-|-|
+|Requisitos que motivaram o teste:|**RF-006:** Permitir que os usuários personalizem seus perfis, incluindo informações de endereço de entrega, histórico de pedidos e preferências de comunicação.|
+|Objetivo do teste: |Efetuar a edição do usuário e atualizando as informações no banco de dados |
+|Condição para aprovado:| Usuário devidamente editado e atualizado no banco de dados|
+|Resultado:| Usuário editado com sucesso|
+|Observação: ||
+
 # Evidências de Testes de Software
 
 ## Evidência de Caso de Teste CT-001
