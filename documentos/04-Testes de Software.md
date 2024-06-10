@@ -183,12 +183,10 @@ Apagando última mensagem na página de listagem de mensagens do administrador. 
 
 ## Evidência de Caso de Teste CT-012
 Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
-![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/d3e72c0727efbef3a5ef634de40a3e4893c6ca99/documentos/Testes/Pagamento_GIF.gif)
+
+![Pagamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/feee3183ef5c9bd4d9c79549e6e912913b4aa641/documentos/Testes/Pagamento_GIF.gif)
 
 ## Evidência de Caso de Teste CT-014
 Vídeo com o funcionamento adequado da funcionalidade tal como desenvolvida.
-![Envio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/d3e72c0727efbef3a5ef634de40a3e4893c6ca99/documentos/Testes/Envio_Teste_GIF.gif)
 
-
-
----------------------------------------------------------
+![Envio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/blob/b0b7213275d62e78ea990ae77af32a3828aaf5d0/documentos/Testes/Envio_Teste_GIF.gif)
