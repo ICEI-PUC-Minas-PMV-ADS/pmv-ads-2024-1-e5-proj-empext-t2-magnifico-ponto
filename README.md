@@ -47,4 +47,6 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Apresentação
 
+O desenvolvimento de um website para a venda de Amigurumis artesanais marca um avanço significativo para a Magnífico Ponto, uma encantadora loja criada e mantida pelas talentosas artesãs mãe e filha, Katia e Karine. Até o momento, a Magnífico Ponto tem utilizado o Instagram como principal canal de vendas, mas a criação de um site próprio tornou-se essencial para profissionalizar e ampliar suas operações comerciais. O novo website não apenas funcionará como uma plataforma abrangente de gerenciamento de vendas, oferecendo um catálogo detalhado dos produtos e um processo de checkout seguro, mas também será totalmente responsivo, proporcionando uma experiência de compra otimizada em computadores e dispositivos móveis. Com essa iniciativa estratégica, almeja-se aumentar significativamente a visibilidade da loja, oferecendo aos clientes uma experiência de compra mais agradável e eficiente. Este projeto está em perfeita consonância com os objetivos de crescimento e profissionalização da Magnífico Ponto, posicionando-a para um futuro de sucesso e expansão.
+
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
