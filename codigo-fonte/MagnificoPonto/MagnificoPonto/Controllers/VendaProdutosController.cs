@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MagnificoPonto.Data;
 using MagnificoPonto.Models;
-using Correios.Demo;
+using MagnificoPonto.Services.Models;
+using MagnificoPonto.Services;
+using Newtonsoft.Json;
 
 namespace MagnificoPonto.Controllers
 {
@@ -23,8 +25,7 @@ namespace MagnificoPonto.Controllers
         // GET: VendaProdutos
         public async Task<IActionResult> Index()
         {
-            var listarProdutos = await _context.Produtos.ToListAsync();
-            return View(listarProdutos);
+              return View(await _context.VendaProdutos.ToListAsync());
         }
 
         // GET: VendaProdutos/Details/5
@@ -56,7 +57,7 @@ namespace MagnificoPonto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Preco,Cor,Tamanho,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +89,7 @@ namespace MagnificoPonto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Preco,Cor,Tamanho,Quantidade,Personalizacao,CriadoEm")] VendaProdutosModel vendaProdutosModel)
         {
             if (id != vendaProdutosModel.Id)
             {
@@ -113,7 +114,7 @@ namespace MagnificoPonto.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Edit));  //return RedirectToAction(nameof(Index));
             }
             return View(vendaProdutosModel);
         }
@@ -160,7 +161,6 @@ namespace MagnificoPonto.Controllers
           return _context.VendaProdutos.Any(e => e.Id == id);
         }
 
-
         // Listagem de Produtos
 
         public async Task<IActionResult> ListaProdutos()
@@ -190,26 +190,17 @@ namespace MagnificoPonto.Controllers
         [HttpPost]
         public async Task<IActionResult> Calculate(string id, string cepDestino)
         {
-            string cepOrigem = "36070450";
-
             ProdutoModel model = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == Convert.ToInt32(id));
 
             if (cepDestino == null)
                 return RedirectToAction("InfoProdutos", new { id = model.Id });
 
-            var result = CorreiosManager.CalcularPrecoPrazo(cepOrigem, cepDestino, model);
+            var result = await MelhorEnvioService.teste(model, cepDestino);
+            List<MelhorEnvioResponse> rootList = JsonConvert.DeserializeObject<List<MelhorEnvioResponse>>(result.Content);
 
             TempData["Result"] = result;
 
             return RedirectToAction("InfoProdutos", new { id = model.Id });
-        }
-
-
-        public ActionResult CriaProdutos()
-        {
-            var model = new VendaProdutosCreateModel();
-            
-            return View(model);
         }
     }
 }
