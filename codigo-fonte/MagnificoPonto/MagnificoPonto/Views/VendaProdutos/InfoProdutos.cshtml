@@ -305,7 +305,10 @@
 
                 <div class="modal-footer">
                     <div class="row w-50">
-                        <button type="button" class="btn custom-btn cart-btn ms-lg-4">Adicionar ao carrinho</button>
+                        <form method="post" asp-controller="ShoppingCart" asp-action="AddToCart">
+                            <input type="hidden" name="id" value="@Model.Id" />
+                            <button type="submit" class="btn custom-btn cart-btn ms-lg-4">Adicionar ao carrinho</button>
+                        </form>
                     </div>
                 </div>
             </div>

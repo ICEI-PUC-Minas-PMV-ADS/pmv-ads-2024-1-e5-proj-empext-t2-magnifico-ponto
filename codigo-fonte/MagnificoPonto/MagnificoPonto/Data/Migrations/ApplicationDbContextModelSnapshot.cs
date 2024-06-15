@@ -22,6 +22,32 @@ namespace MagnificoPonto.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("MagnificoPonto.Models.CartItem", b =>
+                {
+                    b.Property<int>("CartItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartItemId"), 1L, 1);
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ShoppingCartId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CartItemId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("ShoppingCartId");
+
+                    b.ToTable("CartItem");
+                });
+
             modelBuilder.Entity("MagnificoPonto.Models.ContatoModel", b =>
                 {
                     b.Property<int>("Id")
@@ -142,6 +168,19 @@ namespace MagnificoPonto.Data.Migrations
                     b.ToTable("Cadastro de Produtos");
                 });
 
+            modelBuilder.Entity("MagnificoPonto.Models.ShoppingCart", b =>
+                {
+                    b.Property<int>("ShoppingCartId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCartId"), 1L, 1);
+
+                    b.HasKey("ShoppingCartId");
+
+                    b.ToTable("ShoppingCarts");
+                });
+
             modelBuilder.Entity("MagnificoPonto.Models.VendaProdutosModel", b =>
                 {
                     b.Property<int>("Id")
@@ -150,29 +189,22 @@ namespace MagnificoPonto.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Cor")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("CriadoEm")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Personalizacao")
                         .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int?>("ProdutosId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
 
-                    b.Property<string>("Tamanho")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("ProdutosId");
 
                     b.ToTable("VendaProdutos");
                 });
@@ -379,6 +411,32 @@ namespace MagnificoPonto.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MagnificoPonto.Models.CartItem", b =>
+                {
+                    b.HasOne("MagnificoPonto.Models.ProdutoModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
+
+                    b.HasOne("MagnificoPonto.Models.ShoppingCart", "ShoppingCart")
+                        .WithMany("CartItems")
+                        .HasForeignKey("ShoppingCartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("ShoppingCart");
+                });
+
+            modelBuilder.Entity("MagnificoPonto.Models.VendaProdutosModel", b =>
+                {
+                    b.HasOne("MagnificoPonto.Models.ProdutoModel", "Produtos")
+                        .WithMany()
+                        .HasForeignKey("ProdutosId");
+
+                    b.Navigation("Produtos");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -428,6 +486,11 @@ namespace MagnificoPonto.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MagnificoPonto.Models.ShoppingCart", b =>
+                {
+                    b.Navigation("CartItems");
                 });
 #pragma warning restore 612, 618
         }

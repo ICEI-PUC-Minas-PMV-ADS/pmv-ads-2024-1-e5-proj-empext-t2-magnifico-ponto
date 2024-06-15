@@ -15,5 +15,6 @@ namespace MagnificoPonto.Data
         public DbSet<ContatoModel> Contatos { get; set; }
         public DbSet<FormularioEntrega> FormularioEntregas { get; set; }
         public DbSet<VendaProdutosModel> VendaProdutos { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
     }
 }

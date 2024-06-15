@@ -1,10 +1,8 @@
+using Correios.Demo;
 using MagnificoPonto.Data;
 using MagnificoPonto.Models;
-using MagnificoPonto.Services;
-using MagnificoPonto.Services.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
 
 namespace MagnificoPonto.Controllers
 {
@@ -42,26 +40,18 @@ namespace MagnificoPonto.Controllers
         [HttpPost]
         public async Task<IActionResult> Calculate(string id, string cepDestino)
         {
+            string cepOrigem = "36070450";
+
             ProdutoModel model = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == Convert.ToInt32(id));
 
             if (cepDestino == null)
                 return RedirectToAction("InfoProdutos", new { id = model.Id });
 
-            var result = await MelhorEnvioService.teste(model, cepDestino);
-            List<MelhorEnvioResponse> rootList = JsonConvert.DeserializeObject<List<MelhorEnvioResponse>>(result.Content);
-            string valueToShow = "";
+            var result = CorreiosManager.CalcularPrecoPrazo(cepOrigem, cepDestino, model); 
 
-            foreach(var item in rootList)
-            {
-                valueToShow += $"Servi�o: {item.name} \n Pre�o: {item.price} \n";
-            }
+            TempData["Result"] = result;
 
-            TempData["Result"] = valueToShow;
-
-            return RedirectToAction("InfoProdutos", new { id = model.Id });
+            return RedirectToAction("InfoProdutos", new { id = model.Id }); 
         }
     }
 }
-
-
-

@@ -8,12 +8,8 @@ namespace MagnificoPonto.Models
     {
         [Key]
         public int Id { get; set; }
-        public string Nome { get; set; }
 
-        [Display(Name = "Preço")]
-        public decimal Preco { get; set; }
-        public string Cor { get; set; }
-        public string Tamanho { get; set; }
+        public ProdutoModel Produtos { get; set; }
 
 
         [Display(Name = "Quantidade")]

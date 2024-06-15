@@ -11434,19 +11434,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mfern\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows 10\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+      "projectUniqueName": "C:\\Workspace\\Alterar\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
       "projectName": "MagnificoPonto",
-      "projectPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
-      "packagesPath": "C:\\Users\\mfern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 5\\Magnifico Ponto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\",
+      "projectPath": "C:\\Workspace\\Alterar\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\Alterar\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mfern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11454,6 +11461,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11522,7 +11530,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
