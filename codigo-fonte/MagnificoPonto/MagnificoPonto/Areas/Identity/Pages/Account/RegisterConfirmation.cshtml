@@ -4,11 +4,15 @@
     ViewData["Title"] = "Novo usuário cadastrado com sucesso!";
 }
 
-<h1>@ViewData["Title"]</h1>
+<span class="mt-5">
+    <br />
+    <br />
+    <br />
+</span>
 
 
-<h6 class="row justify-content-center text-dark">@ViewData["Title"]</h6>
-<br />
+
+<h3 class="row justify-content-center text-dark my-5">@ViewData["Title"]</h3>
 
 
 <!doctype html>
@@ -44,9 +48,19 @@
     <main>
         @{
             if (@Model.DisplayConfirmAccountLink)
-            {
-                <div class="my-8">
-                    <h5>Seja muito bem-vindo ao Magnífico Ponto!</h5>
+            {            
+                    
+
+                    <div class="text-center justify-content-end">
+                    <img src="~/front/images/slideshow/boneca margarida 2.jpg" width="300"/>"
+                </div>
+                <div class="text-center justify-content-end">
+                    <a class="btn btn-success btn-lg mt-5" id="confirm-link" href="@Model.EmailConfirmationUrl">
+                        Clique aqui para continuar
+                    </a>
+                </div>
+                @*
+                    <div class="my-8">
                     <p>
                         É um prazer imenso recebê-lo em nossa comunidade de compras online. Aqui no Magnífico Ponto, estamos
                         empenhados em oferecer a você uma experiência de compra única e excepcional. Desde amigurumis artesanais
@@ -70,12 +84,7 @@
                     </p>
                     <p>Atenciosamente,<br>Equipe Magnífico Ponto</p>
                 </div>
-                <div class="text-center justify-content-center">
-                    <a class="btn btn-success" id="confirm-link" asp-area="Identity" asp-page="/Account/Login">
-                        Clique aqui para realizar login no
-                        site
-                    </a>
-                </div>
+                *@
             }
 
             @*

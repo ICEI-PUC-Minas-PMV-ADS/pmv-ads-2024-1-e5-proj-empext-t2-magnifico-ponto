@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fXTNpCdYJ8ShUOjiyBRkKNSmBnmFzAq7c4G0HgUZUWf42f43Z8pvJ45lEExiC+7vT0+zundOO3P7Rc/BmY2Q1g==",
+  "dgSpecHash": "RylG4aHcQFwD5YAojKJvEVAPi59e+tGifNbAul/dPNNTTrGwe+JHlAgyiC+fBn92/DSZL0nURZ8Zu7QSFXduGA==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Alterar\\MagnificoPonto\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+  "projectFilePath": "C:\\Workspace\\15.06\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 10\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

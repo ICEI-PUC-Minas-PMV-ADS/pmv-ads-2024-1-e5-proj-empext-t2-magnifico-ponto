@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MagnificoPonto.Data;
 using MagnificoPonto.Models;
+using System.Reflection;
 
 namespace MagnificoPonto.Controllers
 {
@@ -97,8 +98,7 @@ namespace MagnificoPonto.Controllers
 
         // POST: Produtos/Edit/5        
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Quantidade,Peso,Cor,Tamanho,Preco,Categoria,Descrição,TempoConfeccao,ProntaEntrega,ImageFileName")] ProdutoModel produtoModel)
+        public async Task<IActionResult> Edit(int id, ProdutoModel produtoModel, IFormFile foto)
         {
             if (id != produtoModel.Id)
             {
@@ -107,6 +107,21 @@ namespace MagnificoPonto.Controllers
 
             if (ModelState.IsValid)
             {
+                string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
+                string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+
+                if (!Directory.Exists(caminhoParaSalvarImagem))
+                {
+                    Directory.CreateDirectory(caminhoParaSalvarImagem);
+                }
+
+                using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+                {
+                    foto.CopyTo(stream);
+                }
+
+                produtoModel.ImageFileName = novoNomeParaImagem;
+
                 try
                 {
                     _context.Update(produtoModel);
