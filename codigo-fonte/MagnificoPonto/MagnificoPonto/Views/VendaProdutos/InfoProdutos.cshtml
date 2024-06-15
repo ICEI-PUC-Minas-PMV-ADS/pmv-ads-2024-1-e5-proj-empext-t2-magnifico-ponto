@@ -44,7 +44,7 @@
         </div>
     </section>
 
-    <main>   
+    <main>
 
         <header class="site-header section-padding d-flex justify-content-center align-items-center">
             <div class="container">
@@ -70,12 +70,12 @@
                             <img src="/Amigurumis/@Html.DisplayFor(model => model.ImageFileName)" class="img-fluid product-image" alt="">
                         </div>
 
-                        
+
                         <br />
-                        
+
 
                         <div class="product-thumb">
-                            <embed src="~/corescatalogo/corescatalogo.pdf" type="application/pdf" width="625px" height="550px">                            
+                            <embed src="~/corescatalogo/corescatalogo.pdf" type="application/pdf" width="625px" height="550px">
                         </div>
                     </div>
 
@@ -121,22 +121,22 @@
                                     Partes não informadas seguirão a cor do modelo na foto.
                                 </label>
                                 <textarea class="form-control" rows="4"></textarea>
-                                
-                            </div>                             
-                         
 
-                            
+                            </div>
+
+
+
                             <p>
-                            <button type="submit" class="btn product-additional-link" data-bs-toggle="modal" data-bs-target="#myModal">Calcule a entrega</button>
+                                <button type="submit" class="btn product-additional-link" data-bs-toggle="modal" data-bs-target="#myModal">Calcule a entrega</button>
 
-                            <button type="submit" class="btn product-additional-link">Métodos de pagamento</button>
+                                <button type="submit" class="btn product-additional-link">Métodos de pagamento</button>
 
-                            @if (TempData["Result"] != null)
-                            {
-                            <p>The result is: @TempData["Result"]</p>
-                            }
+                                @if (TempData["Result"] != null)
+                                {
+                                <p>The result is: @TempData["Result"]</p>
+                                }
                             </p>
-                            
+
 
                         </div>
 
@@ -145,100 +145,102 @@
                 </div>
             </div>
         </section>
+
 
         @*
 
-       Área destaques
+        Área destaques
 
         <section class="related-product section-padding border-top">
-            <div class="container">
-                <div class="row">
+        <div class="container">
+        <div class="row">
 
-                    <div class="col-12">
-                        <h3 class="mb-5">Você também pode gostar: </h3>
-                    </div>
+        <div class="col-12">
+        <h3 class="mb-5">Você também pode gostar: </h3>
+        </div>
 
-                    <div class="col-lg-4 col-12 mb-3">
-                        <div class="product-thumb">
-                            <a href="product-detail.html">
-                                <img src="/Amigurumis/@Html.DisplayFor(model => model.ImageFileName)" class="img-fluid product-image" alt="">
-                            </a>
+        <div class="col-lg-4 col-12 mb-3">
+        <div class="product-thumb">
+        <a href="product-detail.html">
+        <img src="/Amigurumis/@Html.DisplayFor(model => model.ImageFileName)" class="img-fluid product-image" alt="">
+        </a>
 
-                            <div class="product-top d-flex">
-                                <span class="product-alert me-auto">New arrival</span>
+        <div class="product-top d-flex">
+        <span class="product-alert me-auto">New arrival</span>
 
-                                <a href="#" class="bi-heart-fill product-icon"></a>
-                            </div>
+        <a href="#" class="bi-heart-fill product-icon"></a>
+        </div>
 
-                            <div class="product-info d-flex">
-                                <div>
-                                    <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(model => model.Nome)</a>
-                                    </h5>
+        <div class="product-info d-flex">
+        <div>
+        <h5 class="product-title mb-0">
+        <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(model => model.Nome)</a>
+        </h5>
 
-                                    <p class="product-p"><!--Original package design from house--></p>
-                                </div>
+        <p class="product-p"><!--Original package design from house--></p>
+        </div>
 
-                                <small class="product-price text-muted ms-auto mt-auto mb-5">@Html.DisplayFor(model => model.Preco)</small>
-                            </div>
-                        </div>
-                    </div>
+        <small class="product-price text-muted ms-auto mt-auto mb-5">@Html.DisplayFor(model => model.Preco)</small>
+        </div>
+        </div>
+        </div>
 
-                    
-                    <div class="col-lg-4 col-12 mb-3">
-                        <div class="product-thumb">
-                            <a href="product-detail.html">
-                                <img src="~/images/Capa.jpg" class="img-fluid product-image" alt="">
-                            </a>
 
-                            <div class="product-top d-flex">
-                                <span class="product-alert">Low Price</span>
+        <div class="col-lg-4 col-12 mb-3">
+        <div class="product-thumb">
+        <a href="product-detail.html">
+        <img src="~/images/Capa.jpg" class="img-fluid product-image" alt="">
+        </a>
 
-                                <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                            </div>
+        <div class="product-top d-flex">
+        <span class="product-alert">Low Price</span>
 
-                            <div class="product-info d-flex">
-                                <div>
-                                    <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(model => model.Nome)</a>
-                                    </h5>
+        <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+        </div>
 
-                                    <p class="product-p"><!--Costume package--></p>
-                                </div>
+        <div class="product-info d-flex">
+        <div>
+        <h5 class="product-title mb-0">
+        <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(model => model.Nome)</a>
+        </h5>
 
-                                <small class="product-price text-muted ms-auto mt-auto mb-5">@Html.DisplayFor(model => model.Preco)</small>
-                            </div>
-                        </div>
-                    </div>
+        <p class="product-p"><!--Costume package--></p>
+        </div>
 
-                    <div class="col-lg-4 col-12">
-                        <div class="product-thumb">
-                            <a href="product-detail.html">
-                                <img src="~/images/Macaco.jpg" class="img-fluid product-image" alt="">
-                            </a>
+        <small class="product-price text-muted ms-auto mt-auto mb-5">@Html.DisplayFor(model => model.Preco)</small>
+        </div>
+        </div>
+        </div>
 
-                            <div class="product-top d-flex">
-                                <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                            </div>
+        <div class="col-lg-4 col-12">
+        <div class="product-thumb">
+        <a href="product-detail.html">
+        <img src="~/images/Macaco.jpg" class="img-fluid product-image" alt="">
+        </a>
 
-                            <div class="product-info d-flex">
-                                <div>
-                                    <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(model => model.Nome)</a>
-                                    </h5>
+        <div class="product-top d-flex">
+        <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+        </div>
 
-                                    <p class="product-p"><!--Nature made another world--></p>
-                                </div>
+        <div class="product-info d-flex">
+        <div>
+        <h5 class="product-title mb-0">
+        <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(model => model.Nome)</a>
+        </h5>
 
-                                <small class="product-price text-muted ms-auto mt-auto mb-5">@Html.DisplayFor(model => model.Preco)</small>
-                            </div>
-                        </div>
-                    </div>
-                    *@
+        <p class="product-p"><!--Nature made another world--></p>
+        </div>
 
-                </div>
-            </div>
+        <small class="product-price text-muted ms-auto mt-auto mb-5">@Html.DisplayFor(model => model.Preco)</small>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        </div>
         </section>
+
+        *@
 
     </main>
 

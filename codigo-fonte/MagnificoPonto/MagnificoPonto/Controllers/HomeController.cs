@@ -1,21 +1,25 @@
-﻿using MagnificoPonto.Models;
+﻿using MagnificoPonto.Data;
+using MagnificoPonto.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace MagnificoPonto.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext _context;
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var listarProdutos = await _context.Produtos.ToListAsync();
+            return View(listarProdutos);
         }
 
         public IActionResult Sobre()

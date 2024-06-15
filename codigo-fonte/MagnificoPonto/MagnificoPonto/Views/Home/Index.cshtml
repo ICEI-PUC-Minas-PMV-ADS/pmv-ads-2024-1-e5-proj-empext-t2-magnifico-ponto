@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<MagnificoPonto.Models.ProdutoModel>
 
 
 @{
@@ -279,10 +279,43 @@
                         <h2 class="mb-5">Produtos em Destaque</h2>
                     </div>
 
+
+
+                    @foreach (var item in Model.OrderByDescending(x => x.Id).Take(3))
+                    {
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">Novos Produtos</span>
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(modelItem => item.Nome)</a>
+                                        </h5>
+                                        <a class="btn btn-success btn-sm" asp-action="InfoProdutos" asp-route-id="@item.Id">Ver detalhes</a>
+                                    </div>
+                                    <small class="product-price text-muted ms-auto">@Html.DisplayFor(modelItem => item.Preco)</small>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="col-12 text-center">
+                        <a  class="view-all" asp-controller="VendaProdutos" asp-action="ListaProdutos">Visualizar mais produtos</a>
+                    </div>
+
+                    @*
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="product-thumb">
                             <a href="product-detail.html">
-                                <img src="~/front/images/product/urso.jpg" class="img-fluid product-image" alt="">
+                            <img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" class="img-fluid product-image" alt="">
                             </a>
 
                             <div class="product-top d-flex">
@@ -359,6 +392,8 @@
                     <div class="col-12 text-center">
                         <a href="products.html" class="view-all">Visualizar mais produtos</a>
                     </div>
+
+                    *@
 
                 </div>
             </div>

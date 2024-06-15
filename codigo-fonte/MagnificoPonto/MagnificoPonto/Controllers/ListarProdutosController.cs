@@ -24,6 +24,7 @@ namespace MagnificoPonto.Controllers
         // GET: Produtos/Details/5
         public async Task<IActionResult> InfoProdutos(int? id)
         {
+
             if (id == null || _context.Produtos == null)
             {
                 return NotFound();
