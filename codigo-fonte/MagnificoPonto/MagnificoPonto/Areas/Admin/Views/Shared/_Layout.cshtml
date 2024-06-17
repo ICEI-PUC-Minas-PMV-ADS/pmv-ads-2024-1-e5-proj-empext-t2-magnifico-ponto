@@ -51,10 +51,21 @@
                             <a class="nav-link" asp-area="" asp-controller="Contatos" asp-action="Create">Contato</a>
                         </li>
 
-                    </ul>                    
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="Produtos" asp-action="Index">Cadastrar Produtos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="Contatos" asp-action="Index">Mensagens</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="FormularioEntregas" asp-action="Index">Relatório de vendas</a>
+                        </li>
+                    </ul>
 
                     <partial name="_LoginPartial" />
-                    
+
                 </div>
             </div>
         </nav>
@@ -112,7 +123,7 @@
         </div>
     </footer>
 
-   
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/v/dt/dt-2.0.6/datatables.min.js"></script>
