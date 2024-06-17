@@ -23,6 +23,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="RestSharp" Version="111.2.0" />
+    <PackageReference Include="Stripe.net" Version="44.12.0" />
   </ItemGroup>
 
   <ItemGroup>

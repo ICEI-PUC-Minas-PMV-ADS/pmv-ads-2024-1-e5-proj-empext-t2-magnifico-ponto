@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.29",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.29",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
-          "RestSharp": "111.2.0"
+          "RestSharp": "111.2.0",
+          "Stripe.net": "44.12.0"
         },
         "runtime": {
           "MagnificoPonto.dll": {}
@@ -1966,6 +1967,18 @@
           }
         }
       },
+      "Stripe.net/44.12.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "44.12.0.0",
+            "fileVersion": "44.12.0.0"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -3842,6 +3855,13 @@
       "sha512": "sha512-lxCZarZdvAsMl2zw9bXHrXK6RxVhB4b23iTFhCOdHFhxfbsxLxWf+ocvswJwR/9Wh/E//ddMi+wJGqUKV7VwoA==",
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.2",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512"
+    },
+    "Stripe.net/44.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DuyRipXRICPYPSUhcn+3kiUhKICRxzy5tr3ZzvhRRGAoOsBvMhqcE/Y0pRZQQR+Owh9B4lkjECFQEJB1U6xENw==",
+      "path": "stripe.net/44.12.0",
+      "hashPath": "stripe.net.44.12.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

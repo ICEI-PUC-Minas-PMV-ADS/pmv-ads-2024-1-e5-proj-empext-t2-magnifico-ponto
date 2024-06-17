@@ -1,6 +1,5 @@
 ﻿@model MagnificoPonto.Models.ShoppingCart
 
-
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -28,38 +27,62 @@
 </head>
 
 <body>
+    <main>
 
+        <h1>Carrinho de compras</h1>
 
-
-
-<h1>Shopping Cart</h1>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Product Name</th>
-            <th>Quantity</th>
-            <th>Price</th>
-            <th>Total</th>
-        </tr>
-    </thead>
-    <tbody>
-        @if (Model.CartItems != null)
-        {
-            foreach (var cartItem in Model.CartItems)
-            {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@cartItem.Product.Nome</td>
-                    <td>@cartItem.Quantity</td>
-                    <td>@cartItem.Product.Preco</td>
-                    <td>@(cartItem.Quantity * cartItem.Product.Preco)</td>
+                    <th>Nome do produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Total</th>
                 </tr>
-            }
-        }
-    </tbody>
-</table>
+            </thead>
+            <tbody>
+                @{
+                    decimal total = 0;
+                    if (Model.CartItems != null)
+                    {
+                        foreach (var cartItem in Model.CartItems)
+                        {
+                            <tr>
+                                <td>@cartItem.Product.Nome</td>
+                                <td>@cartItem.Quantity</td>
+                                <td>@cartItem.Product.Preco</td>
+                                <td>@(cartItem.Quantity * cartItem.Product.Preco)</td>
+                            </tr>
+                            total += cartItem.Quantity * cartItem.Product.Preco;
+                        }
+                    }
+                }
+            </tbody>
+        </table>
 
+        <form method="post" action="Payment/CreateCheckoutSession">
+            <div>
+                <label for="name">Total:</label>
+                <p>@total</p>
+                <input type="hidden" id="amount" name="amount" value="@total" />
+                <input type="hidden" id="shoppingCartId" name="shoppingCartId" value="@Model.ShoppingCartId" />
+            </div>
+
+            <button class="btn custom-btn cart-btn" type="submit">Checkout</button>
+        </form>
+
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/front/js/jquery.min.js"></script>
+    <script src="~/front/js/bootstrap.bundle.min.js"></script>
+    <script src="~/front/js/Headroom.js"></script>
+    <script src="~/front/js/jQuery.headroom.js"></script>
+    <script src="~/front/js/slick.min.js"></script>
+    <script src="~/front/js/custom.js"></script>
 
 </body>
 
 </html>
+

@@ -16,6 +16,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Amigurumis\06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Amigurumis\0f9df3b0-7ef7-451a-b614-d3c307d07695_Peixe.JPG))">
+      <SourceType>Package</SourceType>
+      <SourceId>MagnificoPonto</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MagnificoPonto</BasePath>
+      <RelativePath>Amigurumis/0f9df3b0-7ef7-451a-b614-d3c307d07695_Peixe.JPG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Amigurumis\0f9df3b0-7ef7-451a-b614-d3c307d07695_Peixe.JPG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Amigurumis\26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>MagnificoPonto</SourceId>

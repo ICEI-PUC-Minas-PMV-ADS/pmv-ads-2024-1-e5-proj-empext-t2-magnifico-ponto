@@ -1,587 +1,591 @@
 {
   "Files": [
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MagnificoPonto.bundle.scp.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MagnificoPonto.bundle.scp.css",
       "PackagePath": "staticwebassets\\MagnificoPonto.bundle.scp.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG",
       "PackagePath": "staticwebassets\\Amigurumis\\06ad99e4-a09d-431f-83e3-ed8bc6f36bae_Mamute.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\0f9df3b0-7ef7-451a-b614-d3c307d07695_Peixe.JPG",
+      "PackagePath": "staticwebassets\\Amigurumis\\0f9df3b0-7ef7-451a-b614-d3c307d07695_Peixe.JPG"
+    },
+    {
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg",
       "PackagePath": "staticwebassets\\Amigurumis\\26f7f9f7-06c6-45da-b50f-23d8c51cbd54_Girafa.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\31c609f7-bc0b-450a-9dee-78a63b65a960_Mamute.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\31c609f7-bc0b-450a-9dee-78a63b65a960_Mamute.JPG",
       "PackagePath": "staticwebassets\\Amigurumis\\31c609f7-bc0b-450a-9dee-78a63b65a960_Mamute.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\32b0db42-8538-4544-9ef7-70a1bbe359b8_Macaco.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\32b0db42-8538-4544-9ef7-70a1bbe359b8_Macaco.jpg",
       "PackagePath": "staticwebassets\\Amigurumis\\32b0db42-8538-4544-9ef7-70a1bbe359b8_Macaco.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\52518cbb-9863-4cf1-a876-6af792ab7ec5_Stitch.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\52518cbb-9863-4cf1-a876-6af792ab7ec5_Stitch.jpg",
       "PackagePath": "staticwebassets\\Amigurumis\\52518cbb-9863-4cf1-a876-6af792ab7ec5_Stitch.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\5f3f1a72-1047-43f2-9f22-2eac6f766481_Leao.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\5f3f1a72-1047-43f2-9f22-2eac6f766481_Leao.JPG",
       "PackagePath": "staticwebassets\\Amigurumis\\5f3f1a72-1047-43f2-9f22-2eac6f766481_Leao.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG",
       "PackagePath": "staticwebassets\\Amigurumis\\79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\b693930f-7666-4292-a11e-12454a3bfe05_Peixe.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\b693930f-7666-4292-a11e-12454a3bfe05_Peixe.JPG",
       "PackagePath": "staticwebassets\\Amigurumis\\b693930f-7666-4292-a11e-12454a3bfe05_Peixe.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\ccec1e91-bdaf-447f-b9bf-5113ef4746c1_Peixe.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\ccec1e91-bdaf-447f-b9bf-5113ef4746c1_Peixe.JPG",
       "PackagePath": "staticwebassets\\Amigurumis\\ccec1e91-bdaf-447f-b9bf-5113ef4746c1_Peixe.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\CoresCatalogo\\CoresCatalogo.pdf",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\CoresCatalogo\\CoresCatalogo.pdf",
       "PackagePath": "staticwebassets\\CoresCatalogo\\CoresCatalogo.pdf"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\site.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
       "PackagePath": "staticwebassets\\css\\termos.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\favicon.ico",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\bootstrap-icons.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\front\\css\\bootstrap-icons.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\bootstrap.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\front\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\magnifico-ponto.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\magnifico-ponto.css",
       "PackagePath": "staticwebassets\\front\\css\\magnifico-ponto.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\slick.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\css\\slick.css",
       "PackagePath": "staticwebassets\\front\\css\\slick.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\fonts\\bootstrap-icons.woff",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\front\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\fonts\\bootstrap-icons.woff2",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\front\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\header\\businesspeople-meeting-office-working.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\header\\businesspeople-meeting-office-working.jpg",
       "PackagePath": "staticwebassets\\front\\images\\header\\businesspeople-meeting-office-working.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\header\\positive-european-woman-has-break-after-work.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\header\\positive-european-woman-has-break-after-work.jpg",
       "PackagePath": "staticwebassets\\front\\images\\header\\positive-european-woman-has-break-after-work.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\FaleConosco.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\FaleConosco.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\people\\FaleConosco.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.29.53_337cf923.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.29.53_337cf923.jpg",
       "PackagePath": "staticwebassets\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.29.53_337cf923.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.33.52_bfe1536e.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.33.52_bfe1536e.jpg",
       "PackagePath": "staticwebassets\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.33.52_bfe1536e.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 18.21.42_e0733718.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 18.21.42_e0733718.jpg",
       "PackagePath": "staticwebassets\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 18.21.42_e0733718.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Karine.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Karine.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\people\\Karine.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Katia.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Katia.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\people\\Katia.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\KatiaKarine.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\KatiaKarine.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\people\\KatiaKarine.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\KatiaKarine2.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\KatiaKarine2.jpg",
       "PackagePath": "staticwebassets\\front\\images\\people\\KatiaKarine2.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\BonecaMargarida.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\BonecaMargarida.jpg",
       "PackagePath": "staticwebassets\\front\\images\\product\\BonecaMargarida.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\bichinhos.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\bichinhos.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\bichinhos.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\mobile.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\mobile.jpg",
       "PackagePath": "staticwebassets\\front\\images\\product\\mobile.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\naninhachocalho.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\naninhachocalho.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\naninhachocalho.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\portamaternidade.png",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\portamaternidade.png",
       "PackagePath": "staticwebassets\\front\\images\\product\\portamaternidade.png"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\urso.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\urso.jpg",
       "PackagePath": "staticwebassets\\front\\images\\product\\urso.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_emilia.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_emilia.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\boneca_emilia.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_roxa.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_roxa.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\boneca_roxa.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_sophia.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_sophia.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\boneca_sophia.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\elefantinho_brutus.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\elefantinho_brutus.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\elefantinho_brutus.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\escoteira_ana.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\escoteira_ana.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\escoteira_ana.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\gatinho.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\gatinho.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\gatinho.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\girafa.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\girafa.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\girafa.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\naninha.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\naninha.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\naninha.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\naninha_eloa.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\naninha_eloa.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\naninha_eloa.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\porta_berco.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\porta_berco.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\porta_berco.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\porta_maternidade.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\porta_maternidade.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\porta_maternidade.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\rena_mia.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\rena_mia.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\rena_mia.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\safari.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\safari.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\safari.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinho_docinho.png",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinho_docinho.png",
       "PackagePath": "staticwebassets\\front\\images\\producto\\ursinho_docinho.png"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinho_marinheiro.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinho_marinheiro.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\ursinho_marinheiro.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinhos_aviadores.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinhos_aviadores.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\producto\\ursinhos_aviadores.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg",
       "PackagePath": "staticwebassets\\front\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\Boneca Margarida 2.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\Boneca Margarida 2.jpg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\Boneca Margarida 2.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\ComAlegriaESeguranca.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\ComAlegriaESeguranca.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\ComAlegriaESeguranca.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\EncantarClientinhos.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\EncantarClientinhos.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\EncantarClientinhos.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\OQueFazemos.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\OQueFazemos.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\OQueFazemos.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\Outros.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\Outros.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\Outros.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\bichinhos.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\bichinhos.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\bichinhos.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\medium-shot-business-women-high-five.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\medium-shot-business-women-high-five.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\medium-shot-business-women-high-five.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\mobile.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\mobile.jpg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\mobile.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\naninhachocalho.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\naninhachocalho.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\naninhachocalho.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\ovelha.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\ovelha.jpg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\ovelha.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\portamaternidade.png",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\portamaternidade.png",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\portamaternidade.png"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\urso.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\urso.jpg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\urso.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\Headroom.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\Headroom.js",
       "PackagePath": "staticwebassets\\front\\js\\Headroom.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\front\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\custom.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\custom.js",
       "PackagePath": "staticwebassets\\front\\js\\custom.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\jQuery.headroom.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\jQuery.headroom.js",
       "PackagePath": "staticwebassets\\front\\js\\jQuery.headroom.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\jquery.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\front\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\slick.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\front\\js\\slick.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Capa.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Capa.jpg",
       "PackagePath": "staticwebassets\\images\\Capa.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Girafa.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Girafa.jpg",
       "PackagePath": "staticwebassets\\images\\Girafa.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Leao.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Leao.JPG",
       "PackagePath": "staticwebassets\\images\\Leao.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Macaco.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Macaco.jpg",
       "PackagePath": "staticwebassets\\images\\Macaco.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Mamute.JPG",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Mamute.JPG",
       "PackagePath": "staticwebassets\\images\\Mamute.JPG"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Stitch.jpg",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Stitch.jpg",
       "PackagePath": "staticwebassets\\images\\Stitch.jpg"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\js\\site.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

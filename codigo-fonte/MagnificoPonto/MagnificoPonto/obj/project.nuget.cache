@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "397hsq/stK/LzyZHfPDH89v4MaP/67BaBKoxLT48ZovV5Xi4djwq0T0A7iReiJ3mbvtQRcdBKBKKKGnb+aYTzg==",
+  "dgSpecHash": "zb65Gk55wr/fkKj3qO3fHR7hsz9ZiSlrnNPKTRQUOBLtXIEnZvGHSI++ghl+ivMqk/tXMsO/ztxAta7NKQyWjQ==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+  "projectFilePath": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 10\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -157,6 +157,7 @@
     "C:\\Users\\Windows 10\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\Windows 10\\.nuget\\packages\\stripe.net\\44.12.0\\stripe.net.44.12.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

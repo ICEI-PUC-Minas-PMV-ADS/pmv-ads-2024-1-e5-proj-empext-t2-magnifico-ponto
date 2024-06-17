@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Magnífico Ponto - Produtos</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/front/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/front/css/slick.css" />
+
+    <link href="~/front/css/magnifico-ponto.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h2 class="product-title mb-0">Compra efetuada com sucesso!</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Nome do Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    decimal total = 0;
+                    foreach (var item in Model.CartItems)
+                    {
+                        total += item.Quantity * item.Product.Preco;
+                        <tr>
+                            <td><img src="/Amigurumis/@item.Product.ImageFileName" class="img-fluid product-image" alt="" style="width: 50px; height: 50px;"></td>
+                            <td>@item.Product.Nome</td>
+                            <td>@item.Product.Preco</td>
+                            <td>@item.Quantity</td>
+                            <td>@(item.Quantity * item.Product.Preco)</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total do pedido:</td>
+                    <td>@total</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/front/js/jquery.min.js"></script>
+    <script src="~/front/js/bootstrap.bundle.min.js"></script>
+    <script src="~/front/js/Headroom.js"></script>
+    <script src="~/front/js/jQuery.headroom.js"></script>
+    <script src="~/front/js/slick.min.js"></script>
+    <script src="~/front/js/custom.js"></script>
+
+</body>
+
+</html>

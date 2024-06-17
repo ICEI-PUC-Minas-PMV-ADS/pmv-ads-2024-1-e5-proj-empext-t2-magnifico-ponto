@@ -2591,6 +2591,23 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Stripe.net/44.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7688,6 +7705,30 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
+    "Stripe.net/44.12.0": {
+      "sha512": "DuyRipXRICPYPSUhcn+3kiUhKICRxzy5tr3ZzvhRRGAoOsBvMhqcE/Y0pRZQQR+Owh9B4lkjECFQEJB1U6xENw==",
+      "type": "package",
+      "path": "stripe.net/44.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.44.12.0.nupkg.sha512",
+        "stripe.net.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -11469,7 +11510,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.29",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.29",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
-      "RestSharp >= 111.2.0"
+      "RestSharp >= 111.2.0",
+      "Stripe.net >= 44.12.0"
     ]
   },
   "packageFolders": {
@@ -11480,11 +11522,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+      "projectUniqueName": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
       "projectName": "MagnificoPonto",
-      "projectPath": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
+      "projectPath": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\MagnificoPonto.csproj",
       "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\ApiPagamentos\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\",
+      "outputPath": "D:\\Users\\Windows 10\\Desktop\\16.06-03\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -11552,6 +11594,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[111.2.0, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[44.12.0, )"
           }
         },
         "imports": [

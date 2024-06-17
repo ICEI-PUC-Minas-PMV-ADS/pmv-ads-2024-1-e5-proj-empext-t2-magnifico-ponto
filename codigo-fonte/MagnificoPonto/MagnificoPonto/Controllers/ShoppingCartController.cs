@@ -15,12 +15,19 @@ namespace MagnificoPonto.Controllers
         }
 
         // GET: ShoppingCart
-        public async Task<IActionResult> Index(int id)
+        public async Task<IActionResult> Index()
         {
+            var shoppingCartId = HttpContext.Session.GetInt32("ShoppingCartId");
+
+            if (shoppingCartId == null)
+            {
+                return NotFound();
+            }
+
             var shoppingCart = await _context.ShoppingCarts
                 .Include(s => s.CartItems)
                 .ThenInclude(c => c.Product)
-                .FirstOrDefaultAsync(s => s.ShoppingCartId == id);
+                .FirstOrDefaultAsync(s => s.ShoppingCartId == shoppingCartId);
 
             if (shoppingCart == null)
             {
@@ -34,6 +41,8 @@ namespace MagnificoPonto.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToCart(int id)
         {
+            var shoppingCartId = HttpContext.Session.GetInt32("ShoppingCartId");
+            
             var product = await _context.Produtos.FindAsync(id);
             if (product == null)
             {
@@ -41,19 +50,33 @@ namespace MagnificoPonto.Controllers
             }
 
             var cartItem = new CartItem { Product = product, Quantity = 1 };
-            var shoppingCart = new ShoppingCart();
-            if(shoppingCart.CartItems == null)
-            shoppingCart.CartItems = new List<CartItem>
-            {
-                cartItem
-            };
+            ShoppingCart shoppingCart;
+            if (shoppingCartId == null) 
+            { 
+                shoppingCart = new ShoppingCart(); 
+                shoppingCart.CartItems = new List<CartItem>
+                    {
+                        cartItem
+                    };
+                _context.Add(shoppingCart);
+            }
             else
-                shoppingCart.CartItems.Add(cartItem);
+            {
+                shoppingCart = await _context.ShoppingCarts
+                .Include(s => s.CartItems)
+                .ThenInclude(c => c.Product)
+                .FirstOrDefaultAsync(s => s.ShoppingCartId == shoppingCartId);
 
-            _context.Add(shoppingCart);
+                cartItem.ShoppingCart = shoppingCart;
+                _context.Add(cartItem);
+            }
+
+            
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", new { id = shoppingCart.ShoppingCartId });
+            HttpContext.Session.SetInt32("ShoppingCartId", shoppingCart.ShoppingCartId);
+
+            return RedirectToAction("Index");
         }
     }
 }
