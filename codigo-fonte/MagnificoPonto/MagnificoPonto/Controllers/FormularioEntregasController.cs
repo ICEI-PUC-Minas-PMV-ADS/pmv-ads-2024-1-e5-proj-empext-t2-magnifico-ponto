@@ -7,11 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MagnificoPonto.Data;
 using MagnificoPonto.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace MagnificoPonto.Controllers
 {
-    
     public class FormularioEntregasController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -62,7 +60,7 @@ namespace MagnificoPonto.Controllers
             {
                 _context.Add(formularioEntrega);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "ShoppingCart");  //return RedirectToAction(nameof(Create));
             }
             return View(formularioEntrega);
         }

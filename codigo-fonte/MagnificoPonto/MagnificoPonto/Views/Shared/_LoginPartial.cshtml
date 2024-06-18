@@ -18,8 +18,8 @@
     {
 
         <li class="d-none d-lg-block">
-            <a class="bi-person custom-icon me-3" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@string.Format("{0}{1}", Context.Request.Path, Context.Request.QueryString)"></a>
-            <a class="bi bi-door-open custom-icon me-2" asp-controller="Account" asp-action="Register"></a>
+            <a class="bi-person custom-icon me-3" asp-area="Identity" asp-page="/Account/Register"></a>
+            <a class="bi bi-door-open custom-icon me-2" asp-area="Identity" asp-page="/Account/Login"></a>
         </li>
 
 

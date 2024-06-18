@@ -7,11 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MagnificoPonto.Data;
 using MagnificoPonto.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace MagnificoPonto.Controllers
 {
-    
     public class ContatosController : Controller
     {
         private readonly ApplicationDbContext _context;

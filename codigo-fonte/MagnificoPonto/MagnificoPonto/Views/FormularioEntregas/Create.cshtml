@@ -81,14 +81,14 @@
                     <span asp-validation-for="Referencia" class="text-danger"></span>
                 </div>
                 <div class="form-group mt-3">
-                    <input type="submit" value="Seguir para pagamento" class="btn btn-success mb-3 mt-3" />
+                    <input type="submit" value="Salvar dados para entrega" class="btn btn-success mb-3 mt-3" />
                 </div>
             </form>
         </div>
     </div>
 
     <div>
-        <a class="btn btn-danger" asp-action="Index">Voltar para carrinho</a>
+        <a class="btn btn-danger" asp-controller="ShoppingCart" asp-action="Index">Voltar para carrinho</a>
     </div>
 
     @section Scripts {

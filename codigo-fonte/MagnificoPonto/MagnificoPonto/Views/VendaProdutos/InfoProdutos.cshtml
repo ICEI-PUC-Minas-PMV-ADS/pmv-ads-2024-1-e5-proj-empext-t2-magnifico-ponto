@@ -98,8 +98,10 @@
                         </div>
 
                         <div class="product-cart-thumb row">
+                            @*
                             <div class="col-lg-6 col-12">
 
+                                
                                 <select class="form-select cart-form-select" id="inputGroupSelect01">
                                     <option selected>Quantidade</option>
                                     <option value="1">1</option>
@@ -108,14 +110,12 @@
                                     <option value="4">4</option>
                                     <option value="5">5</option>
                                 </select>
+                                
                             </div>
+                            *@
 
-                            <div class="col-lg-6 col-12 mt-4 mt-lg-0">
-                                <button type="submit" class="btn custom-btn cart-btn" data-bs-toggle="modal" data-bs-target="#cart-modal">Adicionar ao carrinho</button>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="control-label my-3">
+                            <div class="form-group my-3">
+                                <label class="control-label mb-2 text-dark">
                                     Selecione as cores para o seu amigurumi. Ex.: Corpo(8176), Lacinho(5210).
                                     Informe se que adicionar: laço, gravata, nome bordado(sujeito a execução caso couber)
                                     Partes não informadas seguirão a cor do modelo na foto.
@@ -124,7 +124,13 @@
 
                             </div>
 
+                            <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                                <button type="submit" class="btn custom-btn cart-btn" data-bs-toggle="modal" data-bs-target="#cart-modal">Adicionar ao carrinho</button>
+                            </div>
 
+                            
+
+                            @*
 
                             <p>
                                 <button type="submit" class="btn product-additional-link" data-bs-toggle="modal" data-bs-target="#myModal">Calcule a entrega</button>
@@ -137,6 +143,7 @@
                                 }
                             </p>
 
+                            *@
 
                         </div>
 
@@ -283,7 +290,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-6 col-12 mt-4 mt-lg-0">
-                            <img src="~/images/Girafa.jpg" class="img-fluid product-image" alt="">
+                            <img src="/Amigurumis/@Html.DisplayFor(model => model.ImageFileName)" class="img-fluid product-image" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12 mt-3 mt-lg-0">
@@ -291,16 +298,19 @@
 
                             <p class="product-price text-muted mt-3">@Html.DisplayFor(model => model.Preco)</p>
 
-                            <p class="product-p">Quatidade: <span class="ms-1">A definir</span></p>
+                            @* <p class="product-p">Quatidade: <span class="ms-1">A definir</span></p> *@
 
                             <p class="product-p">Cor: <span class="ms-1">@Html.DisplayFor(model => model.Cor)</span></p>
 
                             <p class="product-p pb-3">Tamanho: <span class="ms-1">@Html.DisplayFor(model => model.Tamanho)</span></p>
-
+                            
+                            <textarea class="form-control" rows="4"></textarea>
+                            
+                            @*
                             <div class="border-top mt-4 pt-3">
                                 <p class="product-p"><strong>Total: <span class="ms-1">(@Html.DisplayFor(model => model.Preco) * Quantidade)</span></strong></p>
                             </div>
-
+                            *@
                         </div>
                     </div>
                 </div>

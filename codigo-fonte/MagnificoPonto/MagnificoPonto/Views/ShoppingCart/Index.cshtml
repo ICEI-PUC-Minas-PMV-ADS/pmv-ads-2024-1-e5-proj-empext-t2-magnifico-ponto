@@ -33,14 +33,15 @@
 
         <table class="table">
             <thead>
-                <tr>
+                <tr class="text-center align-middle">
+                    <th>Amigurumi</th>
                     <th>Nome do produto</th>
                     <th>Quantidade</th>
                     <th>Preço</th>
                     <th>Total</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="text-center align-middle">
                 @{
                     decimal total = 0;
                     if (Model.CartItems != null)
@@ -48,6 +49,7 @@
                         foreach (var cartItem in Model.CartItems)
                         {
                             <tr>
+                                <td><img src="~/Amigurumis/@(cartItem.Product.ImageFileName)" width="100" /></td>
                                 <td>@cartItem.Product.Nome</td>
                                 <td>@cartItem.Quantity</td>
                                 <td>@cartItem.Product.Preco</td>
@@ -60,19 +62,30 @@
             </tbody>
         </table>
 
+
         <form method="post" action="Payment/CreateCheckoutSession">
-            <div>
+            <div class="text-end">
                 <label for="name">Total:</label>
                 <p>@total</p>
                 <input type="hidden" id="amount" name="amount" value="@total" />
                 <input type="hidden" id="shoppingCartId" name="shoppingCartId" value="@Model.ShoppingCartId" />
             </div>
 
-            <button class="btn custom-btn cart-btn" type="submit">Checkout</button>
-        </form>
+            <div>
+                <a class="btn btn-primary btn-lg rounded-pill mt-3" asp-controller="VendaProdutos" asp-action="ListaProdutos">Continuar comprando</a>
+            </div>
+
+            <div>
+                <a class="btn btn-success btn-lg rounded-pill mt-3" asp-controller="FormularioEntregas" asp-action="Create">Inserir dados para entrega</a>
+            </div>
+
+
+            <button class="btn custom-btn cart-btn rounded-pill mt-3" type="submit">Finalizar pedido</button>
+        </form>        
 
 
     </main>
+   
 
     <!-- JAVASCRIPT FILES -->
     <script src="~/front/js/jquery.min.js"></script>

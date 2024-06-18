@@ -8,21 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\**" />
-    <Content Remove="Areas\**" />
-    <EmbeddedResource Remove="Areas\**" />
-    <None Remove="Areas\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Areas\Admin\Views\Admin\Index.cshtml" />
-    <None Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
-    <None Include="Areas\Admin\Views\_ViewImports.cshtml" />
-    <None Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <None Include="wwwroot\front\images\producto\.DS_Store" />
   </ItemGroup>
 
