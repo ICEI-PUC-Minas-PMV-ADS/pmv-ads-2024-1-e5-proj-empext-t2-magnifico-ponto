@@ -13,10 +13,12 @@ namespace MagnificoPonto.Controllers
     public class RelatorioVendasController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private string caminhoServidor;
 
-        public RelatorioVendasController(ApplicationDbContext context)
+        public RelatorioVendasController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            caminhoServidor = environment.WebRootPath;
         }
 
         // GET: RelatorioVendas
@@ -53,9 +55,23 @@ namespace MagnificoPonto.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RelatorioVendasModelId,Nome,Email,Telefone,PlataformaVenda,Criacao,Amigurumi,Quantidade,ValorTotal,TempoConfeccao,Personalizacao,Categoria,Observacao,ImageFileName")] RelatorioVendasModel relatorioVendasModel)
+        public async Task<IActionResult> Create(RelatorioVendasModel relatorioVendasModel, IFormFile foto)
         {
+            string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
+            string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+
+            if (!Directory.Exists(caminhoParaSalvarImagem))
+            {
+                Directory.CreateDirectory(caminhoParaSalvarImagem);
+            }
+
+            using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+            {
+                foto.CopyTo(stream);
+            }
+
+            relatorioVendasModel.ImageFileName = novoNomeParaImagem;
+
             if (ModelState.IsValid)
             {
                 _context.Add(relatorioVendasModel);
@@ -86,7 +102,7 @@ namespace MagnificoPonto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("RelatorioVendasModelId,Nome,Email,Telefone,PlataformaVenda,Criacao,Amigurumi,Quantidade,ValorTotal,TempoConfeccao,Personalizacao,Categoria,Observacao,ImageFileName")] RelatorioVendasModel relatorioVendasModel)
+        public async Task<IActionResult> Edit(int id, RelatorioVendasModel relatorioVendasModel, IFormFile foto)
         {
             if (id != relatorioVendasModel.RelatorioVendasModelId)
             {
@@ -95,6 +111,21 @@ namespace MagnificoPonto.Controllers
 
             if (ModelState.IsValid)
             {
+                string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
+                string novoNomeParaImagem = Guid.NewGuid().ToString() + "_" + foto.FileName;
+
+                if (!Directory.Exists(caminhoParaSalvarImagem))
+                {
+                    Directory.CreateDirectory(caminhoParaSalvarImagem);
+                }
+
+                using (var stream = System.IO.File.Create(caminhoParaSalvarImagem + novoNomeParaImagem))
+                {
+                    foto.CopyTo(stream);
+                }
+
+                relatorioVendasModel.ImageFileName = novoNomeParaImagem;
+
                 try
                 {
                     _context.Update(relatorioVendasModel);

@@ -40,35 +40,31 @@
 </p>
 <table class="table">
     <thead>
-        <tr class="text-start align-middle">
+        <tr class="text-center align-middle">
+            <th>
+                Foto
+            </th>
+            <th>
+                Amigurumi
+            </th>
             <th>
                 Cliente
-            </th>
-            @*
-            <th>
-                Email
-            </th>
-                *@
-            <th>
-                Telefone
-            </th>
+            </th>            
             <th>
                 Plataforma
             </th>
             <th class="text-center align-middle">
                 Data Pedido
             </th>
-            <th>
-                Amigurumi
-            </th>
+            
             <th>
                 Quantidade
+            </th>            
+            <th>
+                Prazo confecção
             </th>
             <th>
                 Total
-            </th>
-            <th>
-                Prazo
             </th>
             @*
                 <td>
@@ -85,41 +81,31 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr class="text-start align-middle">
+            <tr class="text-center align-middle">                    
+            <td>
+                <img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" width="75" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amigurumi)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            @*
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-                    *@
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefone)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PlataformaVenda)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Criacao)
-            </td>
+            </td>            
             <td>
-                @Html.DisplayFor(modelItem => item.Amigurumi)
-            </td>
-            <td class="text-center align-middle">
                 @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.TempoConfeccao) dias úteis
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ValorTotal)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TempoConfeccao) dias
-            </td>            
-            @*
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageFileName)
-            </td>
-                *@
             <td>
                 <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.RelatorioVendasModelId">Editar</a>
                 <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.RelatorioVendasModelId">Detalhes</a>
