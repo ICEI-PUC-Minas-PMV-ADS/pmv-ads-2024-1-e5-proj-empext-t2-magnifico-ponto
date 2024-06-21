@@ -38,30 +38,30 @@
 <p>
     <a class="btn btn-success" asp-action="Create">Adicionar venda externa</a>
 </p>
-<table class="table">
+    <table id="Cadastro" class="table">
     <thead>
-        <tr class="text-center align-middle">
+        <tr>
             <th>
                 Foto
             </th>
             <th>
                 Amigurumi
             </th>
-            <th>
+            <th class="text-center">
                 Cliente
             </th>            
             <th>
                 Plataforma
             </th>
-            <th class="text-center align-middle">
+            <th class="text-center">
                 Data Pedido
             </th>
             
             <th>
                 Quantidade
-            </th>            
-            <th>
-                Prazo confecção
+            </th>
+            <th class="text-center align-middle">
+                Prazo
             </th>
             <th>
                 Total
@@ -94,16 +94,16 @@
             <td>
                 @Html.DisplayFor(modelItem => item.PlataformaVenda)
             </td>
-            <td>
+            <td class="text-center align-middle">
                 @Html.DisplayFor(modelItem => item.Criacao)
-            </td>            
-            <td>
+            </td>
+            <td class="text-center align-middle">
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </td>            
             <td>
                 @Html.DisplayFor(modelItem => item.TempoConfeccao) dias úteis
             </td>
-            <td>
+            <td class="text-center align-middle">
                 @Html.DisplayFor(modelItem => item.ValorTotal)
             </td>
             <td>

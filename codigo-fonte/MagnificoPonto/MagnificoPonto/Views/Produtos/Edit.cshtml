@@ -92,11 +92,17 @@
                     <input class="form-check-input" asp-for="ProntaEntrega" /> @Html.DisplayNameFor(model => model.ProntaEntrega)
                 </label>
             </div>
-                <div class="form-group">
+                <div class="form-group my-3">
                     <label asp-for="ImageFileName" class="control-label"></label>
-                    <input type="file" name="foto" class="form-control" />
+                    <input type="file" id="ImageFile" name="foto" class="form-control shadow-none" />
                 </div>
-            <div class="form-group">
+
+                <div class="text-center">
+                    <label for="ImageFile">
+                        <img id="img" style="width:150px; height:200px" />
+                    </label>
+                </div>
+                <div class="form-group">
                 <input type="submit" value="Salvar alteração" class="btn btn-success mb-3 mt-3" />
             </div>
         </form>
@@ -106,6 +112,36 @@
 <div>
     <a class="btn btn-secondary" asp-action="Index">Retornar para a lista de produtos</a>
 </div>
+
+
+    <script>
+
+
+        const inputFile = document.querySelector("#ImageFile");
+
+        inputFile.addEventListener("change", function (e) {
+            const inputTarget = e.target;
+            const file = inputTarget.files[0];
+
+            if (file) {
+                const reader = new FileReader();
+
+                reader.addEventListener("load", function (e) {
+                    const readerTarget = e.target;
+                    const img = document.querySelector("#img");
+                    img.src = readerTarget.result;
+
+                    const figcaption = document.querySelector("#figcaption");
+                    figcaption.innerHTML = file.name;
+                });
+
+                reader.readAsDataURL(file);
+            }
+        }
+
+
+        )
+    </script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
