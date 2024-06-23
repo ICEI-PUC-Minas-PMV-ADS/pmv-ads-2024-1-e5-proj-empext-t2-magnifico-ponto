@@ -54,6 +54,7 @@ namespace MagnificoPonto.Controllers
 
         // POST: Produtos/Create        
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProdutoModel produtoModel, IFormFile foto)
         {
             string caminhoParaSalvarImagem = caminhoServidor + "\\Amigurumis\\";
@@ -98,6 +99,7 @@ namespace MagnificoPonto.Controllers
 
         // POST: Produtos/Edit/5        
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, ProdutoModel produtoModel, IFormFile foto)
         {
             if (id != produtoModel.Id)
