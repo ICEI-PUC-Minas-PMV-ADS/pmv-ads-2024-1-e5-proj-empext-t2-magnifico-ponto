@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DmMTUTqfbMy7E2HDC44HJ2Djg72xVHO8cPVzlDg++Y0=",
+  "Hash": "UZItDaQFD9+TdMRrPzZ272YIXNMs+AuEo36bG7PR2Ac=",
   "Source": "MagnificoPonto",
   "BasePath": "_content/MagnificoPonto",
   "Mode": "Default",
@@ -1461,6 +1461,25 @@
       "OriginalItemSpec": "wwwroot\\Amigurumis\\79e5964f-6bc3-4a5f-af60-f084dbc48f40_Leao.JPG"
     },
     {
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\912febcc-c9e5-4e63-bef2-7b123c6fcce7_Cavalo.jfif",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "Amigurumis/912febcc-c9e5-4e63-bef2-7b123c6fcce7_Cavalo.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\912febcc-c9e5-4e63-bef2-7b123c6fcce7_Cavalo.jfif"
+    },
+    {
       "Identity": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\ae432acc-cd7a-44e8-b3fb-3398aa827eea_Stitch.jpg",
       "SourceId": "MagnificoPonto",
       "SourceType": "Discovered",
@@ -1518,6 +1537,25 @@
       "OriginalItemSpec": "wwwroot\\Amigurumis\\b693930f-7666-4292-a11e-12454a3bfe05_Peixe.JPG"
     },
     {
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\c3e44d1d-6009-484e-92b8-ab135abafdfd_Leao.JPG",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "Amigurumis/c3e44d1d-6009-484e-92b8-ab135abafdfd_Leao.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\c3e44d1d-6009-484e-92b8-ab135abafdfd_Leao.JPG"
+    },
+    {
       "Identity": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\c5e369a1-3258-48c9-86c1-aaf4fbe99e30_Girafa.jpg",
       "SourceId": "MagnificoPonto",
       "SourceType": "Discovered",
@@ -1573,6 +1611,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Amigurumis\\d3ad40e2-faf7-4c27-a28e-2bd665547928_Macaco.jpg"
+    },
+    {
+      "Identity": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\d79e7595-1261-4089-aefb-eb3bd1c47fbc_Stitch.jpg",
+      "SourceId": "MagnificoPonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\",
+      "BasePath": "_content/MagnificoPonto",
+      "RelativePath": "Amigurumis/d79e7595-1261-4089-aefb-eb3bd1c47fbc_Stitch.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Amigurumis\\d79e7595-1261-4089-aefb-eb3bd1c47fbc_Stitch.jpg"
     },
     {
       "Identity": "D:\\Users\\Windows 10\\Desktop\\23.02\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\Amigurumis\\d8851c77-03d0-4d09-a7b0-010373451f82_Leao.JPG",

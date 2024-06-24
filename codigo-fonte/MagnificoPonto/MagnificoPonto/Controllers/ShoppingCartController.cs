@@ -71,17 +71,17 @@ namespace MagnificoPonto.Controllers
 
         // POST: ShoppingCart/AddToCart/5
         [HttpPost]
-        public async Task<IActionResult> AddToCart(int id)
+        public async Task<IActionResult> AddToCart(int productId, string description)
         {
             var shoppingCartId = HttpContext.Session.GetInt32("ShoppingCartId");
             
-            var product = await _context.Produtos.FindAsync(id);
+            var product = await _context.Produtos.FindAsync(productId);
             if (product == null)
             {
                 return NotFound();
             }
 
-            var cartItem = new CartItem { Product = product, Quantity = 1 };
+            var cartItem = new CartItem { Product = product, Quantity = 1, Description = description };
             ShoppingCart shoppingCart;
             if (shoppingCartId == null) 
             { 

@@ -40,6 +40,7 @@
                     <th>Nome do Produto</th>
                     <th>Preço</th>
                     <th>Quantidade</th>
+                    <th>Descrição</th>
                     <th>Total</th>
                 </tr>
             </thead>
@@ -54,6 +55,7 @@
                             <td>@item.Product.Nome</td>
                             <td>@item.Product.Preco</td>
                             <td>@item.Quantity</td>
+                            <td>@item.Description</td>
                             <td>@(item.Quantity * item.Product.Preco)</td>
                         </tr>
                     }
