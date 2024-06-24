@@ -60,6 +60,7 @@ namespace MagnificoPonto.Controllers
             {
                 _context.Add(formularioEntrega);
                 await _context.SaveChangesAsync();
+                HttpContext.Session.SetInt32("FormularioEntregaId", formularioEntrega.Id);
                 return RedirectToAction("Index", "ShoppingCart");  //return RedirectToAction(nameof(Create));
             }
             return View(formularioEntrega);

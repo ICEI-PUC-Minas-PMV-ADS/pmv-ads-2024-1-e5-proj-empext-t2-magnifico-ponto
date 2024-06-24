@@ -39,27 +39,5 @@ namespace MagnificoPonto.Controllers
 
             return View(produtoModel);
         }
-
-        [HttpPost]
-        public async Task<IActionResult> Calculate(string id, string cepDestino)
-        {
-            ProdutoModel model = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == Convert.ToInt32(id));
-
-            if (cepDestino == null)
-                return RedirectToAction("InfoProdutos", new { id = model.Id });
-
-            var result = await MelhorEnvioService.teste(model, cepDestino);
-            List<MelhorEnvioResponse> rootList = JsonConvert.DeserializeObject<List<MelhorEnvioResponse>>(result.Content);
-            string valueToShow = "";
-
-            foreach(var item in rootList)
-            {
-                valueToShow += $"Serviço: {item.name} \n Preço: {item.price} \n";
-            }
-
-            TempData["Result"] = valueToShow;
-
-            return RedirectToAction("InfoProdutos", new { id = model.Id });
-        }
     }
 }

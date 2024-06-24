@@ -7,7 +7,7 @@
     {
         
         <li class="nav-item text-end">
-            <a class="nav-link text-dark fst-italic mb-2" @* asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"*@>@User.Identity?.Name</a>
+            <a class="nav-link text-dark fst-italic" @* asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"*@>@User.Identity?.Name</a>
             <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                 <button type="submit" class="nav-link btn btn-link text-dark fw-bold">Sair</button>
             </form>

@@ -37,6 +37,7 @@ namespace MagnificoPonto.Controllers
             var cancelUrl = $"https://localhost:7171/Payment/Cancel?shoppingCartId={shoppingCartId}";
             StripeConfiguration.ApiKey = _stripeSettings.SecretKey;
             amount = amount.Replace(",", "");
+            amount = amount.Replace(".", "");
             var options = new SessionCreateOptions
             {
                 PaymentMethodTypes = new List<string>

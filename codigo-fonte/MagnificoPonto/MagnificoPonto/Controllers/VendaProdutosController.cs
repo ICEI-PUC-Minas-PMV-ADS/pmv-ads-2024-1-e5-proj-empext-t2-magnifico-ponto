@@ -25,7 +25,7 @@ namespace MagnificoPonto.Controllers
         // GET: VendaProdutos
         public async Task<IActionResult> Index()
         {
-              return View(await _context.VendaProdutos.ToListAsync());
+            return View(await _context.VendaProdutos.ToListAsync());
         }
 
         // GET: VendaProdutos/Details/5
@@ -151,14 +151,14 @@ namespace MagnificoPonto.Controllers
             {
                 _context.VendaProdutos.Remove(vendaProdutosModel);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool VendaProdutosModelExists(int id)
         {
-          return _context.VendaProdutos.Any(e => e.Id == id);
+            return _context.VendaProdutos.Any(e => e.Id == id);
         }
 
         // Listagem de Produtos
@@ -185,22 +185,6 @@ namespace MagnificoPonto.Controllers
             }
 
             return View(produtoModel);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Calculate(string id, string cepDestino)
-        {
-            ProdutoModel model = await _context.Produtos.FirstOrDefaultAsync(m => m.Id == Convert.ToInt32(id));
-
-            if (cepDestino == null)
-                return RedirectToAction("InfoProdutos", new { id = model.Id });
-
-            var result = await MelhorEnvioService.teste(model, cepDestino);
-            List<MelhorEnvioResponse> rootList = JsonConvert.DeserializeObject<List<MelhorEnvioResponse>>(result.Content);
-
-            TempData["Result"] = result;
-
-            return RedirectToAction("InfoProdutos", new { id = model.Id });
         }
     }
 }

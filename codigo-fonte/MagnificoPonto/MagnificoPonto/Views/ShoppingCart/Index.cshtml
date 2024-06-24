@@ -39,6 +39,7 @@
                     <th>Quantidade</th>
                     <th>Preço</th>
                     <th>Total</th>
+                    <th>Ação</th>
                 </tr>
             </thead>
             <tbody class="text-center align-middle">
@@ -54,6 +55,12 @@
                                 <td>@cartItem.Quantity</td>
                                 <td>@cartItem.Product.Preco</td>
                                 <td>@(cartItem.Quantity * cartItem.Product.Preco)</td>
+                                <td>
+                                    <form asp-action="Delete" method="post">
+                                        <button type="submit" class="btn btn-danger">Deletar</button>
+                                        <input type="hidden" id="cartItemId" name="cartItemId" value="@cartItem.CartItemId" />
+                                    </form>
+                                </td>
                             </tr>
                             total += cartItem.Quantity * cartItem.Product.Preco;
                         }
@@ -66,25 +73,94 @@
         <form method="post" action="Payment/CreateCheckoutSession">
             <div class="text-end">
                 <label for="name">Total:</label>
-                <p>@total</p>
+                <p id="total">@total</p>
                 <input type="hidden" id="amount" name="amount" value="@total" />
                 <input type="hidden" id="shoppingCartId" name="shoppingCartId" value="@Model.ShoppingCartId" />
             </div>
 
-            <div>
-                <a class="btn btn-primary btn-lg rounded-pill mt-3" asp-controller="VendaProdutos" asp-action="ListaProdutos">Continuar comprando</a>
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <a class="btn btn-primary btn-lg rounded-pill mt-3" asp-controller="VendaProdutos" asp-action="ListaProdutos">Continuar comprando</a>
+                    </div>
+
+                    <div>
+                        <a class="btn btn-success btn-lg rounded-pill mt-3" asp-controller="FormularioEntregas" asp-action="Create">Inserir dados para entrega</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    @if (ViewBag.Result != null)
+                    {
+                        <div>
+                            @if (ViewBag.Result != null)
+                            {
+                                
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Select</th>
+                                                <th>Serviço</th>
+                                                <th>Preço</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var pair in ViewBag.Result)
+                                            {
+                                                <tr>
+                                                    <td><input type="radio" name="service" value="@pair["Preço"]" /></td>
+                                                    <td>@pair["Serviço"]</td>
+                                                    <td>@pair["Preço"]</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                
+                            }
+                        </div>
+                    }
+                </div>
             </div>
 
-            <div>
-                <a class="btn btn-success btn-lg rounded-pill mt-3" asp-controller="FormularioEntregas" asp-action="Create">Inserir dados para entrega</a>
-            </div>
-
+            
 
             <button class="btn custom-btn cart-btn rounded-pill mt-3" type="submit">Finalizar pedido</button>
         </form>        
 
 
     </main>
+
+    <script>
+        var radios = document.getElementsByName('service');
+
+        var baseValueElement = document.getElementById('total');
+        var baseValue = parseFloat(baseValueElement.innerText);
+
+        var amountInput = document.getElementById('amount');
+
+        var previousOptionValue = 0;
+
+        for (var i = 0; i < radios.length; i++) {
+            radios[i].addEventListener('change', function () {
+                var optionValue = parseFloat(this.value);
+
+                if (isNaN(optionValue)) {
+                    console.error('Invalid option value:', this.value);
+                    return;
+                }
+
+                var total = baseValue - previousOptionValue + optionValue;
+
+                baseValueElement.innerText = total.toFixed(2);
+
+                amountInput.value = total.toFixed(2);
+
+                previousOptionValue = optionValue;
+
+                baseValue = total;
+            });
+        }
+    </script>
    
 
     <!-- JAVASCRIPT FILES -->
