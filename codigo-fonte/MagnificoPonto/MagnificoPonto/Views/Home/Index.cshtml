@@ -202,7 +202,7 @@
                                             <p>Amigurumis são bonecos feitos em crochê ou tricô, uma técnica japonesa que conquistou corações em todo o mundo.</p>
 
                                             <div class="mt-2 mt-lg-auto">
-                                                <a href="about.html" class="custom-link mb-2">
+                                                <a asp-controller="Home" asp-action="Sobre" class="custom-link mb-2">
                                                     Quer saber mais sobre nós?
                                                     <i class="bi-arrow-right ms-2"></i>
                                                 </a>
@@ -228,7 +228,7 @@
                                             <p>Nossa missão é encantar mamães e bebês</p>
 
                                             <div class="mt-2 mt-lg-auto">
-                                                <a href="contact.html" class="custom-link mb-2">
+                                                <a asp-controller="Contatos" asp-action="Create" class="custom-link mb-2">
                                                     Converse conosco e peça seu produto encantador.
                                                     <i class="bi-arrow-right ms-2"></i>
                                                 </a>
@@ -254,7 +254,7 @@
                                             <p>Explore nossa coleção e deixe-se encantar.</p>
 
                                             <div class="mt-2 mt-lg-auto">
-                                                <a href="products.html" class="custom-link mb-2">
+                                                <a asp-controller="VendaProdutos" asp-action="ListaProdutos" class="custom-link mb-2">
                                                     Clique aqui e se encante!
                                                     <i class="bi-arrow-right ms-2"></i>
                                                 </a>
@@ -285,19 +285,18 @@
                     {
                         <div class="col-lg-4 col-12 mb-3">
                             <div class="product-thumb">
-                                <a href="product-detail.html">
+                                <a asp-controller="VendaProdutos" asp-action="InfoProdutos" asp-route-id="@item.Id">
                                     <img src="/Amigurumis/@Html.DisplayFor(modelItem => item.ImageFileName)" class="img-fluid product-image" alt="">
                                 </a>
 
                                 <div class="product-top d-flex">
-                                    <span class="product-alert me-auto">Novos Produtos</span>
-                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                    <span class="product-alert me-auto">Novos Produtos</span>                                    
                                 </div>
 
                                 <div class="product-info d-flex">
                                     <div>
                                         <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">@Html.DisplayFor(modelItem => item.Nome)</a>
+                                            <a asp-controller="VendaProdutos" asp-action="InfoProdutos" asp-route-id="@item.Id" class="product-title-link">@Html.DisplayFor(modelItem => item.Nome)</a>
                                         </h5>
                                         <a class="btn btn-success btn-sm" asp-action="InfoProdutos" asp-route-id="@item.Id">Ver detalhes</a>
                                     </div>
