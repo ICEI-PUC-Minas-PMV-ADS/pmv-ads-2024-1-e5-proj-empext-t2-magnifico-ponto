@@ -20,13 +20,13 @@ namespace MagnificoPonto.Controllers
         }
 
         // GET: Contatos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Mensagens()
         {
               return View(await _context.Contatos.ToListAsync());
         }
 
         // GET: Contatos/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Visualizar(int? id)
         {
             if (id == null || _context.Contatos == null)
             {
@@ -44,7 +44,7 @@ namespace MagnificoPonto.Controllers
         }
 
         // GET: Contatos/Create
-        public IActionResult Create()
+        public IActionResult Enviar()
         {
             return View();
         }
@@ -54,70 +54,22 @@ namespace MagnificoPonto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Assunto,Mensagem,CriadoEm")] ContatoModel contatoModel)
+        public async Task<IActionResult> Enviar([Bind("Id,Nome,Email,Assunto,Mensagem,CriadoEm")] ContatoModel contatoModel)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(contatoModel);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Create));
+                return RedirectToAction(nameof(Enviar));
             }
             return View(contatoModel);
         }
 
-        // GET: Contatos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.Contatos == null)
-            {
-                return NotFound();
-            }
 
-            var contatoModel = await _context.Contatos.FindAsync(id);
-            if (contatoModel == null)
-            {
-                return NotFound();
-            }
-            return View(contatoModel);
-        }
-
-        // POST: Contatos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Assunto,Mensagem,CriadoEm")] ContatoModel contatoModel)
-        {
-            if (id != contatoModel.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(contatoModel);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ContatoModelExists(contatoModel.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(contatoModel);
-        }
+        
 
         // GET: Contatos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Apagar(int? id)
         {
             if (id == null || _context.Contatos == null)
             {
@@ -135,9 +87,9 @@ namespace MagnificoPonto.Controllers
         }
 
         // POST: Contatos/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Apagar")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> ApagarConfirmed(int id)
         {
             if (_context.Contatos == null)
             {
@@ -150,7 +102,7 @@ namespace MagnificoPonto.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Mensagens));
         }
 
         private bool ContatoModelExists(int id)

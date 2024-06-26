@@ -34,7 +34,7 @@ namespace MagnificoPonto.Controllers
 
         public IActionResult Contato()
         {
-            return View();
+            return View("Create","Contatos");
         }
 
         public IActionResult FAQs()

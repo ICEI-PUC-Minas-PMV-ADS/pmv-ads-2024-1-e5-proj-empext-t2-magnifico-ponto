@@ -50,7 +50,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Contatos" asp-action="Create">Contato</a>
+                            <a class="nav-link" asp-area="" asp-controller="Contatos" asp-action="Enviar">Contato</a>
                         </li>
 
                         @if (User.Identity.IsAuthenticated && UserManager.GetUserAsync(User).Result.Email == "adminmagponto@gmail.com")
@@ -60,7 +60,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" asp-area="" asp-controller="Contatos" asp-action="Index">Mensagens</a>
+                                <a class="nav-link active" asp-area="" asp-controller="Contatos" asp-action="Mensagens">Mensagens</a>
                             </li>
 
                             <li class="nav-item">
@@ -92,10 +92,10 @@
             <div class="row">
 
                 <div class="col-lg-3 col-10 me-auto mb-4">
-                    <h4 class="text-white mb-3"><a href="index.html">Magnífico</a> Ponto</h4>
+                    <h4 class="text-white mb-3"><a asp-controller="Home" asp-action="Index">Magnífico</a> Ponto</h4>
                     <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>Magnífico Ponto</strong></p>
                     <br>
-                    <p class="copyright-text">Desenvolvido por <a href="#" target="_blank">Equipe</a></p>
+                 @* <p class="copyright-text">Desenvolvido por <a href="#" target="_blank">Equipe</a></p> *@
                 </div>
 
                 <div class="col-lg-5 col-8">
@@ -110,7 +110,7 @@
 
                         <li class="footer-menu-item"><a class="footer-menu-link" asp-controller="Home" asp-action="FAQs">FAQs</a></li>
 
-                        <li class="footer-menu-item"><a class="footer-menu-link" asp-controller="Contatos" asp-action="Create">Contato</a></li>
+                        <li class="footer-menu-item"><a class="footer-menu-link" asp-controller="Home" asp-action="Index">Contato</a></li>
 
                         <li class="footer-menu-item"><a class="footer-menu-link" asp-controller="Home" asp-action="Termos">Termos de uso</a></li>
                     </ul>
@@ -119,7 +119,7 @@
                 <div class="col-lg-3 col-4">
                     <h5 class="text-white mb-3">Social</h5>
 
-                    <ul class="social-icon">
+                    <ul class="social-icon ">
                         <li><a href="https://api.whatsapp.com/send/?phone=5531987259104&text&type=phone_number&app_absent=0" target="_blank" class="social-icon-link bi-whatsapp"></a></li>
                         <li><a href="https://www.instagram.com/magnifico.ponto/?ref=AIRDOLPHIN" target="_blank" class="social-icon-link bi-instagram"></a></li>
                     </ul>
