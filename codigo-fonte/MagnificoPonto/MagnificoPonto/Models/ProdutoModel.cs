@@ -26,6 +26,7 @@ namespace MagnificoPonto.Models
         [Required(ErrorMessage = "Informe a cor predominante do item!")]
         public string Cor { get; set; }
 
+        [Display(Name = "Tamanho (em cm)")]
         [Required(ErrorMessage = "Informe o tamanho do item!")]
         public string Tamanho { get; set; }
 
