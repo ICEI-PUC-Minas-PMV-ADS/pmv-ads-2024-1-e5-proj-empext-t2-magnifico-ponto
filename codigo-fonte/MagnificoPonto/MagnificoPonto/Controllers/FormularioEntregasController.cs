@@ -20,11 +20,12 @@ namespace MagnificoPonto.Controllers
         }
 
         // GET: FormularioEntregas
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Entregas()
         {
               return View(await _context.FormularioEntregas.ToListAsync());
         }
 
+        /*
         // GET: FormularioEntregas/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -42,6 +43,7 @@ namespace MagnificoPonto.Controllers
 
             return View(formularioEntrega);
         }
+        */
 
         // GET: FormularioEntregas/Create
         public IActionResult Create()
@@ -65,6 +67,8 @@ namespace MagnificoPonto.Controllers
             }
             return View(formularioEntrega);
         }
+
+        /*
 
         // GET: FormularioEntregas/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -158,5 +162,6 @@ namespace MagnificoPonto.Controllers
         {
           return _context.FormularioEntregas.Any(e => e.Id == id);
         }
+        */
     }
 }
