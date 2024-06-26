@@ -1,5 +1,4 @@
-﻿using MagnificoPonto.Enums;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MagnificoPonto.Models

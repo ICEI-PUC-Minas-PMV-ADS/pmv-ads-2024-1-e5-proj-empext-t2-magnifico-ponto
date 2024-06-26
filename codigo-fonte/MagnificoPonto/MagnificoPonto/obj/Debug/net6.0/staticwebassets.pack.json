@@ -149,14 +149,6 @@
       "PackagePath": "staticwebassets\\CoresCatalogo\\CoresCatalogo.pdf"
     },
     {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\css\\termos.css",
-      "PackagePath": "staticwebassets\\css\\termos.css"
-    },
-    {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -185,32 +177,20 @@
       "PackagePath": "staticwebassets\\front\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\header\\businesspeople-meeting-office-working.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\header\\businesspeople-meeting-office-working.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\header\\positive-european-woman-has-break-after-work.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\header\\positive-european-woman-has-break-after-work.jpg"
-    },
-    {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\FaleConosco.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\people\\FaleConosco.jpeg"
     },
     {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.29.53_337cf923.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.29.53_337cf923.jpg"
+      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\ImagemCliente1.jpg",
+      "PackagePath": "staticwebassets\\front\\images\\people\\ImagemCliente1.jpg"
     },
     {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.33.52_bfe1536e.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 16.33.52_bfe1536e.jpg"
+      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\ImagemCliente2.jpg",
+      "PackagePath": "staticwebassets\\front\\images\\people\\ImagemCliente2.jpg"
     },
     {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 18.21.42_e0733718.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\people\\Imagem do WhatsApp de 2024-03-30 à(s) 18.21.42_e0733718.jpg"
+      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\ImagemCliente3.jpg",
+      "PackagePath": "staticwebassets\\front\\images\\people\\ImagemCliente3.jpg"
     },
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\Karine.jpeg",
@@ -231,130 +211,6 @@
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\people\\logotipo.jpeg",
       "PackagePath": "staticwebassets\\front\\images\\people\\logotipo.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\BonecaMargarida.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\BonecaMargarida.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\bichinhos.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\bichinhos.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\mobile.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\mobile.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\naninhachocalho.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\naninhachocalho.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\portamaternidade.png",
-      "PackagePath": "staticwebassets\\front\\images\\product\\portamaternidade.png"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\product\\urso.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\product\\urso.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_emilia.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\boneca_emilia.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_roxa.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\boneca_roxa.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\boneca_sophia.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\boneca_sophia.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\elefantinho_brutus.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\elefantinho_brutus.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\escoteira_ana.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\escoteira_ana.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\gatinho.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\gatinho.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\girafa.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\girafa.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\naninha.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\naninha.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\naninha_eloa.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\naninha_eloa.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\porta_berco.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\porta_berco.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\porta_maternidade.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\porta_maternidade.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\rena_mia.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\rena_mia.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\safari.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\safari.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinho_docinho.png",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\ursinho_docinho.png"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinho_marinheiro.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\ursinho_marinheiro.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\producto\\ursinhos_aviadores.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\producto\\ursinhos_aviadores.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg",
-      "PackagePath": "staticwebassets\\front\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg"
     },
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\Boneca Margarida 2.jpg",
@@ -381,10 +237,6 @@
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\bichinhos.jpeg"
     },
     {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\medium-shot-business-women-high-five.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\slideshow\\medium-shot-business-women-high-five.jpeg"
-    },
-    {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\mobile.jpg",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\mobile.jpg"
     },
@@ -399,14 +251,6 @@
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\portamaternidade.png",
       "PackagePath": "staticwebassets\\front\\images\\slideshow\\portamaternidade.png"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg",
-      "PackagePath": "staticwebassets\\front\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg"
     },
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\images\\slideshow\\urso.jpg",
@@ -435,34 +279,6 @@
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\front\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\front\\js\\slick.min.js"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Capa.jpg",
-      "PackagePath": "staticwebassets\\images\\Capa.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Girafa.jpg",
-      "PackagePath": "staticwebassets\\images\\Girafa.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Leao.JPG",
-      "PackagePath": "staticwebassets\\images\\Leao.JPG"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Macaco.jpg",
-      "PackagePath": "staticwebassets\\images\\Macaco.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Mamute.JPG",
-      "PackagePath": "staticwebassets\\images\\Mamute.JPG"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\Stitch.jpg",
-      "PackagePath": "staticwebassets\\images\\Stitch.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\images\\images.png",
-      "PackagePath": "staticwebassets\\images\\images.png"
     },
     {
       "Id": "D:\\Users\\Windows 10\\Desktop\\Front\\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\\codigo-fonte\\MagnificoPonto\\MagnificoPonto\\wwwroot\\js\\site.js",
