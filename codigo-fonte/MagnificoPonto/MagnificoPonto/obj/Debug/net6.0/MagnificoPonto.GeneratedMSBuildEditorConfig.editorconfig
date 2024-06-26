@@ -9,215 +9,213 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MagnificoPonto
 build_property.RootNamespace = MagnificoPonto
-build_property.ProjectDir = D:\Users\Windows 10\Desktop\Front2\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\codigo-fonte\MagnificoPonto\MagnificoPonto\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\codigo-fonte\MagnificoPonto\MagnificoPonto\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\Windows 10\Desktop\Front2\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\codigo-fonte\MagnificoPonto\MagnificoPonto
+build_property.MSBuildProjectDirectory = C:\Users\mfern\Desktop\PUC\Matérias\Eixo 5\pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto\codigo-fonte\MagnificoPonto\MagnificoPonto
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Apagar.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Apagar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcQXBhZ2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Enviar.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Enviar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRW52aWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Mensagens.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Mensagens.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcTWVuc2FnZW5zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Visualizar.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Contatos/Visualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcVmlzdWFsaXphci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Create.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb0VudHJlZ2FzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Delete.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb0VudHJlZ2FzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Details.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb0VudHJlZ2FzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Edit.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb0VudHJlZ2FzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Entregas.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/FormularioEntregas/Entregas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb0VudHJlZ2FzXEVudHJlZ2FzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Contato.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/FAQs.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/FAQs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Produtos.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Produtos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Sobre.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Termos.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Home/Termos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/ListarProdutos/InfoProdutos.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/ListarProdutos/InfoProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFyUHJvZHV0b3NcSW5mb1Byb2R1dG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/ListarProdutos/ListaProdutos.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/ListarProdutos/ListaProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFyUHJvZHV0b3NcTGlzdGFQcm9kdXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Payment/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Payment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Payment/Success.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Payment/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Create.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Delete.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Details.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Edit.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Create.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvVmVuZGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Delete.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvVmVuZGFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Details.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvVmVuZGFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Edit.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvVmVuZGFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/RelatorioVendas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvVmVuZGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/Error.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/ShoppingCart/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Create.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Delete.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Details.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Edit.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Index.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/InfoProdutos.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/InfoProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xJbmZvUHJvZHV0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/ListaProdutos.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/VendaProdutos/ListaProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGFQcm9kdXRvc1xMaXN0YVByb2R1dG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/_ViewImports.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/_ViewStart.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/Windows 10/Desktop/Front2/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/_Layout.cshtml]
+[C:/Users/mfern/Desktop/PUC/Matérias/Eixo 5/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/codigo-fonte/MagnificoPonto/MagnificoPonto/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wjh13ctuhe
