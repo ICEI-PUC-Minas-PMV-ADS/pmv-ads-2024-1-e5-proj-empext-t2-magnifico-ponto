@@ -287,7 +287,7 @@
                                             <p>Nossa missão é encantar mamães e bebês</p>
 
                                             <div class="mt-2 mt-lg-auto">
-                                                <a asp-controller="Contatos" asp-action="Create" class="custom-link mb-2">
+                                                <a asp-controller="Contatos" asp-action="Enviar" class="custom-link mb-2">
                                                     Converse conosco e peça seu produto encantador.
                                                     <i class="bi-arrow-right ms-2"></i>
                                                 </a>
@@ -357,7 +357,7 @@
                                         <h5 class="product-title mb-0">
                                             <a asp-controller="VendaProdutos" asp-action="InfoProdutos" asp-route-id="@item.Id" class="product-title-link">@Html.DisplayFor(modelItem => item.Nome)</a>
                                         </h5>
-                                        <a class="btn btn-success btn-sm" asp-action="InfoProdutos" asp-route-id="@item.Id">Ver detalhes</a>
+                                        <a class="btn btn-success btn-sm" asp-controller="VendaProdutos" asp-action="InfoProdutos" asp-route-id="@item.Id">Ver detalhes</a>
                                     </div>
                                     <small class="product-price text-muted ms-auto">@Html.DisplayFor(modelItem => item.Preco)</small>
                                 </div>
