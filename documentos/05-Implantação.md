@@ -20,3 +20,6 @@ Frontend: Bootstrap
 Serviços de Terceiros:
 * Melhor Envio e Mercado Pago.
 
+
+## Processo de implantação
+
