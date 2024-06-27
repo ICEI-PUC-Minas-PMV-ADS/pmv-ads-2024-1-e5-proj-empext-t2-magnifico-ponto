@@ -60,4 +60,4 @@ Estamos empolgados em compartilhar nossa solução desenvolvida com você, e esp
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/ef569758-1733-49e1-b7b4-f0b869280745)
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="apresentacao/"> Apresentação da solução</a></li>
