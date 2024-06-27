@@ -59,5 +59,3 @@ Nosso solução, um website responsivo, serve como uma plataforma abrangente de 
 Estamos empolgados em compartilhar nossa solução desenvolvida com você, e esperamos que o website proporcione uma experiência excepcional. Este projeto está em perfeita consonância com nossos objetivos de crescimento e profissionalização, posicionando a equipe de desenvolvimento frente a desafios da sociedade, além de impulsionar a loja Magnífico Ponto para um futuro de sucesso e expansão. Agradecemos por fazer parte dessa jornada e esperamos que você aproveite a experiência de uso de nossa solução.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/ef569758-1733-49e1-b7b4-f0b869280745)
-
-<li><a href="apresentacao/"> Apresentação da solução</a></li>
