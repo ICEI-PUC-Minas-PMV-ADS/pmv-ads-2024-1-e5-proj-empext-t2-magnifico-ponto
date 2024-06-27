@@ -2,6 +2,7 @@
 
 <img src="documentos/img/logotipo.jpeg" width="50%" alt="Logomarca">
 
+
 `Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
 `Eixo 5- Projeto: Desenvolvimento de um Sistema Sociotécnico Inovador`
@@ -29,7 +30,11 @@ O projeto propõe o desenvolvimento de uma aplicação Web responsiva e personal
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/bacf5b51-f6a7-4660-aa10-4c478a52db75)
+
+#### Para visualizar a solução Web completa no ambiente online, Clique no link abaixo:<br>
+
+<li><a href="[src/README.md](https://magnificopto-001-site1.ctempurl.com/)">https://magnificopto-001-site1.ctempurl.com/</a></li>
 
 # Documentação
 
@@ -43,10 +48,16 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="codigo-fonte/README.md"> Código Fonte</a></li>
 
 # Apresentação
 
-O desenvolvimento de um website para a venda de Amigurumis artesanais marca um avanço significativo para a Magnífico Ponto, uma encantadora loja criada e mantida pelas talentosas artesãs mãe e filha, Katia e Karine. Até o momento, a Magnífico Ponto tem utilizado o Instagram como principal canal de vendas, mas a criação de um site próprio tornou-se essencial para profissionalizar e ampliar suas operações comerciais. O novo website não apenas funcionará como uma plataforma abrangente de gerenciamento de vendas, oferecendo um catálogo detalhado dos produtos e um processo de checkout seguro, mas também será totalmente responsivo, proporcionando uma experiência de compra otimizada em computadores e dispositivos móveis. Com essa iniciativa estratégica, almeja-se aumentar significativamente a visibilidade da loja, oferecendo aos clientes uma experiência de compra mais agradável e eficiente. Este projeto está em perfeita consonância com os objetivos de crescimento e profissionalização da Magnífico Ponto, posicionando-a para um futuro de sucesso e expansão.
+O desenvolvimento deste website para a venda de amigurumis artesanais representa um avanço significativo para a Magnífico Ponto, uma encantadora loja criada e mantida pelas talentosas artesãs mãe e filha, Katia e Karine. Até agora, a Magnífico Ponto utilizava o Instagram como seu principal canal de vendas. No entanto, a criação de um site próprio tornou-se essencial para profissionalizar e ampliar suas operações comerciais.
+
+Nosso solução, um website responsivo, serve como uma plataforma abrangente de gerenciamento de vendas, oferecendo um catálogo detalhado dos produtos e um processo de checkout seguro. Totalmente responsivo, ele garante uma experiência de compra otimizada tanto em computadores quanto em dispositivos móveis. Essa iniciativa estratégica visa aumentar significativamente a visibilidade da loja, oferecendo aos clientes uma experiência de compra mais agradável e eficiente.
+
+Estamos empolgados em compartilhar nossa solução desenvolvida com você, e esperamos que o website proporcione uma experiência excepcional. Este projeto está em perfeita consonância com nossos objetivos de crescimento e profissionalização, posicionando a equipe de desenvolvimento frente a desafios da sociedade, além de impulsionar a loja Magnífico Ponto para um futuro de sucesso e expansão. Agradecemos por fazer parte dessa jornada e esperamos que você aproveite a experiência de uso de nossa solução.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/ef569758-1733-49e1-b7b4-f0b869280745)
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
