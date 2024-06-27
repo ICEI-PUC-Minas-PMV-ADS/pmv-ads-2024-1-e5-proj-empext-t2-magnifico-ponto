@@ -8,16 +8,15 @@ Tecnologias Utilizadas
 
 Linguagens de Programação:
 
-Frontend: HTML, CSS e JavaScript
-Backend: C#
+.Frontend: HTML, CSS e JavaScript
+.Backend: C#
 
 Frameworks e Bibliotecas:
 
 Frontend: Bootstrap
-Backend: ASP NET CORE MVC
+.Backend: ASP NET CORE MVC
 
 
 Serviços de Terceiros:
-
-Melhor Envio e Mercado Pago.
+.Melhor Envio e Mercado Pago.
 
