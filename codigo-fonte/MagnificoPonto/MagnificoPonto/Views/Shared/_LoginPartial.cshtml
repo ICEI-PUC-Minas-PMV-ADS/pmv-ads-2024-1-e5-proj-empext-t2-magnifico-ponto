@@ -5,19 +5,23 @@
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
-        
+        <a class="bi bi-cart2 custom-icon m-3" asp-controller="ShoppingCart" asp-action="Index"></a>
+
         <li class="nav-item text-end">
             <a class="nav-link text-dark fst-italic" @* asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"*@>@User.Identity?.Name</a>
+            
             <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                 <button type="submit" class="nav-link btn btn-link text-dark fw-bold">Sair</button>
             </form>
+
         </li>
+
     }
     else
     {
 
         <li class="d-none d-lg-block">
-            <a class="bi bi-cart2" asp-controller="ShoppingCart" asp-action="Index"></a>
+            <a class="bi bi-cart2 custom-icon m-3" asp-controller="ShoppingCart" asp-action="Index"></a>
             <a class="bi-person custom-icon me-3" asp-area="Identity" asp-page="/Account/Register"></a>
             <a class="bi bi-door-open custom-icon me-2" asp-area="Identity" asp-page="/Account/Login"></a>
         </li>
