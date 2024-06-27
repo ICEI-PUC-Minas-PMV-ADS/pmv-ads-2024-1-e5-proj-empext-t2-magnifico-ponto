@@ -1,7 +1,7 @@
 # Implantação do Software
 
 
-A aplicação interativa Magnífico Ponto foi hospedada em SmarterASP.NET com banco de dados SQL Server. Para ter acesso a aplicação desenvolvida [clique aqui](https://magnificopto-001-site1.ctempurl.com/)
+A aplicação interativa Magnífico Ponto foi hospedada em [smarterasp.net](https://www.smarterasp.net/) com banco de dados SQL Server. Para ter acesso a aplicação desenvolvida [clique aqui](https://magnificopto-001-site1.ctempurl.com/)
 
 
 Tecnologias Utilizadas
