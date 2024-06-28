@@ -57,28 +57,35 @@ Outro ponto forte do Bootstrap é sua extensa documentação e comunidade de des
 
 ### Uso de ferramentas externas 
 
- 
+<strong>API para cálculo de entregas (Melhor Envio)</strong>
 
-<strong>API dos Correios:</strong>
+A integração da API do Melhor Envio desempenha um papel crucial no aprimoramento da experiência do usuário no site de vendas Magnífico Ponto. Ao calcular os custos de frete com base no endereço do cliente, esta API fornece uma estimativa precisa dos custos de envio, permitindo que os clientes tenham uma visão clara dos custos totais antes de finalizar a compra.
 
-A integração da API dos Correios desempenha um papel fundamental no aprimoramento da experiência do usuário no site de vendas Magnífico Ponto. Ao calcular os custos de frete com base no endereço do cliente, esta API proporciona uma estimativa precisa dos custos de envio, permitindo que os clientes tenham uma visão transparente dos custos totais antes de finalizar a compra.  
+Além de oferecer uma estimativa de frete precisa, a integração com a API do Melhor Envio também proporciona benefícios adicionais, como a rastreabilidade dos pedidos. Os clientes podem acompanhar o status de entrega de seus produtos, aumentando a confiança e a satisfação do cliente, o que contribui para uma experiência de compra mais satisfatória e confiável.
 
-Além de fornecer uma estimativa de frete precisa, a integração com a API dos Correios também oferece benefícios adicionais, como a rastreabilidade dos pedidos. Os clientes podem acompanhar o status de entrega de seus produtos, aumentando a confiança e a satisfação do cliente. Isso contribui para uma experiência de compra mais satisfatória e confiável, fatores essenciais para o sucesso do site de vendas.  
+A API do Melhor Envio também simplifica os processos logísticos para o Magnífico Ponto, automatizando o cálculo de custos de envio e agilizando o processo de despacho de produtos. Isso permite que a equipe de operações gerencie os pedidos de forma mais eficiente, reduzindo erros e custos associados ao envio de mercadorias.
 
-A API dos Correios também simplifica os processos logísticos para o Magnífico Ponto, automatizando o cálculo de custos de envio e agilizando o processo de despacho de produtos. Isso permite que a equipe de operações gerencie os pedidos de forma mais eficiente, reduzindo erros e custos associados ao envio de mercadorias. 
+<strong>API para pagamentos (Stripe)</strong>
 
-  
+A integração do Stripe no site de vendas Magnífico Ponto oferece uma solução abrangente para o processamento de pagamentos, proporcionando aos clientes uma variedade de opções seguras e eficientes para concluir suas compras. Ao oferecer métodos de pagamento como cartão de crédito e PIX, o Magnífico Ponto atende às preferências dos clientes, oferecendo conveniência e flexibilidade no momento do pagamento.
 
-<strong>Mercado Pago (método de pagamento):</strong> 
+Além de simplificar o processo de pagamento para os clientes, a integração com o Stripe também oferece benefícios significativos para o Magnífico Ponto. Como uma plataforma de comércio eletrônico estabelecida e confiável, o Stripe proporciona segurança e confiança tanto para os vendedores quanto para os compradores no momento de efetuar o pagamento online.
 
-A integração do Mercado Pago no site de vendas Magnífico Ponto oferece uma solução abrangente para o processamento de pagamentos, proporcionando aos clientes uma variedade de opções seguras e eficientes para concluir suas compras. Ao oferecer métodos de pagamento como cartão de crédito e PIX, o Magnífico Ponto atende às preferências dos clientes, oferecendo conveniência e flexibilidade no momento do pagamento.  
+Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabilidade, facilidade de uso e capacidade de fornecer uma experiência de usuário de alta qualidade no site de vendas. Além disso, as integrações com APIs externas adicionam funcionalidades importantes que melhoram a conveniência e a confiabilidade para os usuários finais.
 
-Além de simplificar o processo de pagamento para os clientes, a integração com o Mercado Pago também oferece benefícios significativos para o Magnífico Ponto. Como uma plataforma de comércio eletrônico estabelecida e confiável, o Mercado Pago proporciona segurança e confiança tanto para os vendedores quanto para os compradores no momento de efetuar o pagamento online. <br>
+### PLATAFORMA PARA ARMAZENAMENTO DA SOLUÇÃO
+
+A escolha do servidor SmarterAsp.net para o website de vendas criado para loja Magnífico Ponto foi motivada por várias vantagens, especialmente no que se refere ao custo-benefício e à flexibilidade para ajustes e melhorias.
+
+A plataforma SmarterAsp.net oferece um período de 60 dias de armazenamento gratuito, permitindo que a equipe de desenvolvimento, juntamente com loja Magnífico Ponto possam testar a viabilidade e o desempenho da aplicação sem custos iniciais. Este período é crucial para identificar e corrigir problemas, implementar melhorias e garantir que o site atenda às expectativas antes de se comprometer financeiramente.
+Comparada a outras plataformas, a SmarterAsp.net apresenta um custo-benefício atraente, com planos acessíveis após o período gratuito. A plataforma é conhecida por sua interface amigável e facilidade de configuração, o que permite à equipe de desenvolvimento configurar o ambiente de hospedagem de forma rápida e eficiente.
+
+O desempenho e a confiabilidade da SmarterAsp.net garantem que o site de vendas funcione de maneira rápida e estável, um fator crítico para um site de comércio eletrônico. A escalabilidade oferecida permite que a Magnífico Ponto tenha os ajustes dos recursos conforme necessário, lidando com picos de tráfego durante promoções ou feriados sem comprometer a experiência do usuário. A segurança robusta é outra vantagem, protegendo dados sensíveis dos clientes, como informações de pagamento. Além disso, o suporte técnico eficiente da SmarterAsp.net proporciona assistência rápida em caso de problemas técnicos, garantindo operação contínua do site.
+
+Em suma, a SmarterAsp.net foi escolhida pela combinação de período gratuito, custo acessível, facilidade de uso, desempenho confiável, escalabilidade, segurança robusta e suporte técnico eficiente, assegurando uma experiência de compra online conveniente, segura e satisfatória para os clientes do Magnífico Ponto. <br>
 <br>
 
-Em resumo, essas tecnologias foram escolhidas com base em sua robustez, escalabilidade, facilidade de uso e capacidade de fornecer uma experiência de usuário de alta qualidade no site de vendas. Além disso, as integrações com APIs externas adicionam funcionalidades importantes que melhoram a conveniência e a confiabilidade para os usuários finais. <br>
-<br>
-
+## Diagrama de arquitetura da solução
 
 ![Diagrama_Arquitetura_MagnificoPonto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t2-magnifico-ponto/assets/103782980/f1e69163-6835-4915-8418-19013ea89cab)
 
