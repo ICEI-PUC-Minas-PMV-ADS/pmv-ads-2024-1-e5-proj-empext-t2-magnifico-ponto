@@ -37,11 +37,11 @@ ASP.NET Identity: O ASP.NET Identity foi adotado para gerenciamento de identidad
 
 * ### Serviços de Terceiros:
   
-API para cálculo de entregas (Correios)
+API para cálculo de entregas (Melhor Envio)
 
-A integração da API dos Correios desempenha um papel fundamental no aprimoramento da experiência do usuário no site de vendas Magnífico Ponto. Ao calcular os custos de frete com base no endereço do cliente, esta API proporciona uma estimativa precisa dos custos de envio, permitindo que os clientes tenham uma visão transparente dos custos totais antes de finalizar a compra. 
-Além de fornecer uma estimativa de frete precisa, a integração com a API dos Correios também oferece benefícios adicionais, como a rastreabilidade dos pedidos. Os clientes podem acompanhar o status de entrega de seus produtos, aumentando a confiança e a satisfação do cliente. Isso contribui para uma experiência de compra mais satisfatória e confiável, fatores essenciais para o sucesso do site de vendas. 
-A API dos Correios também simplifica os processos logísticos para o Magnífico Ponto, automatizando o cálculo de custos de envio e agilizando o processo de despacho de produtos. Isso permite que a equipe de operações gerencie os pedidos de forma mais eficiente, reduzindo erros e custos associados ao envio de mercadorias.
+A integração da API do Melhor Envio desempenha um papel crucial no aprimoramento da experiência do usuário no site de vendas Magnífico Ponto. Ao calcular os custos de frete com base no endereço do cliente, esta API fornece uma estimativa precisa dos custos de envio, permitindo que os clientes tenham uma visão clara dos custos totais antes de finalizar a compra.
+Além de oferecer uma estimativa de frete precisa, a integração com a API do Melhor Envio também proporciona benefícios adicionais, como a rastreabilidade dos pedidos. Os clientes podem acompanhar o status de entrega de seus produtos, aumentando a confiança e a satisfação do cliente, o que contribui para uma experiência de compra mais satisfatória e confiável.
+A API do Melhor Envio também simplifica os processos logísticos para o Magnífico Ponto, automatizando o cálculo de custos de envio e agilizando o processo de despacho de produtos. Isso permite que a equipe de operações gerencie os pedidos de forma mais eficiente, reduzindo erros e custos associados ao envio de mercadorias.
 
 API para pagamentos (Stripe) 
 
